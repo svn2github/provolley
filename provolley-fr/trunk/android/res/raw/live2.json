@@ -1,0 +1,22 @@
+{
+	"version": 1,
+	"live": 
+		{
+		"maj":"00:37:16",
+		"nblive":20,
+		"matchs": 
+			[
+{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "St-Raphaël", "rangDomicile": "(DEF)", "equipeExterieur": "Nantes", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF009"}
+,{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "Cannes", "rangDomicile": "(LAF)", "equipeExterieur": "Béziers", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF010"}
+,{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "Le Cannet", "rangDomicile": "(LAF)", "equipeExterieur": "Istres", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF011"}
+,{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "Hainaut", "rangDomicile": "(LAF)", "equipeExterieur": "Calais", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF012"}
+,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Cannes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM019"}
+,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Avignon", "rangDomicile": "(LAM)", "equipeExterieur": "Rennes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM020"}
+,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Chaumont", "rangDomicile": "(LAM)", "equipeExterieur": "Sète", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM021"}
+,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM022"}
+,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Martigues", "rangDomicile": "(LBM)", "equipeExterieur": "Paris", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM023"}
+,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Tours", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM024"}
+,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Tourcoing", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM025"}
+			]
+		}
+}

@@ -1,0 +1,427 @@
+{
+	"version": 1,
+	"resultats": 
+		{
+		"nomsaison": "2012-2013",		
+		"saison": "1213",		
+		"minJournee": 1,"maxJournee": 26, "currentJournee": 10,
+		"journees": 
+			[
+				{
+                                        "numero": 1,
+					"titre": "1<sup><small>ère</small></sup> Journée",
+					"date": "sam 6 oct",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "17-25 17-25 19-25"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "1-3", "score": "22-25 23-25 25-21 20-25"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 25-17 22-25 30-28"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-2", "score": "20-25 25-22 25-22 27-29 15-13"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-14 25-17 25-16"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 26-28 25-19 25-21"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "1-3", "score": "21-25 25-22 23-25 16-25"}
+						]
+				}
+,
+				{
+                                        "numero": 2,
+					"titre": "2<sup><small>ème</small></sup> Journée",
+					"date": "sam 13 oct",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-2", "score": "17-25 25-20 18-25 25-23 15-11"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-20 25-16"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "23-25 25-15 25-16 25-21"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "20-25 22-25 26-24 20-25"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-18 25-20 25-19"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-27 28-26 23-25 25-20 13-15"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 19-25 27-29"}
+						]
+				}
+,
+				{
+                                        "numero": 3,
+					"titre": "3<sup><small>ème</small></sup> Journée",
+					"date": "sam 20 oct",
+					"matchs": 
+						[
+{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-21 19-25 12-25 25-17 13-15"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-16 25-21"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-18 25-19 22-25 25-15"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-22 25-22"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-22 23-25 18-25 25-19 13-15"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "19-25 25-22 19-25 26-24 12-15"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "26-24 30-28 25-21"}
+						]
+				}
+,
+				{
+                                        "numero": 4,
+					"titre": "4<sup><small>ème</small></sup> Journée",
+					"date": "sam 27 oct",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "10-25 21-25 16-25"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-22 25-23"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "15-25 25-22 26-24 25-20"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "1-3", "score": "27-25 11-25 20-25 17-25"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-17 25-22"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "0-3", "score": "16-25 21-25 15-25"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "2-3", "score": "24-26 21-25 25-22 25-18 15-17"}
+						]
+				}
+,
+				{
+                                        "numero": 5,
+					"titre": "5<sup><small>ème</small></sup> Journée",
+					"date": "sam 3 nov",
+					"matchs": 
+						[
+{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-1", "score": "32-30 22-25 25-20 25-17"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "22-25 29-27 25-15 21-25 11-15"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "21-25 25-23 25-18 22-25 15-10"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "28-26 15-25 25-17 25-20"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-18 24-26 25-23 25-19"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "1-3", "score": "14-25 13-25 26-24 20-25"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "17-25 25-27 25-22 17-25"}
+						]
+				}
+,
+				{
+                                        "numero": 6,
+					"titre": "6<sup><small>ème</small></sup> Journée",
+					"date": "sam 10 nov",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "17-25 25-22 16-25 23-25"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-22 25-17"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-12 23-25 25-23 23-25 11-15"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "22-25 25-19 25-23 26-24"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-17 25-20"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "23-25 20-25 25-22 21-25"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "1-3", "score": "20-25 23-25 28-26 14-25"}
+						]
+				}
+,
+				{
+                                        "numero": 7,
+					"titre": "7<sup><small>ème</small></sup> Journée",
+					"date": "sam 17 nov",
+					"matchs": 
+						[
+{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "12-25 25-19 25-23 25-17"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-0", "score": "26-24 25-17 25-23"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "1-3", "score": "29-27 24-26 23-25 18-25"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "17-25 25-15 25-21 25-17"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-20 25-16 14-25 22-25 19-17"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 23-25 25-12 23-25 7-15"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-17 20-25 19-25 25-23 12-15"}
+						]
+				}
+,
+				{
+                                        "numero": 8,
+					"titre": "8<sup><small>ème</small></sup> Journée",
+					"date": "ven 23 nov",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "21-25 21-25 22-25"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "26-24 22-25 33-31 25-23"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "0-3", "score": "21-25 22-25 20-25"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "25-27 23-25 20-25"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-27 25-16 25-19 20-25 15-13"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 27-25 25-17"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-17 20-25 25-20 25-22"}
+						]
+				}
+,
+				{
+                                        "numero": 9,
+					"titre": "9<sup><small>ème</small></sup> Journée",
+					"date": "sam 1 déc",
+					"matchs": 
+						[
+{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "2-3", "score": "18-25 21-25 25-22 25-14 12-15"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 10,
+					"titre": "10<sup><small>ème</small></sup> Journée",
+					"date": "sam 8 déc",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "ven 7 déc", "score": "20:00"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "18:30"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:30"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "mar 11 déc", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 11,
+					"titre": "11<sup><small>ème</small></sup> Journée",
+					"date": "sam 15 déc",
+					"matchs": 
+						[
+{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "ven 14 déc", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "18:00"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 12,
+					"titre": "12<sup><small>ème</small></sup> Journée",
+					"date": "sam 29 déc",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "ven 28 déc", "score": "20:00"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 29 déc", "score": "18:30"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 29 déc", "score": "20:00"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 29 déc", "score": "20:00"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 29 déc", "score": "20:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 29 déc", "score": "20:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 29 déc", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 13,
+					"titre": "13<sup><small>ème</small></sup> Journée",
+					"date": "sam 5 jan",
+					"matchs": 
+						[
+{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "ven 4 jan", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 5 jan", "score": "18:00"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 5 jan", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 5 jan", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 5 jan", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 5 jan", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 5 jan", "score": "20:30"}
+						]
+				}
+,
+				{
+                                        "numero": 14,
+					"titre": "14<sup><small>ème</small></sup> Journée",
+					"date": "sam 12 jan",
+					"matchs": 
+						[
+{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 11 jan", "score": "20:00"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "ven 11 jan", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "18:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "20:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "20:30"}
+						]
+				}
+,
+				{
+                                        "numero": 15,
+					"titre": "15<sup><small>ème</small></sup> Journée",
+					"date": "sam 19 jan",
+					"matchs": 
+						[
+{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "18:30"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 16,
+					"titre": "16<sup><small>ème</small></sup> Journée",
+					"date": "sam 26 jan",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "ven 25 jan", "score": "20:00"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 25 jan", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 26 jan", "score": "18:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "20:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "20:30"}
+						]
+				}
+,
+				{
+                                        "numero": 17,
+					"titre": "17<sup><small>ème</small></sup> Journée",
+					"date": "sam 2 fév",
+					"matchs": 
+						[
+{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "ven 1 fév", "score": "20:00"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 18,
+					"titre": "18<sup><small>ème</small></sup> Journée",
+					"date": "sam 9 fév",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "ven 8 fév", "score": "20:00"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 8 fév", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "18:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:30"}
+						]
+				}
+,
+				{
+                                        "numero": 19,
+					"titre": "19<sup><small>ème</small></sup> Journée",
+					"date": "sam 16 fév",
+					"matchs": 
+						[
+{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 15 fév", "score": "20:00"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "dim 17 fév", "score": "17:00"}
+						]
+				}
+,
+				{
+                                        "numero": 20,
+					"titre": "20<sup><small>ème</small></sup> Journée",
+					"date": "sam 23 fév",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "ven 22 fév", "score": "20:00"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "ven 22 fév", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "18:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "20:00"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 23 fév", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "20:30"}
+						]
+				}
+,
+				{
+                                        "numero": 21,
+					"titre": "21<sup><small>ème</small></sup> Journée",
+					"date": "sam 2 mar",
+					"matchs": 
+						[
+{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00"}
+,{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 22,
+					"titre": "22<sup><small>ème</small></sup> Journée",
+					"date": "sam 9 mar",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "ven 8 mar", "score": "20:00"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "17:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "18:00"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:30"}
+						]
+				}
+,
+				{
+                                        "numero": 23,
+					"titre": "23<sup><small>ème</small></sup> Journée",
+					"date": "sam 16 mar",
+					"matchs": 
+						[
+{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "ven 15 mar", "score": "20:00"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "ven 15 mar", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "18:00"}
+,{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 24,
+					"titre": "24<sup><small>ème</small></sup> Journée",
+					"date": "sam 23 mar",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 22 mar", "score": "20:00"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "18:30"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:30"}
+						]
+				}
+,
+				{
+                                        "numero": 25,
+					"titre": "25<sup><small>ème</small></sup> Journée",
+					"date": "sam 6 avr",
+					"matchs": 
+						[
+{"equipeDomicile": "Lyon", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 6 avr", "score": "20:00"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Harnes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 6 avr", "score": "20:00"}
+,{"equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Orange", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 6 avr", "score": "20:00"}
+,{"equipeDomicile": "Canteleu", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Nancy", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 6 avr", "score": "20:00"}
+,{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 6 avr", "score": "20:00"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Martigues", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 6 avr", "score": "20:00"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Alès", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 6 avr", "score": "20:00"}
+						]
+				}
+,
+				{
+                                        "numero": 26,
+					"titre": "26<sup><small>ème</small></sup> Journée",
+					"date": "sam 13 avr",
+					"matchs": 
+						[
+{"equipeDomicile": "Alès", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Lyon", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 13 avr", "score": "20:00"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 13 avr", "score": "20:00"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 13 avr", "score": "20:00"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Canteleu", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 13 avr", "score": "20:00"}
+,{"equipeDomicile": "Nancy", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 13 avr", "score": "20:00"}
+,{"equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 13 avr", "score": "20:00"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Asnières", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 13 avr", "score": "20:00"}
+						]
+				}
+			]
+		}
+}

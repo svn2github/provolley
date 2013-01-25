@@ -1,0 +1,22 @@
+{
+	"classement": 
+		{
+		"nomsaison": "2012-2013",		
+		"saison": "1213",		
+		"equipes": 
+			[
+{"rang":1,"equipe":"Béziers","points":6,"mj":2,"mg":2,"mp":0,"m30":1,"m31":1,"m32":0,"m23":0,"m13":0,"m03":0,"sp":6,"sc":1,"rs":"6","pp":173,"pc":132,"rp":"1.31","etat":"QUALPO1"}
+,{"rang":2,"equipe":"Cannes","points":6,"mj":2,"mg":2,"mp":0,"m30":0,"m31":2,"m32":0,"m23":0,"m13":0,"m03":0,"sp":6,"sc":2,"rs":"3","pp":190,"pc":153,"rp":"1.24","etat":"QUALPO1"}
+,{"rang":3,"equipe":"Hainaut","points":5,"mj":2,"mg":2,"mp":0,"m30":1,"m31":0,"m32":1,"m23":0,"m13":0,"m03":0,"sp":6,"sc":2,"rs":"3","pp":187,"pc":147,"rp":"1.27","etat":"QUALPO1"}
+,{"rang":4,"equipe":"Mulhouse","points":4,"mj":2,"mg":2,"mp":0,"m30":0,"m31":0,"m32":2,"m23":0,"m13":0,"m03":0,"sp":6,"sc":4,"rs":"1.5","pp":213,"pc":193,"rp":"1.1","etat":"QUALPO1"}
+,{"rang":5,"equipe":"Calais","points":4,"mj":2,"mg":1,"mp":1,"m30":0,"m31":1,"m32":0,"m23":1,"m13":0,"m03":0,"sp":5,"sc":4,"rs":"1.25","pp":181,"pc":183,"rp":"0.99","etat":"QUALPO2"}
+,{"rang":6,"equipe":"Evreux","points":3,"mj":2,"mg":1,"mp":1,"m30":1,"m31":0,"m32":0,"m23":0,"m13":1,"m03":0,"sp":4,"sc":3,"rs":"1.33","pp":161,"pc":152,"rp":"1.06","etat":"QUALPO2"}
+,{"rang":7,"equipe":"Paris","points":3,"mj":2,"mg":1,"mp":1,"m30":1,"m31":0,"m32":0,"m23":0,"m13":1,"m03":0,"sp":4,"sc":3,"rs":"1.33","pp":144,"pc":154,"rp":"0.94","etat":"QUALPO2"}
+,{"rang":8,"equipe":"Albi","points":3,"mj":2,"mg":1,"mp":1,"m30":1,"m31":0,"m32":0,"m23":0,"m13":0,"m03":1,"sp":3,"sc":3,"rs":"1","pp":126,"pc":124,"rp":"1.02","etat":"QUALPO2"}
+,{"rang":9,"equipe":"Nantes","points":1,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":1,"m13":1,"m03":0,"sp":3,"sc":6,"rs":"0.5","pp":192,"pc":201,"rp":"0.96","etat":"MAINT"}
+,{"rang":10,"equipe":"Le Cannet","points":1,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":1,"m13":0,"m03":1,"sp":2,"sc":6,"rs":"0.33","pp":150,"pc":187,"rp":"0.8","etat":"MAINT"}
+,{"rang":11,"equipe":"Venelles","points":0,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":0,"m13":1,"m03":1,"sp":1,"sc":6,"rs":"0.17","pp":123,"pc":171,"rp":"0.72","etat":"RELEG"}
+,{"rang":12,"equipe":"Istres","points":0,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":0,"m13":0,"m03":2,"sp":0,"sc":6,"rs":"0","pp":107,"pc":150,"rp":"0.71","etat":"RELEG"}
+			]
+		}
+}

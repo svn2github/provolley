@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"resultats": 
+		{
+		"nomsaison": "2012-2013",		
+		"saison": "1213",		
+		"minJournee": 1,"maxJournee": 2, "currentJournee": 2,
+		"journees": 
+			[
+				{
+                                        "numero": 1,
+					"titre": "1/8 de Finale",
+					"date": "mar 18 déc",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Raphaël", "rangDomicile": "(DEF)", "equipeExterieur": "Venelles", "rangExterieur": "(LAF)", "resultat": "mar 18 déc", "score": "20:00", "code": "CNF001"}
+,{"equipeDomicile": "Terv.-Flor.", "rangDomicile": "(DEF)", "equipeExterieur": "Cannes", "rangExterieur": "(LAF)", "resultat": "mar 18 déc", "score": "20:00", "code": "CNF002"}
+,{"equipeDomicile": "Vand.-Nancy", "rangDomicile": "(DEF)", "equipeExterieur": "Calais", "rangExterieur": "(LAF)", "resultat": "mar 18 déc", "score": "20:00", "code": "CNF004"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(LAF)", "equipeExterieur": "Istres", "rangExterieur": "(LAF)", "resultat": "mar 18 déc", "score": "20:00", "code": "CNF005"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(LAF)", "equipeExterieur": "Béziers", "rangExterieur": "(LAF)", "resultat": "mar 18 déc", "score": "20:00", "code": "CNF006"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(LAF)", "equipeExterieur": "Nantes", "rangExterieur": "(LAF)", "resultat": "mar 18 déc", "score": "20:00", "code": "CNF007"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(LAF)", "equipeExterieur": "Evreux", "rangExterieur": "(LAF)", "resultat": "mar 18 déc", "score": "20:00", "code": "CNF008"}
+						]
+				}
+,
+				{
+                                        "numero": 2,
+					"titre": "1/4 de Finale",
+					"date": "mar 8 jan",
+					"matchs": 
+						[
+{"equipeDomicile": "St-Raphaël", "rangDomicile": "(DEF)", "equipeExterieur": "Nantes", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNF009"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(LAF)", "equipeExterieur": "Béziers", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNF010"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(LAF)", "equipeExterieur": "Istres", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNF011"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(LAF)", "equipeExterieur": "Calais", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNF012"}
+						]
+				}
+			]
+		}
+}

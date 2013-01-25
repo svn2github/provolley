@@ -1,0 +1,44 @@
+{
+	"version": 1,
+	"resultats": 
+		{
+		"nomsaison": "2012-2013",		
+		"saison": "1213",		
+		"minJournee": 1,"maxJournee": 2, "currentJournee": 2,
+		"journees": 
+			[
+				{
+                                        "numero": 1,
+					"titre": "2<small><sup>ème</sup></small> Tour",
+					"date": "mar 27 nov",
+					"matchs": 
+						[
+{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Nancy", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM011"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(LBM)", "equipeExterieur": "Avignon", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM012"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(LBM)", "equipeExterieur": "Chaumont", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM013"}
+,{"equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Calais", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM014"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(LBM)", "equipeExterieur": "Martigues", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM015"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Alès", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM016"}
+,{"equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Ajaccio", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM017"}
+,{"equipeDomicile": "Beauvais", "rangDomicile": "(LAM)", "equipeExterieur": "Toulouse", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM018"}
+						]
+				}
+,
+				{
+                                        "numero": 2,
+					"titre": "1/8 de Finale",
+					"date": "mar 8 jan",
+					"matchs": 
+						[
+{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Cannes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM019"}
+,{"equipeDomicile": "Avignon", "rangDomicile": "(LAM)", "equipeExterieur": "Rennes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM020"}
+,{"equipeDomicile": "Chaumont", "rangDomicile": "(LAM)", "equipeExterieur": "Sète", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM021"}
+,{"equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM022"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(LBM)", "equipeExterieur": "Paris", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM023"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Tours", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM024"}
+,{"equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Tourcoing", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM025"}
+						]
+				}
+			]
+		}
+}

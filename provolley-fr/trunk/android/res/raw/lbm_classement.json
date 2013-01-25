@@ -1,0 +1,24 @@
+{
+	"classement": 
+		{
+		"nomsaison": "2012-2013",		
+		"saison": "1213",		
+		"equipes": 
+			[
+{"rang":1,"equipe":"Martigues","points":6,"mj":2,"mg":2,"mp":0,"m30":1,"m31":1,"m32":0,"m23":0,"m13":0,"m03":0,"sp":6,"sc":1,"rs":"6","pp":173,"pc":130,"rp":"1.33","etat":"MONTEE"}
+,{"rang":2,"equipe":"St-Nazaire","points":6,"mj":2,"mg":2,"mp":0,"m30":1,"m31":1,"m32":0,"m23":0,"m13":0,"m03":0,"sp":6,"sc":1,"rs":"6","pp":174,"pc":135,"rp":"1.29","etat":"QUALPO"}
+,{"rang":3,"equipe":"Pl-Robinson","points":6,"mj":2,"mg":2,"mp":0,"m30":1,"m31":1,"m32":0,"m23":0,"m13":0,"m03":0,"sp":6,"sc":1,"rs":"6","pp":171,"pc":147,"rp":"1.16","etat":"QUALPO"}
+,{"rang":4,"equipe":"Lyon","points":5,"mj":2,"mg":2,"mp":0,"m30":0,"m31":1,"m32":1,"m23":0,"m13":0,"m03":0,"sp":6,"sc":3,"rs":"2","pp":215,"pc":207,"rp":"1.04","etat":"QUALPO"}
+,{"rang":5,"equipe":"Orange","points":3,"mj":2,"mg":1,"mp":1,"m30":1,"m31":0,"m32":0,"m23":0,"m13":1,"m03":0,"sp":4,"sc":3,"rs":"1.33","pp":169,"pc":165,"rp":"1.02","etat":"QUALPO"}
+,{"rang":6,"equipe":"Nice","points":3,"mj":2,"mg":1,"mp":1,"m30":1,"m31":0,"m32":0,"m23":0,"m13":0,"m03":1,"sp":3,"sc":3,"rs":"1","pp":122,"pc":132,"rp":"0.92","etat":"MAINT"}
+,{"rang":7,"equipe":"Cambrai","points":3,"mj":2,"mg":1,"mp":1,"m30":0,"m31":1,"m32":0,"m23":0,"m13":0,"m03":1,"sp":3,"sc":4,"rs":"0.75","pp":166,"pc":164,"rp":"1.01","etat":"MAINT"}
+,{"rang":8,"equipe":"Harnes","points":3,"mj":2,"mg":1,"mp":1,"m30":0,"m31":1,"m32":0,"m23":0,"m13":0,"m03":1,"sp":3,"sc":4,"rs":"0.75","pp":158,"pc":166,"rp":"0.95","etat":"MAINT"}
+,{"rang":9,"equipe":"Calais","points":2,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":2,"m13":0,"m03":0,"sp":4,"sc":6,"rs":"0.67","pp":225,"pc":225,"rp":"1","etat":"MAINT"}
+,{"rang":10,"equipe":"Alès","points":2,"mj":2,"mg":1,"mp":1,"m30":0,"m31":0,"m32":1,"m23":0,"m13":0,"m03":1,"sp":3,"sc":5,"rs":"0.6","pp":169,"pc":186,"rp":"0.91","etat":"MAINT"}
+,{"rang":11,"equipe":"St-Brieuc","points":2,"mj":2,"mg":1,"mp":1,"m30":0,"m31":0,"m32":1,"m23":0,"m13":0,"m03":1,"sp":3,"sc":5,"rs":"0.6","pp":253,"pc":288,"rp":"0.88","etat":"MAINT"}
+,{"rang":12,"equipe":"Asnières","points":1,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":1,"m13":1,"m03":0,"sp":3,"sc":6,"rs":"0.5","pp":197,"pc":202,"rp":"0.98","etat":"MAINT"}
+,{"rang":13,"equipe":"Canteleu","points":0,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":0,"m13":2,"m03":0,"sp":2,"sc":6,"rs":"0.33","pp":179,"pc":200,"rp":"0.9","etat":"RELEG"}
+,{"rang":14,"equipe":"Nancy","points":0,"mj":2,"mg":0,"mp":2,"m30":0,"m31":0,"m32":0,"m23":0,"m13":2,"m03":0,"sp":2,"sc":6,"rs":"0.33","pp":162,"pc":195,"rp":"0.83","etat":"RELEG"}
+			]
+		}
+}
