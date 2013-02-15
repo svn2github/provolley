@@ -56,30 +56,27 @@ public class GreetingsDialog extends Dialog{
 		TextView tv = (TextView)findViewById(R.id.greetings_text);
 		String s = "";
 
-		final String version_1_0_0 = mContext.getResources().getString(R.string.application_version_1_0_0);
-		final String version_1_0_1 = mContext.getResources().getString(R.string.application_version_1_0_0);
+		final String version_1_1_0 = mContext.getResources().getString(R.string.application_version_1_1_0);
 		
 		// Application Never Launched
 		if ("0".equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
 			s = mContext.getResources().getString(R.string.application_description) +
 					mContext.getResources().getString(R.string.application_historique) +
+					mContext.getResources().getString(R.string.application_histo_v1_2_0)+
 					mContext.getResources().getString(R.string.application_histo_v1_1_0)+
-					mContext.getResources().getString(R.string.application_histo_v1_0_1)+
 					mContext.getResources().getString(R.string.application_histo_v1_0_0);
 			
 		}
-		else if (version_1_0_1.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
-			// Upgrade from version 1.0.1
+		else if (version_1_1_0.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
+			// Upgrade from version 1.1.0
 			s = mContext.getResources().getString(R.string.application_maj) +
-					mContext.getResources().getString(R.string.application_histo_v1_1_0);
+					mContext.getResources().getString(R.string.application_histo_v1_2_0);
 		}
-		else { //if (version_1_0_0.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
-			// Upgrade from version 1.0.0 -> Due to a bug in the first version, we are unable 
-			// to test against version 1.0.0. We have to make it last option, until there are
-			// no more 1.0.0 versions around
+		else {
+			// Upgrade from version 1.0.1 / 1.0.0
 			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_2_0) +
 					mContext.getResources().getString(R.string.application_histo_v1_1_0);
-					mContext.getResources().getString(R.string.application_histo_v1_0_1);
 		}
 		
 		tv.setText(Html.fromHtml(s,null,new ListTagHandler()));

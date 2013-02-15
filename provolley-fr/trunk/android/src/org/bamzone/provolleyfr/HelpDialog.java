@@ -43,8 +43,8 @@ public class HelpDialog extends Dialog{
 		tv = (TextView)findViewById(R.id.help_text);
 		tv.setText(Html.fromHtml(mContext.getResources().getString(R.string.help_text)
 				+mContext.getResources().getString(R.string.application_historique)
+				+mContext.getResources().getString(R.string.application_histo_v1_2_0)
 				+mContext.getResources().getString(R.string.application_histo_v1_1_0)
-				+mContext.getResources().getString(R.string.application_histo_v1_0_1)
 				+mContext.getResources().getString(R.string.application_histo_v1_0_0)
 				,null,new ListTagHandler()));
 		tv.setLinkTextColor(Color.WHITE);
