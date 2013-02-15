@@ -1,10 +1,12 @@
 <resources>
 
         <string name="application_name">ProVolley-fr</string>
-        <string name="application_version">version 1.1.0</string>
+        <string name="application_version">version 1.2.0</string>
         
         <string name="application_version_1_0_0">version 1.0.0</string>
         <string name="application_version_1_0_1">version 1.0.1</string>
+        <string name="application_version_1_1_0">version 1.1.0</string>
+        <string name="application_version_1_2_0">version 1.2.0</string>
         
         <string name="application_website">www.provolley.fr</string>
         <string name="application_copyright">Copyright 2012 Christophe Bothamy</string>
@@ -24,6 +26,14 @@
 
          <string name="application_historique"><![CDATA[<h4>Historique des versions</h4>]]></string>
          <string name="application_maj"><![CDATA[<h4>Mises à jour depuis la dernière version</h4>]]></string>
+         
+         <string name="application_histo_v1_2_0"><![CDATA[
+             <b>v1.2.0</b> Nouvelles fonctionnalités :<br/>
+             <ul>
+             <li>Ajout d\'un ascenseur dans les écrans d\'aide et de license</li>
+             </ul>
+             <br/><br/>
+             ]]></string>
          
          <string name="application_histo_v1_1_0"><![CDATA[
              <b>v1.1.0</b> Nouvelles fonctionnalités :<br/>
@@ -112,7 +122,6 @@
         
         <string name="help_text">
             <![CDATA[
-                <h3>ProVolley-fr</h3>
              ProVolley-fr est une application dédiée au Volley-Ball professionnel en France. 
              Vous y trouverez, pour les ligues A masculine et féminine et B masculine, 
              les résultats et calendriers des différentes journées, les classements, les scores
