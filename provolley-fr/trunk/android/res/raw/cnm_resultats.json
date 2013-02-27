@@ -4,39 +4,93 @@
 		{
 		"nomsaison": "2012-2013",		
 		"saison": "1213",		
-		"minJournee": 1,"maxJournee": 2, "currentJournee": 2,
+		"minJournee": 1,"maxJournee": 6, "currentJournee": 5,
 		"journees": 
 			[
 				{
                                         "numero": 1,
-					"titre": "2<small><sup>ème</sup></small> Tour",
-					"date": "mar 27 nov",
+					"titre": "1<small><sup>er</sup></small> Tour",
+					"date": "mar 6 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Nancy", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM011"}
-,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(LBM)", "equipeExterieur": "Avignon", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM012"}
-,{"equipeDomicile": "Cambrai", "rangDomicile": "(LBM)", "equipeExterieur": "Chaumont", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM013"}
-,{"equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Calais", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM014"}
-,{"equipeDomicile": "Orange", "rangDomicile": "(LBM)", "equipeExterieur": "Martigues", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM015"}
-,{"equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Alès", "rangExterieur": "(LBM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM016"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Ajaccio", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM017"}
-,{"equipeDomicile": "Beauvais", "rangDomicile": "(LAM)", "equipeExterieur": "Toulouse", "rangExterieur": "(LAM)", "resultat": "mar 27 nov", "score": "20:00", "code": "CNM018"}
+{"equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Nice", "rangExterieur": "(LBM)", "resultat": "3-0", "score": "25-21 25-17 25-22", "victoire": "Domicile", "code": "CNM003"}
+,{"equipeDomicile": "Brive", "rangDomicile": "(N1M)", "equipeExterieur": "St-Nazaire", "rangExterieur": "(LBM)", "resultat": "0-3", "score": "22-25 23-25 23-25", "victoire": "Exterieur", "code": "CNM001"}
+,{"equipeDomicile": "Mende", "rangDomicile": "(N1M)", "equipeExterieur": "Cambrai", "rangExterieur": "(LBM)", "resultat": "1-3", "score": "24-26 25-18 14-25 19-25", "victoire": "Exterieur", "code": "CNM002"}
+,{"equipeDomicile": "St-Quentin", "rangDomicile": "(N1M)", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(LBM)", "resultat": "2-3", "score": "23-25 25-27 25-21 25-16 13-15", "victoire": "Exterieur", "code": "CNM004"}
+,{"equipeDomicile": "Conflans Ste-H.", "rangDomicile": "(N1M)", "equipeExterieur": "Nancy", "rangExterieur": "(LBM)", "resultat": "0-3", "score": "19-25 17-25 19-25", "victoire": "Exterieur", "code": "CNM005"}
+,{"equipeDomicile": "Charenton", "rangDomicile": "(N1M)", "equipeExterieur": "Calais", "rangExterieur": "(LBM)", "resultat": "1-3", "score": "24-26 15-25 26-24 17-25", "victoire": "Exterieur", "code": "CNM006"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(LBM)", "equipeExterieur": "Canteleu", "rangExterieur": "(LBM)", "resultat": "3-0", "score": "25-17 25-15 25-20", "victoire": "Domicile", "code": "CNM007"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Lyon", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "30-28 25-18 18-25 25-22", "victoire": "Domicile", "code": "CNM008"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(LBM)", "equipeExterieur": "St-Brieuc", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "25-11 25-17 21-25 25-23", "victoire": "Domicile", "code": "CNM009"}
+,{"equipeDomicile": "Harnes", "rangDomicile": "(LBM)", "equipeExterieur": "Alès", "rangExterieur": "(LBM)", "resultat": "1-3", "score": "24-26 25-17 21-25 29-31", "victoire": "Exterieur", "code": "CNM010"}
 						]
 				}
 ,
 				{
                                         "numero": 2,
+					"titre": "2<small><sup>ème</sup></small> Tour",
+					"date": "mar 27 nov",
+					"matchs": 
+						[
+{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Nancy", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "25-20 25-22 22-25 25-22", "victoire": "Domicile", "code": "CNM011"}
+,{"equipeDomicile": "St-Nazaire", "rangDomicile": "(LBM)", "equipeExterieur": "Avignon", "rangExterieur": "(LAM)", "resultat": "2-3", "score": "25-17 25-19 24-26 23-25 14-16", "victoire": "Exterieur", "code": "CNM012"}
+,{"equipeDomicile": "Cambrai", "rangDomicile": "(LBM)", "equipeExterieur": "Chaumont", "rangExterieur": "(LAM)", "resultat": "0-3", "score": "22-25 21-25 18-25", "victoire": "Exterieur", "code": "CNM013"}
+,{"equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Calais", "rangExterieur": "(LBM)", "resultat": "3-0", "score": "26-24 25-22 25-23", "victoire": "Domicile", "code": "CNM014"}
+,{"equipeDomicile": "Orange", "rangDomicile": "(LBM)", "equipeExterieur": "Martigues", "rangExterieur": "(LBM)", "resultat": "1-3", "score": "25-17 19-25 13-25 23-25", "victoire": "Exterieur", "code": "CNM015"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Alès", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "30-28 21-25 25-17 26-24", "victoire": "Domicile", "code": "CNM016"}
+,{"equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Ajaccio", "rangExterieur": "(LAM)", "resultat": "3-1", "score": "25-19 18-25 25-23 25-22", "victoire": "Domicile", "code": "CNM017"}
+,{"equipeDomicile": "Beauvais", "rangDomicile": "(LAM)", "equipeExterieur": "Toulouse", "rangExterieur": "(LAM)", "resultat": "1-3", "score": "29-27 23-25 32-34 28-30", "victoire": "Exterieur", "code": "CNM018"}
+						]
+				}
+,
+				{
+                                        "numero": 3,
 					"titre": "1/8 de Finale",
 					"date": "mar 8 jan",
 					"matchs": 
 						[
-{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Cannes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM019"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(LAM)", "equipeExterieur": "Rennes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM020"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(LAM)", "equipeExterieur": "Sète", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM021"}
-,{"equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM022"}
-,{"equipeDomicile": "Martigues", "rangDomicile": "(LBM)", "equipeExterieur": "Paris", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM023"}
-,{"equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Tours", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM024"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Tourcoing", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "code": "CNM025"}
+{"equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Cannes", "rangExterieur": "(LAM)", "resultat": "2-3", "score": "25-20 25-23 15-25 22-25 6-15", "victoire": "Exterieur", "code": "CNM019"}
+,{"equipeDomicile": "Avignon", "rangDomicile": "(LAM)", "equipeExterieur": "Rennes", "rangExterieur": "(LAM)", "resultat": "2-3", "score": "19-25 20-25 27-25 25-20 12-15", "victoire": "Exterieur", "code": "CNM020"}
+,{"equipeDomicile": "Chaumont", "rangDomicile": "(LAM)", "equipeExterieur": "Sète", "rangExterieur": "(LAM)", "resultat": "3-0", "score": "26-24 25-14 25-20", "victoire": "Domicile", "code": "CNM021"}
+,{"equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "0-3", "score": "16-25 23-25 22-25", "victoire": "Exterieur", "code": "CNM022"}
+,{"equipeDomicile": "Martigues", "rangDomicile": "(LBM)", "equipeExterieur": "Paris", "rangExterieur": "(LAM)", "resultat": "1-3", "score": "18-25 19-25 25-19 23-25", "victoire": "Exterieur", "code": "CNM023"}
+,{"equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Tours", "rangExterieur": "(LAM)", "resultat": "1-3", "score": "25-21 14-25 17-25 19-25", "victoire": "Exterieur", "code": "CNM024"}
+,{"equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Tourcoing", "rangExterieur": "(LAM)", "resultat": "3-2", "score": "26-28 25-23 27-25 25-27 15-11", "victoire": "Domicile", "code": "CNM025"}
+,{"equipeDomicile": "Toulouse", "rangDomicile": "(LAM)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(LAM)", "resultat": "3-0", "score": "25-14 27-25 25-23", "victoire": "Domicile", "code": "CNM026"}
+						]
+				}
+,
+				{
+                                        "numero": 4,
+					"titre": "1/4 de Finale",
+					"date": "mar 29 jan",
+					"matchs": 
+						[
+{"equipeDomicile": "Chaumont", "rangDomicile": "(LAM)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "0-3", "score": "21-25 20-25 22-25", "victoire": "Exterieur", "code": "CNM027"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(LAM)", "equipeExterieur": "Narbonne", "rangExterieur": "(LAM)", "resultat": "0-3", "score": "16-25 22-25 20-25", "victoire": "Exterieur", "code": "CNM028"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(LAM)", "equipeExterieur": "Toulouse", "rangExterieur": "(LAM)", "resultat": "1-3", "score": "25-20 25-27 24-26 26-28", "victoire": "Exterieur", "code": "CNM029"}
+,{"equipeDomicile": "Rennes", "rangDomicile": "(LAM)", "equipeExterieur": "Tours", "rangExterieur": "(LAM)", "resultat": "1-3", "score": "17-25 26-24 21-25 17-25", "victoire": "Exterieur", "code": "CNM030"}
+						]
+				}
+,
+				{
+                                        "numero": 5,
+					"titre": "1/2 Finales",
+					"date": "mar 19 fév",
+					"matchs": 
+						[
+{"equipeDomicile": "Toulouse", "rangDomicile": "(LAM)", "equipeExterieur": "Narbonne", "rangExterieur": "(LAM)", "resultat": "3-0", "score": "25-20 25-22 25-19", "victoire": "Domicile", "code": "CNM031"}
+,{"equipeDomicile": "Tours", "rangDomicile": "(LAM)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "3-0", "score": "25-20 25-22 25-19", "victoire": "Domicile", "code": "CNM032"}
+						]
+				}
+,
+				{
+                                        "numero": 6,
+					"titre": "Finale",
+					"date": "sam 30 mar",
+					"matchs": 
+						[
+{"equipeDomicile": "Toulouse", "rangDomicile": "(LAM)", "equipeExterieur": "Tours", "rangExterieur": "(LAM)", "resultat": "sam 30 mar", "score": "16:00", "victoire": "", "code": "CNM033"}
 						]
 				}
 			]

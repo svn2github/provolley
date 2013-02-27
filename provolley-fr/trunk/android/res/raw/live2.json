@@ -2,21 +2,17 @@
 	"version": 1,
 	"live": 
 		{
-		"maj":"00:37:16",
-		"nblive":20,
+		"maj":"22:32:10",
+		"nblive":2,
 		"matchs": 
 			[
-{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "St-Raphaël", "rangDomicile": "(DEF)", "equipeExterieur": "Nantes", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF009"}
-,{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "Cannes", "rangDomicile": "(LAF)", "equipeExterieur": "Béziers", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF010"}
-,{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "Le Cannet", "rangDomicile": "(LAF)", "equipeExterieur": "Istres", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF011"}
-,{"saison":"1213" ,"competition": "CNF", "equipeDomicile": "Hainaut", "rangDomicile": "(LAF)", "equipeExterieur": "Calais", "rangExterieur": "(LAF)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNF012"}
-,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(LBM)", "equipeExterieur": "Cannes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM019"}
-,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Avignon", "rangDomicile": "(LAM)", "equipeExterieur": "Rennes", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM020"}
-,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Chaumont", "rangDomicile": "(LAM)", "equipeExterieur": "Sète", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM021"}
-,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Les Herbiers", "rangDomicile": "(N1M)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM022"}
-,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Martigues", "rangDomicile": "(LBM)", "equipeExterieur": "Paris", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM023"}
-,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "equipeExterieur": "Tours", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM024"}
-,{"saison":"1213" ,"competition": "CNM", "equipeDomicile": "Narbonne", "rangDomicile": "(LAM)", "equipeExterieur": "Tourcoing", "rangExterieur": "(LAM)", "resultat": "mar 8 jan", "score": "20:00", "service": "", "etat": "AVenir", "code": "CNM025"}
+{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Chaumont", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-19 22-25 20-25 17-25", "service": "", "victoire": "Exterieur", "etat": "Termine", "code": "LAM147"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Narbonne", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM148"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM149"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM152"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM154"}
+,{"saison":"1213" ,"competition": "LBM", "equipeDomicile": "Nice", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LBM145"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Tours", "rangDomicile": "(LAM)", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "3-0", "score": "25-20 25-22 25-19", "victoire": "Domicile", "service": "", "etat": "Termine", "code": "CNM032"}
 			]
 		}
 }

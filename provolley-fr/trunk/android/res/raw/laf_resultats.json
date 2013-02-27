@@ -4,7 +4,7 @@
 		{
 		"nomsaison": "2012-2013",		
 		"saison": "1213",		
-		"minJournee": 1,"maxJournee": 22, "currentJournee": 10,
+		"minJournee": 1,"maxJournee": 22, "currentJournee": 18,
 		"journees": 
 			[
 				{
@@ -13,12 +13,12 @@
 					"date": "sam 6 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "12-25 15-25 25-21 17-25"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-12 25-17 25-20"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-2", "score": "21-25 17-25 25-22 29-27 15-9"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 25-13 21-25 25-19"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-1", "score": "27-25 21-25 25-15 25-21"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "2-3", "score": "26-24 21-25 11-25 25-23 13-15"}
+{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "12-25 15-25 25-21 17-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-12 25-17 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "21-25 17-25 25-22 29-27 15-9", "victoire": "Domicile"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 25-13 21-25 25-19", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "27-25 21-25 25-15 25-21", "victoire": "Domicile"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "2-3", "score": "26-24 21-25 11-25 25-23 13-15", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -28,12 +28,12 @@
 					"date": "sam 13 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-1", "score": "19-25 25-22 25-17 25-20"}
-,{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-22 25-11"}
-,{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 21-25 14-25"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "0-3", "score": "20-25 14-25 17-25"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 19-25 25-13 25-13 15-9"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "13-25 10-25 23-25"}
+{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-1", "score": "19-25 25-22 25-17 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-22 25-11", "victoire": "Domicile"}
+,{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 21-25 14-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "0-3", "score": "20-25 14-25 17-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 19-25 25-13 25-13 15-9", "victoire": "Domicile"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "13-25 10-25 23-25", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -43,12 +43,12 @@
 					"date": "sam 20 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "17-25 19-25 14-25"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-20 18-25 20-25 14-25"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 20-25 25-22 22-25 15-11"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-17 25-21 22-25 26-24"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-17 25-15 25-18"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-27 17-25 25-21 19-25"}
+{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "17-25 19-25 14-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-20 18-25 20-25 14-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 20-25 25-22 22-25 15-11", "victoire": "Domicile"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-17 25-21 22-25 26-24", "victoire": "Domicile"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-17 25-15 25-18", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-27 17-25 25-21 19-25", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -58,12 +58,12 @@
 					"date": "sam 27 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-20 11-25 25-22 23-25 14-16"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-22 25-21"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-12 25-20 25-20"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "26-24 25-16 25-19"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 10-25 22-25"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "18-25 25-23 14-25 25-20 8-15"}
+{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-20 11-25 25-22 23-25 14-16", "victoire": "Exterieur"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-22 25-21", "victoire": "Domicile"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-12 25-20 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-0", "score": "26-24 25-16 25-19", "victoire": "Domicile"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 10-25 22-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "2-3", "score": "18-25 25-23 14-25 25-20 8-15", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -73,12 +73,12 @@
 					"date": "sam 3 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "10-25 19-25 20-25"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 22-25 16-25"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "17-25 20-25 22-25"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 18-25 25-18 25-18"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "31-29 25-18 25-23"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-13 25-18 25-14"}
+{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "10-25 19-25 20-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 22-25 16-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "17-25 20-25 22-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 18-25 25-18 25-18", "victoire": "Domicile"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "31-29 25-18 25-23", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-13 25-18 25-14", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -88,12 +88,12 @@
 					"date": "sam 10 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "2-3", "score": "18-25 25-19 21-25 26-24 11-15"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-21 25-17 23-25 25-23"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 22-25 22-25"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "15-25 15-25 17-25"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-14 25-13 25-11"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-17 25-20"}
+{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "2-3", "score": "18-25 25-19 21-25 26-24 11-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-21 25-17 23-25 25-23", "victoire": "Domicile"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 22-25 22-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "15-25 15-25 17-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-14 25-13 25-11", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-17 25-20", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -103,12 +103,12 @@
 					"date": "sam 17 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-2", "score": "29-27 15-25 25-23 19-25 15-11"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "22-25 25-27 20-25"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-2", "score": "20-25 25-22 23-25 25-22 15-10"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-15 25-14"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-16 25-19 23-25 24-26 16-14"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-16 25-16"}
+{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-2", "score": "29-27 15-25 25-23 19-25 15-11", "victoire": "Domicile"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "22-25 25-27 20-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-2", "score": "20-25 25-22 23-25 25-22 15-10", "victoire": "Domicile"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-15 25-14", "victoire": "Domicile"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-16 25-19 23-25 24-26 16-14", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-16 25-16", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -118,12 +118,12 @@
 					"date": "sam 24 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-22 22-25 19-25 19-25"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 25-17 18-25 14-25 15-9"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "0-3", "score": "26-28 15-25 22-25"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "14-25 23-25 22-25"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 29-27 25-11"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-17 25-20 25-27 25-20"}
+{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-22 22-25 19-25 19-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 25-17 18-25 14-25 15-9", "victoire": "Domicile"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "26-28 15-25 22-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "0-3", "score": "14-25 23-25 22-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 29-27 25-11", "victoire": "Domicile"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-17 25-20 25-27 25-20", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -133,12 +133,12 @@
 					"date": "sam 1 déc",
 					"matchs": 
 						[
-{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "12-25 16-25 14-25"}
-,{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "18:30"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:00"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 1 déc", "score": "20:30"}
+{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "12-25 16-25 14-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-20 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-1", "score": "20-25 31-29 25-23 26-24", "victoire": "Domicile"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-22 25-16", "victoire": "Domicile"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-20 24-26 25-15 20-25 15-11", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 19-25 25-13 25-21", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -148,12 +148,12 @@
 					"date": "sam 8 déc",
 					"matchs": 
 						[
-{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 8 déc", "score": "18:00"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:00"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:00"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:00"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:00"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 8 déc", "score": "20:30"}
+{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "19-25 21-25 21-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "1-3", "score": "18-25 25-23 21-25 23-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "1-3", "score": "24-26 21-25 25-21 17-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "0-3", "score": "17-25 26-28 21-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "2-3", "score": "23-25 21-25 25-21 25-12 13-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "25-27 12-25 19-25", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -163,12 +163,12 @@
 					"date": "sam 15 déc",
 					"matchs": 
 						[
-{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "18:30"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 15 déc", "score": "20:00"}
+{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "1-3", "score": "22-25 25-18 20-25 28-30", "victoire": "Exterieur"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "0-3", "score": "19-25 21-25 21-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-14 23-25 25-17 25-17", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-17 25-17 26-24", "victoire": "Domicile"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 19-25 25-16 27-25 15-13", "victoire": "Domicile"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "19-25 25-10 25-20 18-25 15-9", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -178,12 +178,12 @@
 					"date": "sam 12 jan",
 					"matchs": 
 						[
-{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 11 jan", "score": "20:00"}
-,{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "18:30"}
-,{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "19:30"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "20:00"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "20:00"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 12 jan", "score": "20:00"}
+{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 25-21 18-25 21-25 13-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "1-3", "score": "26-24 22-25 20-25 18-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "16-25 25-20 25-20 25-16", "victoire": "Domicile"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "1-3", "score": "23-25 22-25 28-26 20-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "0-3", "score": "20-25 20-25 22-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 31-29 26-24", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -193,12 +193,12 @@
 					"date": "sam 19 jan",
 					"matchs": 
 						[
-{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:00"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 19 jan", "score": "20:30"}
+{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 22-25 22-25 25-18 15-8", "victoire": "Domicile"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "21-25 29-27 25-13 25-19", "victoire": "Domicile"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-19 26-24", "victoire": "Domicile"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "15-25 25-27 15-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-2", "score": "23-25 25-19 11-25 25-18 15-7", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "20-25 25-20 25-22 25-20", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -208,12 +208,12 @@
 					"date": "sam 26 jan",
 					"matchs": 
 						[
-{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "17:00"}
-,{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "18:30"}
-,{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "19:30"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "20:00"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "20:00"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 26 jan", "score": "20:00"}
+{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-16 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "28-26 25-19 28-26", "victoire": "Domicile"}
+,{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-22 23-25 25-21 23-25 15-5", "victoire": "Domicile"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-1", "score": "17-25 25-23 25-19 25-19", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-23 25-16", "victoire": "Domicile"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-22 20-25 25-21 23-25 11-15", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -223,12 +223,12 @@
 					"date": "sam 2 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "18:30"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 2 fév", "score": "20:00"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 2 fév", "score": "20:30"}
+{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "2-3", "score": "22-25 18-25 34-32 25-15 10-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "22-25 25-23 25-8 23-25 13-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "20-25 25-15 25-11 25-22", "victoire": "Domicile"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-22 23-25 25-23 25-21", "victoire": "Domicile"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-0", "score": "28-26 25-23 25-18", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "10-25 23-25 22-25", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -238,12 +238,12 @@
 					"date": "sam 9 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "19:30"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 9 fév", "score": "20:00"}
+{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 25-19 21-25 21-25 15-9", "victoire": "Domicile"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-16 25-21 21-25 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-13 25-21", "victoire": "Domicile"}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-17 25-14 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-21 25-22 23-25 13-25 9-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-1", "score": "22-25 25-23 25-22 25-18", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -253,12 +253,12 @@
 					"date": "sam 16 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 16 fév", "score": "18:30"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:00"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 16 fév", "score": "20:30"}
+{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "18-25 16-25 15-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "15-25 25-19 25-19 20-25 17-15", "victoire": "Domicile"}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "18-25 24-26 25-17 25-16 11-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "0-3", "score": "17-25 22-25 20-25", "victoire": "Exterieur"}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-2", "score": "27-25 21-25 25-22 15-25 16-14", "victoire": "Domicile"}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-20 25-16", "victoire": "Domicile"}
 						]
 				}
 ,
@@ -268,12 +268,12 @@
 					"date": "sam 23 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 22 fév", "score": "20:00"}
-,{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "19:30"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "20:00"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "20:00"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "20:00"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 23 fév", "score": "20:00"}
+{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "19-25 25-22 25-16 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-13 25-17 23-25 25-23", "victoire": "Domicile"}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-17 25-23 25-17", "victoire": "Domicile"}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 18-25 25-15 20-25 12-15", "victoire": "Exterieur"}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-1", "score": "23-25 25-16 25-19 25-20", "victoire": "Domicile"}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "0-3", "score": "22-25 20-25 20-25", "victoire": "Exterieur"}
 						]
 				}
 ,
@@ -283,12 +283,12 @@
 					"date": "sam 2 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "18:30"}
-,{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 2 mar", "score": "20:00"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:30"}
+{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 2 mar", "score": "15:30", "victoire": ""}
+,{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "18:30", "victoire": ""}
+,{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 2 mar", "score": "20:30", "victoire": ""}
 						]
 				}
 ,
@@ -298,12 +298,12 @@
 					"date": "sam 9 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "19:30"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00"}
+{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "19:30", "victoire": ""}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 9 mar", "score": "20:00", "victoire": ""}
 						]
 				}
 ,
@@ -313,12 +313,12 @@
 					"date": "sam 16 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Hainaut", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
-,{"equipeDomicile": "Le Cannet", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
-,{"equipeDomicile": "Evreux", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
-,{"equipeDomicile": "Venelles", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
-,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00"}
+{"equipeDomicile": "Hainaut", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Béziers", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Le Cannet", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Calais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Evreux", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Nantes", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Venelles", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Mulhouse", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Albi", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Cannes", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Istres", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 16 mar", "score": "20:00", "victoire": ""}
 						]
 				}
 ,
@@ -328,12 +328,12 @@
 					"date": "sam 23 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Istres", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
-,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
-,{"equipeDomicile": "Nantes", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
-,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
-,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00"}
+{"equipeDomicile": "Istres", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Hainaut", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Albi", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Mulhouse", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Nantes", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Venelles", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Calais", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Evreux", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
+,{"equipeDomicile": "Béziers", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Le Cannet", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
 						]
 				}
 			]
