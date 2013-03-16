@@ -34,8 +34,9 @@ public class LiveHelper {
 			JSONObject live = new JSONObject(dp.getLive()).getJSONObject("live");
 
 			String heureMaj = live.getString("maj");
+			int nblive = live.getInt("nblive");
 					
-			LiveResultats resultatsLive = new LiveResultats(heureMaj);
+			LiveResultats resultatsLive = new LiveResultats(heureMaj, nblive);
 			
 			JSONArray matchs = live.getJSONArray("matchs");
 			for (int j = 0; j < matchs.length(); j++) {
@@ -50,10 +51,12 @@ public class LiveHelper {
 			        String etat = match.getString("etat");
 			        String classementDomicile = match.getString("rangDomicile");
 			        String classementExterieur = match.getString("rangExterieur");
-			        Log.d(LiveHelper.class.getName(), equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+service+"/"+competition+"/"+etat);
+			        String victoire = match.getString("victoire");
+			        Log.d(LiveHelper.class.getName(), equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+service+"/"+competition+"/"+etat+"/"+victoire);
 
 			        LiveMatch liveMatch = new LiveMatch(saison, equipeDomicile, equipeExterieur, resultat, 
-			        		score, service, competition, etat, classementDomicile, classementExterieur);
+			        		score, service, competition, etat, classementDomicile, classementExterieur,
+			        		victoire);
 			        resultatsLive.getMatchs().add(liveMatch);
 				}
 			return resultatsLive;
@@ -86,6 +89,14 @@ public class LiveHelper {
 	}
 	public static boolean isServiceExterieur(LiveMatch match) {
 		if(ProVolley.LIVE_SERVICE_EXTERIEUR.equals(match.getService())) return true;
+		return false;
+	}
+	public static boolean isVictoireDomicile(LiveMatch match) {
+	    if(ProVolley.LIVE_VICTOIRE_DOMICILE.equals(match.getVictoire())) return true;
+		return false;
+	}
+	public static boolean isVictoireExterieur(LiveMatch match) {
+		if(ProVolley.LIVE_VICTOIRE_EXTERIEUR.equals(match.getVictoire())) return true;
 		return false;
 	}
 }

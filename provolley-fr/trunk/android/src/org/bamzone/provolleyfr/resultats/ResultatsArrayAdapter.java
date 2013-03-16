@@ -19,11 +19,15 @@ import java.util.List;
 
 import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.R;
+import org.bamzone.provolleyfr.coupe.CoupeHelper;
+import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.data.ResultatsMatch;
+import org.bamzone.provolleyfr.live.LiveHelper;
 import org.bamzone.provolleyfr.provider.ResourcesProvider;
 import org.bamzone.provolleyfr.provider.ResourcesProviderFactory;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -59,18 +63,33 @@ public class ResultatsArrayAdapter extends ArrayAdapter<ResultatsMatch> {
     
     ImageView icon1 = null; // (ImageView) rowView.findViewById(R.id.icon1);
     ImageView icon2 = null; //(ImageView) rowView.findViewById(R.id.icon2);
+    
+    ResultatsMatch match = values.get(position);
 
-    if(equipe1!=null)equipe1.setText(values.get(position).getEquipe1());
-    if(equipe2!=null)equipe2.setText(values.get(position).getEquipe2());
-    if(classement1!=null)classement1.setText(Html.fromHtml(values.get(position).getClassement1()));
-    if(classement2!=null)classement2.setText(Html.fromHtml(values.get(position).getClassement2()));
-    if(resultat!=null)resultat.setText(values.get(position).getResultat());
-    if(score!=null)score.setText(values.get(position).getScore());
+    if(equipe1!=null)equipe1.setText(match.getEquipe1());
+    if(equipe2!=null)equipe2.setText(match.getEquipe2());
+
+    // Vainqueur en gras
+    if((equipe1!=null)&&ResultatsHelper.isVictoireDomicile(match)) 
+    	equipe1.setTypeface(Typeface.DEFAULT_BOLD);
+    if((equipe2!=null)&&ResultatsHelper.isVictoireExterieur(match))
+    	equipe2.setTypeface(Typeface.DEFAULT_BOLD);
+
+    if(classement1!=null)classement1.setText(Html.fromHtml(match.getClassement1()));
+    if(classement2!=null)classement2.setText(Html.fromHtml(match.getClassement2()));
+    if(resultat!=null) {
+    	resultat.setText(match.getResultat());
+        // si match termine, affichage en gras
+        if(ResultatsHelper.isMatchTermine(match)) {
+        	resultat.setTypeface(Typeface.DEFAULT_BOLD);
+        }
+    }
+    if(score!=null)score.setText(match.getScore());
     
     if (icon1!=null) 
-    	icon1.setImageDrawable(resourcesProvider.getMaillot(values.get(position).getSaison(), values.get(position).getCompetition(), values.get(position).getEquipe1(), ProVolley.LIBELLE_MAILLOT_DOMICILE));
+    	icon1.setImageDrawable(resourcesProvider.getMaillot(match.getSaison(), match.getCompetition(), match.getEquipe1(), ProVolley.LIBELLE_MAILLOT_DOMICILE));
     if (icon2!=null) 
-    	icon2.setImageDrawable(resourcesProvider.getMaillot(values.get(position).getSaison(), values.get(position).getCompetition(), values.get(position).getEquipe2(), ProVolley.LIBELLE_MAILLOT_EXTERIEUR));
+    	icon2.setImageDrawable(resourcesProvider.getMaillot(match.getSaison(), match.getCompetition(), match.getEquipe2(), ProVolley.LIBELLE_MAILLOT_EXTERIEUR));
     	
     return rowView;
   }

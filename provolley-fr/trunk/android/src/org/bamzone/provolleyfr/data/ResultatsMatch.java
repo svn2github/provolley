@@ -23,6 +23,9 @@ public class ResultatsMatch {
 	String equipe2;
 	String resultat; // ou Date
 	String score; // ou heure
+	String classement1;
+	String classement2;
+	String victoire;
 
 	public String getEquipe1() {
 		return equipe1;
@@ -56,11 +59,12 @@ public class ResultatsMatch {
 		return classement2;
 	}
 
-	String classement1;
-	String classement2;
-	
+	public String getVictoire() {
+		return victoire;
+	}
+
 	public ResultatsMatch(String saison, String competition, String equipe1, String equipe2, String resultat,
-			String score, String classement1, String classement2) {
+			String score, String classement1, String classement2, String victoire) {
 		super();
 		this.saison = saison;
 		this.competition = competition;
@@ -70,5 +74,6 @@ public class ResultatsMatch {
 		this.score = score;
 		this.classement1 = classement1;
 		this.classement2 = classement2;
+		this.victoire = victoire;
 	}
 }

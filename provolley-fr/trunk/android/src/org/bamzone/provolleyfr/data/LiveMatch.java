@@ -56,9 +56,13 @@ public class LiveMatch {
 		return classement2;
 	}
 
+	public String getVictoire() {
+		return victoire;
+	}
+
 	public LiveMatch(String saison, String equipe1, String equipe2, String resultat,
 			String score, String service, String competition, String etat, String classement1, 
-			String classement2) {
+			String classement2, String victoire) {
 		super();
 		this.saison = saison;
 		this.equipe1 = equipe1;
@@ -70,6 +74,7 @@ public class LiveMatch {
 		this.etat = etat;
 		this.classement1=classement1;
 		this.classement2=classement2;
+		this.victoire=victoire;
 		}
 	String equipe1;
 	String equipe2;
@@ -81,4 +86,5 @@ public class LiveMatch {
 	String classement1;
 	String classement2;
 	String saison;
+	String victoire;
 }

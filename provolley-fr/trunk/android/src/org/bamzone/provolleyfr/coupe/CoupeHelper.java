@@ -21,6 +21,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
 
+import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.data.ResultatsJournee;
 import org.bamzone.provolleyfr.data.ResultatsMatch;
 import org.bamzone.provolleyfr.data.ResultatsSaison;
@@ -69,10 +70,11 @@ public class CoupeHelper {
 			        String score = match.getString("score");
 			        String classementDomicile = match.getString("rangDomicile");
 			        String classementExterieur = match.getString("rangExterieur");
+			        String victoire = match.getString("victoire");
 			        
-			        ResultatsMatch resultatsMatch = new ResultatsMatch(saison, competition, equipeDomicile, equipeExterieur, resultat, score, classementDomicile, classementExterieur);
+			        ResultatsMatch resultatsMatch = new ResultatsMatch(saison, competition, equipeDomicile, equipeExterieur, resultat, score, classementDomicile, classementExterieur, victoire);
 			        resultatsJournee.getMatchs().add(resultatsMatch);
-			        Log.i(CoupeActivity.class.getName(),resultatsJournee.getNumJournee()+"/"+equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score);
+			        Log.i(CoupeActivity.class.getName(),resultatsJournee.getNumJournee()+"/"+equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+victoire);
 				}
 		      }
 			return resultatsSaison;
@@ -82,5 +84,18 @@ public class CoupeHelper {
     	return null;
     }
     
+	public static boolean isVictoireDomicile(ResultatsMatch match) {
+	    if(ProVolley.RESULTAT_VICTOIRE_DOMICILE.equals(match.getVictoire())) return true;
+		return false;
+	}
+	public static boolean isVictoireExterieur(ResultatsMatch match) {
+		if(ProVolley.RESULTAT_VICTOIRE_EXTERIEUR.equals(match.getVictoire())) return true;
+		return false;
+	}
+	public static boolean isMatchTermine(ResultatsMatch match) {
+		if(ProVolley.RESULTAT_VICTOIRE_EXTERIEUR.equals(match.getVictoire())) return true;
+	    if(ProVolley.RESULTAT_VICTOIRE_DOMICILE.equals(match.getVictoire())) return true;
+		return false;
+	}
 
 }

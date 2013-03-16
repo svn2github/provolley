@@ -61,7 +61,8 @@ public class LiveActivity extends ListActivity {
 
 	JSONProvider dataProvider;
 	private final int defaultIntervalInSec = 30;
-	private int reloadInterval = defaultIntervalInSec*1000;
+	private int reloadIntervalWhenLive = defaultIntervalInSec*1000;
+	private int reloadIntervalWhenNoLive = 10*60*1000; // 10 minutes
 	private Handler reloadHandler;
 
 	  public void onCreate(Bundle savedInstanceState) {
@@ -77,10 +78,10 @@ public class LiveActivity extends ListActivity {
 		}
 
 		try {
-			reloadInterval = Integer.parseInt(prefs.getString(ProVolley.PREF_KEY_LIVEINTERVAL,
+			reloadIntervalWhenLive = Integer.parseInt(prefs.getString(ProVolley.PREF_KEY_LIVEINTERVAL,
 					 Integer.toString(defaultIntervalInSec))) * 1000;
 		} catch (NumberFormatException nfe) {
-			reloadInterval = defaultIntervalInSec*1000;
+			reloadIntervalWhenLive = defaultIntervalInSec*1000;
 		}
 
 		dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
@@ -120,13 +121,13 @@ public class LiveActivity extends ListActivity {
 			 return(LiveHelper.getResultatsLive(dataProvider));
 		}
 		
-		protected void onPostExecute(LiveResultats resultatsLive) {
-	        if (resultatsLive != null) {
+		protected void onPostExecute(LiveResultats liveResultats) {
+	        if (liveResultats != null) {
 
     			TextView majTextView = (TextView) findViewById(R.id.HeureMajTextView);
-    			if (majTextView!=null) majTextView.setText(resultatsLive.getHeureMaj());
+    			if (majTextView!=null) majTextView.setText(liveResultats.getHeureMaj());
 
-    			List<LiveMatch> matchs = resultatsLive.getMatchs();
+    			List<LiveMatch> matchs = liveResultats.getMatchs();
 
     			// create adapter or refill : fixes the "back to the top bug" when
     			// reloading
@@ -140,7 +141,7 @@ public class LiveActivity extends ListActivity {
     			}
 	        }
 			else {
-				// Something went wrong. Dont'do anything. Wait for next 
+				// Something went wrong. Dont'do anything. Wait for next reload 
 			}
 
 			ProgressBar bar = (ProgressBar) findViewById(R.id.ProgressBar);
@@ -149,7 +150,10 @@ public class LiveActivity extends ListActivity {
 			if (!isCancelled) {
 				// reload
 				Log.i(this.getClass().getName(),"Posting delayed task");
-				reloadHandler.postDelayed(reloadTask, reloadInterval);
+				if(liveResultats.getNbLive()==0)
+					reloadHandler.postDelayed(reloadTask, reloadIntervalWhenNoLive);
+				else
+					reloadHandler.postDelayed(reloadTask, reloadIntervalWhenLive);
 			}
 		}
 	}

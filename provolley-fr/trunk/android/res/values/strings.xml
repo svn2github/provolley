@@ -30,7 +30,9 @@
          <string name="application_histo_v1_2_0"><![CDATA[
              <b>v1.2.0</b> Nouvelles fonctionnalités :<br/>
              <ul>
-             <li>Ajout d\'un ascenseur dans les écrans d\'aide et de license</li>
+             <li>Ajout d\'un ascenseur dans les écrans d\'aide et de licence</li>
+             <li>Vainqueur en gras sur les écrans de résultats et du live</li>
+             <li>Rechargement de l\'écran du live toutes les 10 minutes quand pas de match en cours</li>
              </ul>
              <br/><br/>
              ]]></string>

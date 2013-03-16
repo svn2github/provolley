@@ -79,11 +79,16 @@ public class ProVolley {
 	 
 	 public static final String LIVE_SERVICE_DOMICILE = "Domicile";
 	 public static final String LIVE_SERVICE_EXTERIEUR = "Exterieur";
+	 public static final String LIVE_VICTOIRE_DOMICILE = "Domicile";
+	 public static final String LIVE_VICTOIRE_EXTERIEUR = "Exterieur";
 	
 	 public static final String LIVE_MATCH_AVENIR = "AVenir";
 	 public static final String LIVE_MATCH_ENCOURS = "EnCours";
 	 public static final String LIVE_MATCH_TERMINE = "Termine";
 	 public static final String LIVE_MATCH_VALIDE = "Valide";
+
+	 public static final String RESULTAT_VICTOIRE_DOMICILE = "Domicile";
+	 public static final String RESULTAT_VICTOIRE_EXTERIEUR = "Exterieur";
 
 	 public static final String PROGTV_DIRECT = "Direct";
 

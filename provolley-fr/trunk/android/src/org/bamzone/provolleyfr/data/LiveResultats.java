@@ -22,11 +22,24 @@ public class LiveResultats {
 	
 	List<LiveMatch> matchs;
 	String heureMaj;
+	int nblive;
+
+	public LiveResultats() {
+		super();
+		this.matchs = new ArrayList<LiveMatch>();
+	}
 
 	public LiveResultats(String heureMaj) {
 		super();
 		this.matchs = new ArrayList<LiveMatch>();
 		this.heureMaj = heureMaj;
+	}
+
+	public LiveResultats(String heureMaj, int nblive) {
+		super();
+		this.matchs = new ArrayList<LiveMatch>();
+		this.heureMaj = heureMaj;
+		this.nblive = nblive;
 	}
 
 	public String getHeureMaj() {
@@ -37,13 +50,17 @@ public class LiveResultats {
 		this.heureMaj = heureMaj;
 	}
 
-	public LiveResultats() {
-		super();
-		this.matchs = new ArrayList<LiveMatch>();
+	public int getNbLive() {
+		return this.nblive;
+	}
+
+	public void setNbLive(int nblive) {
+		this.nblive=nblive;
 	}
 
 	public List<LiveMatch> getMatchs() {
 		return matchs;
 	}
+	
 
 }

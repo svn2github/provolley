@@ -19,12 +19,14 @@ import java.util.List;
 
 import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.R;
+import org.bamzone.provolleyfr.coupe.CoupeHelper;
 import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.provider.ResourcesProvider;
 import org.bamzone.provolleyfr.provider.ResourcesProviderFactory;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -102,13 +104,20 @@ public class LiveArrayAdapter extends ArrayAdapter<LiveMatch> {
     if(equipe1!=null) equipe1.setText(match.getEquipe1());
     if(equipe2!=null) equipe2.setText(match.getEquipe2());
     
+    // Vainqueur en gras
+    if((equipe1!=null)&&LiveHelper.isVictoireDomicile(values.get(position))) 
+    	equipe1.setTypeface(Typeface.DEFAULT_BOLD);
+    if((equipe2!=null)&&LiveHelper.isVictoireExterieur(values.get(position)))
+    	equipe2.setTypeface(Typeface.DEFAULT_BOLD);
+
     if(classement1!=null) classement1.setText(Html.fromHtml(match.getClassement1()));
     if(classement2!=null) classement2.setText(Html.fromHtml(match.getClassement2()));
     
     resultat.setText(match.getResultat());
-    // si match termine, affichage en rouge
+    // si match termine, affichage en rouge et gras
     if(LiveHelper.isMatchTermine(match)||LiveHelper.isMatchValide(match)) {
     	resultat.setTextColor(ProVolley.COULEUR_TEXTE_MATCH_TERMINE);
+    	resultat.setTypeface(Typeface.DEFAULT_BOLD);
     }
     score.setText(match.getScore());
     
