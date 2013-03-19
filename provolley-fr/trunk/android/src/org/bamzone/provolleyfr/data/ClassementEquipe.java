@@ -36,10 +36,13 @@ public class ClassementEquipe {
 	private int pc;
 	private String rp;
 	private String etat;
+	private String assure;
+	private int pen;
 	
 	public ClassementEquipe(int rang, String equipe, int point, int mj, int mg,
 			int mp, int m30, int m31, int m32, int m23, int m13, int m03,
-			int sp, int sc, String rs, int pp, int pc, String rp, String etat) {
+			int sp, int sc, String rs, int pp, int pc, String rp, String etat,
+			String assure, int pen) {
 		super();
 		this.rang = rang;
 		this.equipe = equipe;
@@ -60,6 +63,8 @@ public class ClassementEquipe {
 		this.pc = pc;
 		this.rp = rp;
 		this.etat = etat;
+		this.assure = assure;
+		this.pen = pen;
 	}
 
 	public int getRang() {
@@ -136,6 +141,22 @@ public class ClassementEquipe {
 	
 	public String getEtat() {
 		return etat;
+	}
+
+	public String getAssure() {
+		return assure;
+	}
+
+	public void setAssure(String assure) {
+		this.assure = assure;
+	}
+
+	public int getPen() {
+		return pen;
+	}
+
+	public void setPen(int pen) {
+		this.pen = pen;
 	}
 	
 }

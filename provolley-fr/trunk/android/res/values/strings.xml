@@ -9,7 +9,7 @@
         <string name="application_version_1_2_0">version 1.2.0</string>
         
         <string name="application_website">www.provolley.fr</string>
-        <string name="application_copyright">Copyright 2012 Christophe Bothamy</string>
+        <string name="application_copyright">Copyright 2013 Christophe Bothamy</string>
         <string name="application_email">info@provolley.fr</string>
        
          <string name="application_description"><![CDATA[<h3>Bienvenue dans ProVolley-fr !</h3>
@@ -33,6 +33,7 @@
              <li>Ajout d\'un ascenseur dans les écrans d\'aide et de licence</li>
              <li>Vainqueur en gras sur les écrans de résultats et du live</li>
              <li>Rechargement de l\'écran du live toutes les 10 minutes quand pas de match en cours</li>
+             <li>Affichage des équipes championnes, reléguées et qualifiées pour les play-offs</li>
              </ul>
              <br/><br/>
              ]]></string>
@@ -138,7 +139,7 @@
                 Les scores en direct, classements et calendriers proviennent de l\'open data du site de la LNV : http://www.lnv.fr<br/>
                 Néanmoins, le site de la lnv connait de nombreux soucis; des dysfonctionnements peuvent 
                 gêner le bon fonctionnement de l\'application, en provoquant notament des retards dans les mises
-                à jour des résultats, ou des retards ou absences de score dans les matchs en direct.<br/><br/>
+                à jour des résultats, ou des retards ou absences de score pour les matchs en direct.<br/><br/>
                 L\'application contient des ressources provenant de :<ul>
                 <li>wikipedia : les maillots, informations sur les clubs et joueurs, licence CC-BY-SA 3.0,</li>
                 <li>pjt56 : photographie http://fr.wikipedia.org/wiki/Fichier:Volleyball_Block.jpg , license CC-BY-SA 3.0,</li>

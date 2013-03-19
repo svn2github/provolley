@@ -2,15 +2,17 @@
 	"version": 1,
 	"live": 
 		{
-		"maj":"09:01:37",
-		"nblive":1,
+		"maj":"23:08:38",
+		"nblive":0,
 		"matchs": 
 			[
-{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Narbonne", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "etat": "AVenir"}
-,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "etat": "AVenir"}
-,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "etat": "AVenir"}
-,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "etat": "AVenir"}
-,{"saison":"1213" ,"competition": "LBM", "equipeDomicile": "Nice", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Cambrai", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 1 mar", "score": "20:00", "service": "", "etat": "AVenir"}
+{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "etat": "AVenir"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "etat": "AVenir"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "etat": "AVenir"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "etat": "AVenir"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "etat": "AVenir"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "etat": "AVenir"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "etat": "AVenir"}
 			]
 		}
 }

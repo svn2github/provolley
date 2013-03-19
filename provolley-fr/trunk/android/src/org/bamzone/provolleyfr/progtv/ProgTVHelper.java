@@ -49,7 +49,7 @@ public class ProgTVHelper {
 			        String titre = emission.getString("titre");
 			        String description = emission.getString("description");
 
-			        Log.d(ProgTVHelper.class.getName(), date+"/"+heure+"/"+type+"/"+idchaine+"/"+nomchaine+"/"+url+"/"+logo+"/"+duree+"/"+diffusion+"/"+titre+"/"+description);
+			        //Log.d(ProgTVHelper.class.getName(), date+"/"+heure+"/"+type+"/"+idchaine+"/"+nomchaine+"/"+url+"/"+logo+"/"+duree+"/"+diffusion+"/"+titre+"/"+description);
 
 			        TVEmission emissionTV = new TVEmission(date, heure, type, idchaine, nomchaine, url, logo, duree, diffusion, titre, description);
 			        progTV.getEmissions().add(emissionTV);

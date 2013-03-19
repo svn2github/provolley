@@ -1,0 +1,12 @@
+cp /tmp/CNF_resultats.json cnf_resultats.json
+cp /tmp/CNM_resultats.json cnm_resultats.json
+cp /tmp/LAF_classement.json laf_classement.json
+cp /tmp/LAF_resultats.json laf_resultats.json
+cp /tmp/LAM_classement.json lam_classement.json
+cp /tmp/LAM_resultats.json lam_resultats.json
+cp /tmp/LBM_classement.json lbm_classement.json
+cp /tmp/LBM_resultats.json lbm_resultats.json
+cp /tmp/live2.json live2.json
+cp /tmp/live.json live.json
+cp /tmp/news.json news.json
+cp /tmp/tv.json tv.json

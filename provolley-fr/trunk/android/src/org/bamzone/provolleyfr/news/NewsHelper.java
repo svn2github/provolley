@@ -46,7 +46,7 @@ public class NewsHelper {
 			        String titre = emission.getString("titre");
 			        String description = emission.getString("description");
 
-			        Log.i(NewsHelper.class.getName(), date+"/"+heure+"/"+categorie+"/"+logo+"/"+titre+"/"+description);
+			        //Log.d(NewsHelper.class.getName(), date+"/"+heure+"/"+categorie+"/"+logo+"/"+titre+"/"+description);
 
 			        NewsItem newsItem = new NewsItem(date, heure, categorie, logo, titre, description);
 			        news.getNewsItems().add(newsItem);

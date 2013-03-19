@@ -75,7 +75,7 @@ public class ResultatsHelper {
 			        
 			        ResultatsMatch resultatsMatch = new ResultatsMatch(saison, competition, equipeDomicile, equipeExterieur, resultat, score, classementDomicile, classementExterieur, victoire);
 			        resultatsJournee.getMatchs().add(resultatsMatch);
-			        Log.i(ResultatsActivity.class.getName(),resultatsJournee.getNumJournee()+"/"+equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+victoire);
+			        //Log.d(ResultatsActivity.class.getName(),resultatsJournee.getNumJournee()+"/"+equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+victoire);
 				}
 		      }
 			return resultatsSaison;

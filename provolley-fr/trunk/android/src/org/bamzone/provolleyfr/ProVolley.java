@@ -91,7 +91,7 @@ public class ProVolley {
 	 public static final String RESULTAT_VICTOIRE_EXTERIEUR = "Exterieur";
 
 	 public static final String PROGTV_DIRECT = "Direct";
-
+	 
 	 public static final int  COULEUR_FOND_LIVE_LAF = Color.parseColor("#60004f");//0x45,0x03,0x39);
 	 public static final int  COULEUR_FOND_LIVE_LAM = Color.parseColor("#0d005c");//0x08,0x02,0x29);
 	 public static final int  COULEUR_FOND_LIVE_LBM = Color.parseColor("#0c5200");//0x09,0x33,0x02);
@@ -106,6 +106,54 @@ public class ProVolley {
 
 	 public static final int  COULEUR_TEXTE_MATCH_TERMINE = Color.rgb(0xff, 0x00, 0x00);
 	 
+	 public static final String CLASSEMENT_VAINQUEUR = "VAINQUEUR";
+	 public static final String CLASSEMENT_QUALPO = "QUALPO";
+	 public static final String CLASSEMENT_MAINT = "MAINT";
+	 public static final String CLASSEMENT_QUALPO1 = "QUALPO1";
+	 public static final String CLASSEMENT_QUALPO2 = "QUALPO2";
+	 public static final String CLASSEMENT_QUALPO3 = "QUALPO3";
+	 public static final String CLASSEMENT_RELEG = "RELEG";
+	 public static final String CLASSEMENT_MONTEE = "MONTEE";
+	 public static final String CLASSEMENT_AUTRES = "AUTRES";
+	 
+	 public static final String CLASSEMENT_QUALPOASS = "QUALPOASS";
+	 public static final String CLASSEMENT_MAINTASS = "MAINTASS";
+	 public static final String CLASSEMENT_QUALPO1ASS = "QUALPO1ASS";
+	 public static final String CLASSEMENT_QUALPO2ASS = "QUALPO2ASS";
+	 public static final String CLASSEMENT_QUALPO3ASS = "QUALPO3ASS";
+	 public static final String CLASSEMENT_RELEGASS = "RELEGASS";
+	 public static final String CLASSEMENT_MONTEEASS = "MONTEEASS";
+
+	 public static final int COULEUR_CLASSEMENT_AUTRES = Color.parseColor("#ffffff");
+	 public static final int COULEUR_CLASSEMENT_QUALPO = Color.parseColor("#12ff00");
+	 public static final int COULEUR_CLASSEMENT_QUALPO1 = Color.parseColor("#12ff00");
+	 public static final int COULEUR_CLASSEMENT_QUALPO2 = Color.parseColor("#00bfff");
+	 public static final int COULEUR_CLASSEMENT_QUALPO3 =  Color.parseColor("#00bfff");
+	 public static final int COULEUR_CLASSEMENT_RELEG =  Color.parseColor("#ff0000");
+	 public static final int COULEUR_CLASSEMENT_MAINT =  Color.parseColor("#ffe400");
+	 public static final int COULEUR_CLASSEMENT_MONTEE =  Color.parseColor("#12ff00");
+	 public static final int COULEUR_CLASSEMENT_NB =  Color.parseColor("#c6c6c6");
+	 
+	 public static final Map<String , Integer> COULEURS_CLASSEMENT = new HashMap<String , Integer>() {{
+			put(CLASSEMENT_QUALPO, COULEUR_CLASSEMENT_QUALPO);
+			put(CLASSEMENT_MAINT, COULEUR_CLASSEMENT_AUTRES); // Couleur standard
+			put(CLASSEMENT_QUALPO1, COULEUR_CLASSEMENT_QUALPO1);
+			put(CLASSEMENT_QUALPO2, COULEUR_CLASSEMENT_QUALPO2);
+			put(CLASSEMENT_QUALPO3, COULEUR_CLASSEMENT_QUALPO3);
+			put(CLASSEMENT_RELEG, COULEUR_CLASSEMENT_RELEG);
+			put(CLASSEMENT_MONTEE, COULEUR_CLASSEMENT_MONTEE);
+			put(CLASSEMENT_AUTRES, COULEUR_CLASSEMENT_AUTRES);
+			put(CLASSEMENT_QUALPOASS, COULEUR_CLASSEMENT_QUALPO);
+			put(CLASSEMENT_MAINTASS, COULEUR_CLASSEMENT_MAINT);
+			put(CLASSEMENT_QUALPO1ASS, COULEUR_CLASSEMENT_QUALPO1);
+			put(CLASSEMENT_QUALPO2ASS, COULEUR_CLASSEMENT_QUALPO2);
+			put(CLASSEMENT_QUALPO3ASS, COULEUR_CLASSEMENT_QUALPO3);
+			put(CLASSEMENT_RELEGASS, COULEUR_CLASSEMENT_RELEG);
+			put(CLASSEMENT_MONTEEASS, COULEUR_CLASSEMENT_MONTEE);
+			put(CLASSEMENT_VAINQUEUR, COULEUR_CLASSEMENT_MONTEE);
+	 }};
+
+
 	 public static final Set<String> TEST_DEVICEID_SHA1S = new HashSet<String>() {{
 			add("16c9ce74e72d9a0e90ce6a1b941257682851bab4"); // SERIAL_HTC_DESIRE_CHRIS
 			add("41e29575c7361b2924f701502ca6d932b45b9e51"); // DEVICEID_EMULATOR

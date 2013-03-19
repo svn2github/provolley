@@ -31,7 +31,6 @@
         android:gravity="right"
         />
         
-
     <TextView
         android:id="@+id/mj"
         android:layout_width="wrap_content"

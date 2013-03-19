@@ -75,11 +75,13 @@ public class ClassementsHelper {
 		        int pc = equipe.getInt("pc");
 		        String rp = equipe.getString("rp");
 		        String etat = equipe.getString("etat");
+		        String assure = equipe.getString("assure");
+		        int pen = equipe.getInt("pen");
 		        
-		        ClassementEquipe classementEquipe = new ClassementEquipe(rang,nom,points,mj,mg,mp,m30,m31,m32,m23,m13,m03,sp,sc,rs,pp,pc,rp,etat);
+		        ClassementEquipe classementEquipe = new ClassementEquipe(rang,nom,points,mj,mg,mp,m30,m31,m32,m23,m13,m03,sp,sc,rs,pp,pc,rp,etat,assure,pen);
 		        classementCompetition.getEquipes().add(classementEquipe);
 				
-		        Log.i(ClassementsActivity.class.getName(),rang+"/"+nom);
+		        //Log.d(ClassementsActivity.class.getName(),rang+"/"+nom+"/"+pen+"/"+assure);
 		      }
 			return classementCompetition;
 		} catch (Exception e) {
