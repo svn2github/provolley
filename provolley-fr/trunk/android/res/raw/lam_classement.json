@@ -6,20 +6,20 @@
 		"saison": "1213",		
 		"equipes": 
 			[
-{"rang":1,"equipe":"Tours","points":59,"mj":24,"mg":20,"mp":4,"m30":6,"m31":11,"m32":3,"m23":2,"m13":1,"m03":1,"pen":0,"sp":65,"sc":29,"rs":"2.24137931","pp":2200,"pc":1964,"rp":"1.120162932","etat":"QUALPO","assure":"QUALPOASS"}
-,{"rang":2,"equipe":"Sète","points":51,"mj":24,"mg":18,"mp":6,"m30":6,"m31":6,"m32":6,"m23":3,"m13":3,"m03":0,"pen":0,"sp":63,"sc":36,"rs":"1.75","pp":2258,"pc":2160,"rp":"1.04537037","etat":"QUALPO","assure":"QUALPOASS"}
-,{"rang":3,"equipe":"Nantes Rezé","points":45,"mj":24,"mg":17,"mp":7,"m30":8,"m31":7,"m32":2,"m23":2,"m13":3,"m03":2,"pen":6,"sp":58,"sc":32,"rs":"1.8125","pp":2109,"pc":1928,"rp":"1.093879668","etat":"QUALPO","assure":"QUALPOASS"}
-,{"rang":4,"equipe":"Chaumont","points":41,"mj":24,"mg":11,"mp":13,"m30":7,"m31":3,"m32":1,"m23":9,"m13":3,"m03":1,"pen":0,"sp":54,"sc":44,"rs":"1.227272727","pp":2211,"pc":2096,"rp":"1.054866412","etat":"QUALPO","assure":"QUALPOASS"}
-,{"rang":5,"equipe":"Narbonne","points":40,"mj":24,"mg":15,"mp":9,"m30":2,"m31":7,"m32":6,"m23":1,"m13":6,"m03":2,"pen":0,"sp":53,"sc":46,"rs":"1.152173913","pp":2232,"pc":2235,"rp":"0.998657718","etat":"QUALPO","assure":"QUALPOASS"}
-,{"rang":6,"equipe":"Cannes","points":40,"mj":24,"mg":14,"mp":10,"m30":5,"m31":4,"m32":5,"m23":3,"m13":3,"m03":4,"pen":0,"sp":51,"sc":44,"rs":"1.159090909","pp":2160,"pc":2075,"rp":"1.040963855","etat":"QUALPO","assure":"QUALPOASS"}
-,{"rang":7,"equipe":"Paris","points":37,"mj":24,"mg":13,"mp":11,"m30":4,"m31":5,"m32":4,"m23":2,"m13":4,"m03":5,"pen":0,"sp":47,"sc":46,"rs":"1.02173913","pp":2068,"pc":2111,"rp":"0.979630506","etat":"QUALPO","assure":"MAINTASS"}
-,{"rang":8,"equipe":"Rennes","points":35,"mj":24,"mg":11,"mp":13,"m30":4,"m31":7,"m32":0,"m23":2,"m13":7,"m03":4,"pen":0,"sp":44,"sc":46,"rs":"0.956521739","pp":2066,"pc":2096,"rp":"0.985687022","etat":"QUALPO","assure":"MAINTASS"}
-,{"rang":9,"equipe":"Beauvais","points":32,"mj":24,"mg":11,"mp":13,"m30":3,"m31":2,"m32":6,"m23":5,"m13":3,"m03":5,"pen":0,"sp":46,"sc":53,"rs":"0.867924528","pp":2175,"pc":2220,"rp":"0.979729729","etat":"MAINT","assure":"MAINTASS"}
-,{"rang":10,"equipe":"Montpellier","points":32,"mj":24,"mg":11,"mp":13,"m30":1,"m31":5,"m32":5,"m23":4,"m13":2,"m03":7,"pen":0,"sp":43,"sc":54,"rs":"0.796296296","pp":2132,"pc":2160,"rp":"0.987037037","etat":"MAINT","assure":"MAINTASS"}
-,{"rang":11,"equipe":"Ajaccio","points":31,"mj":24,"mg":10,"mp":14,"m30":5,"m31":1,"m32":4,"m23":5,"m13":3,"m03":6,"pen":0,"sp":43,"sc":51,"rs":"0.843137254","pp":2004,"pc":2084,"rp":"0.961612284","etat":"MAINT","assure":"MAINTASS"}
-,{"rang":12,"equipe":"Avignon","points":21,"mj":24,"mg":6,"mp":18,"m30":1,"m31":2,"m32":3,"m23":6,"m13":8,"m03":4,"pen":0,"sp":38,"sc":62,"rs":"0.612903225","pp":2135,"pc":2280,"rp":"0.936403508","etat":"MAINT","assure":""}
-,{"rang":13,"equipe":"Toulouse","points":20,"mj":24,"mg":7,"mp":17,"m30":2,"m31":2,"m32":3,"m23":2,"m13":8,"m03":7,"pen":0,"sp":33,"sc":59,"rs":"0.559322033","pp":2044,"pc":2174,"rp":"0.940202391","etat":"RELEG","assure":""}
-,{"rang":14,"equipe":"Tourcoing","points":14,"mj":24,"mg":4,"mp":20,"m30":0,"m31":1,"m32":3,"m23":5,"m13":9,"m03":6,"pen":0,"sp":31,"sc":67,"rs":"0.462686567","pp":2113,"pc":2324,"rp":"0.909208261","etat":"RELEG","assure":"RELEGASS"}
+{"rang":1,"equipe":"Tours","points":59,"mj":24,"mg":20,"mp":4,"m30":6,"m31":11,"m32":3,"m23":2,"m13":1,"m03":1,"pen":0,"sp":65,"sc":29,"rs":"2.24137931","pp":2200,"pc":1964,"rp":"1.120162932","etat":"QUALPO","etat2":"QUALPOASS"}
+,{"rang":2,"equipe":"Sète","points":51,"mj":24,"mg":18,"mp":6,"m30":6,"m31":6,"m32":6,"m23":3,"m13":3,"m03":0,"pen":0,"sp":63,"sc":36,"rs":"1.75","pp":2258,"pc":2160,"rp":"1.04537037","etat":"QUALPO","etat2":"QUALPOASS"}
+,{"rang":3,"equipe":"Nantes Rezé","points":45,"mj":24,"mg":17,"mp":7,"m30":8,"m31":7,"m32":2,"m23":2,"m13":3,"m03":2,"pen":6,"sp":58,"sc":32,"rs":"1.8125","pp":2109,"pc":1928,"rp":"1.093879668","etat":"QUALPO","etat2":"QUALPOASS"}
+,{"rang":4,"equipe":"Chaumont","points":41,"mj":24,"mg":11,"mp":13,"m30":7,"m31":3,"m32":1,"m23":9,"m13":3,"m03":1,"pen":0,"sp":54,"sc":44,"rs":"1.227272727","pp":2211,"pc":2096,"rp":"1.054866412","etat":"QUALPO","etat2":"QUALPOASS"}
+,{"rang":5,"equipe":"Narbonne","points":40,"mj":24,"mg":15,"mp":9,"m30":2,"m31":7,"m32":6,"m23":1,"m13":6,"m03":2,"pen":0,"sp":53,"sc":46,"rs":"1.152173913","pp":2232,"pc":2235,"rp":"0.998657718","etat":"QUALPO","etat2":"QUALPOASS"}
+,{"rang":6,"equipe":"Cannes","points":40,"mj":24,"mg":14,"mp":10,"m30":5,"m31":4,"m32":5,"m23":3,"m13":3,"m03":4,"pen":0,"sp":51,"sc":44,"rs":"1.159090909","pp":2160,"pc":2075,"rp":"1.040963855","etat":"QUALPO","etat2":"QUALPOASS"}
+,{"rang":7,"equipe":"Paris","points":37,"mj":24,"mg":13,"mp":11,"m30":4,"m31":5,"m32":4,"m23":2,"m13":4,"m03":5,"pen":0,"sp":47,"sc":46,"rs":"1.02173913","pp":2068,"pc":2111,"rp":"0.979630506","etat":"QUALPO","etat2":"MAINTASS"}
+,{"rang":8,"equipe":"Rennes","points":35,"mj":24,"mg":11,"mp":13,"m30":4,"m31":7,"m32":0,"m23":2,"m13":7,"m03":4,"pen":0,"sp":44,"sc":46,"rs":"0.956521739","pp":2066,"pc":2096,"rp":"0.985687022","etat":"QUALPO","etat2":"MAINTASS"}
+,{"rang":9,"equipe":"Beauvais","points":32,"mj":24,"mg":11,"mp":13,"m30":3,"m31":2,"m32":6,"m23":5,"m13":3,"m03":5,"pen":0,"sp":46,"sc":53,"rs":"0.867924528","pp":2175,"pc":2220,"rp":"0.979729729","etat":"MAINT","etat2":"MAINTASS"}
+,{"rang":10,"equipe":"Montpellier","points":32,"mj":24,"mg":11,"mp":13,"m30":1,"m31":5,"m32":5,"m23":4,"m13":2,"m03":7,"pen":0,"sp":43,"sc":54,"rs":"0.796296296","pp":2132,"pc":2160,"rp":"0.987037037","etat":"MAINT","etat2":"MAINTASS"}
+,{"rang":11,"equipe":"Ajaccio","points":31,"mj":24,"mg":10,"mp":14,"m30":5,"m31":1,"m32":4,"m23":5,"m13":3,"m03":6,"pen":0,"sp":43,"sc":51,"rs":"0.843137254","pp":2004,"pc":2084,"rp":"0.961612284","etat":"MAINT","etat2":"MAINTASS"}
+,{"rang":12,"equipe":"Avignon","points":21,"mj":24,"mg":6,"mp":18,"m30":1,"m31":2,"m32":3,"m23":6,"m13":8,"m03":4,"pen":0,"sp":38,"sc":62,"rs":"0.612903225","pp":2135,"pc":2280,"rp":"0.936403508","etat":"MAINT","etat2":""}
+,{"rang":13,"equipe":"Toulouse","points":20,"mj":24,"mg":7,"mp":17,"m30":2,"m31":2,"m32":3,"m23":2,"m13":8,"m03":7,"pen":0,"sp":33,"sc":59,"rs":"0.559322033","pp":2044,"pc":2174,"rp":"0.940202391","etat":"RELEG","etat2":""}
+,{"rang":14,"equipe":"Tourcoing","points":14,"mj":24,"mg":4,"mp":20,"m30":0,"m31":1,"m32":3,"m23":5,"m13":9,"m03":6,"pen":0,"sp":31,"sc":67,"rs":"0.462686567","pp":2113,"pc":2324,"rp":"0.909208261","etat":"RELEG","etat2":"RELEGASS"}
 			]
 		}
 }

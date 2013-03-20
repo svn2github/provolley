@@ -164,7 +164,7 @@ public class ClassementsActivity extends Activity {
 		        			Integer.toString(equipe.getMj()),Integer.toString(equipe.getM30()+equipe.getM31()),
 		        			Integer.toString(equipe.getM32()),Integer.toString(equipe.getM23()),
 		        			Integer.toString(equipe.getM13()+equipe.getM03()),
-		        			equipe.getPen(),equipe.getAssure()));
+		        			equipe.getPen(),equipe.getEtat2()));
 		        }
 		        
 		        boolean penalite=false;
@@ -172,21 +172,21 @@ public class ClassementsActivity extends Activity {
 		        boolean monteeass=false, poass=false, po1ass=false, po2ass=false, po3ass=false, relegass=false, maintass=false;
 		        for (ClassementEquipe equipe: classement.getEquipes()) {
 		        	if (equipe.getPen()!=0) penalite=true;
-		        	if (ProVolley.CLASSEMENT_MONTEE.equals(equipe.getAssure())) montee=true;
-		        	if (ProVolley.CLASSEMENT_QUALPO.equals(equipe.getAssure())) po=true;
-		        	if (ProVolley.CLASSEMENT_QUALPO1.equals(equipe.getAssure())) po1=true;
-		        	if (ProVolley.CLASSEMENT_QUALPO2.equals(equipe.getAssure())) po2=true;
-		        	if (ProVolley.CLASSEMENT_QUALPO3.equals(equipe.getAssure())) po3=true;
-		        	if (ProVolley.CLASSEMENT_RELEG.equals(equipe.getAssure())) releg=true;
-		        	if (ProVolley.CLASSEMENT_VAINQUEUR.equals(equipe.getAssure())) vainq=true;
+		        	if (ProVolley.CLASSEMENT_MONTEE.equals(equipe.getEtat2())) montee=true;
+		        	if (ProVolley.CLASSEMENT_QUALPO.equals(equipe.getEtat2())) po=true;
+		        	if (ProVolley.CLASSEMENT_QUALPO1.equals(equipe.getEtat2())) po1=true;
+		        	if (ProVolley.CLASSEMENT_QUALPO2.equals(equipe.getEtat2())) po2=true;
+		        	if (ProVolley.CLASSEMENT_QUALPO3.equals(equipe.getEtat2())) po3=true;
+		        	if (ProVolley.CLASSEMENT_RELEG.equals(equipe.getEtat2())) releg=true;
+		        	if (ProVolley.CLASSEMENT_VAINQUEUR.equals(equipe.getEtat2())) vainq=true;
 
-		        	if (ProVolley.CLASSEMENT_MONTEEASS.equals(equipe.getAssure())) monteeass=true;
-		        	if (ProVolley.CLASSEMENT_QUALPOASS.equals(equipe.getAssure())) poass=true;
-		        	if (ProVolley.CLASSEMENT_QUALPO1ASS.equals(equipe.getAssure())) po1ass=true;
-		        	if (ProVolley.CLASSEMENT_QUALPO2ASS.equals(equipe.getAssure())) po2ass=true;
-		        	if (ProVolley.CLASSEMENT_QUALPO3ASS.equals(equipe.getAssure())) po3ass=true;
-		        	if (ProVolley.CLASSEMENT_RELEGASS.equals(equipe.getAssure())) relegass=true;
-		        	if (ProVolley.CLASSEMENT_MAINTASS.equals(equipe.getAssure())) maintass=true;
+		        	if (ProVolley.CLASSEMENT_MONTEEASS.equals(equipe.getEtat2())) monteeass=true;
+		        	if (ProVolley.CLASSEMENT_QUALPOASS.equals(equipe.getEtat2())) poass=true;
+		        	if (ProVolley.CLASSEMENT_QUALPO1ASS.equals(equipe.getEtat2())) po1ass=true;
+		        	if (ProVolley.CLASSEMENT_QUALPO2ASS.equals(equipe.getEtat2())) po2ass=true;
+		        	if (ProVolley.CLASSEMENT_QUALPO3ASS.equals(equipe.getEtat2())) po3ass=true;
+		        	if (ProVolley.CLASSEMENT_RELEGASS.equals(equipe.getEtat2())) relegass=true;
+		        	if (ProVolley.CLASSEMENT_MAINTASS.equals(equipe.getEtat2())) maintass=true;
 		        }
 		        if (penalite || montee || po || po1 || po2 || po3 || releg || vainq || monteeass || poass || po1ass || po2ass || po3ass || relegass || maintass)
 		        	tableLayout.addView(newSeparator());
@@ -206,8 +206,7 @@ public class ClassementsActivity extends Activity {
 		        if (po2) tableLayout.addView(addNB("Qualifié pour les play-offs de classement",ProVolley.COULEUR_CLASSEMENT_QUALPO2));
 		        if (po3) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEUR_CLASSEMENT_QUALPO3));
 		        if (releg) tableLayout.addView(addNB("Relégué",ProVolley.COULEUR_CLASSEMENT_RELEG));
-		        if (vainq) tableLayout.addView(addNB("Champion",ProVolley.COULEUR_CLASSEMENT_MONTEE));
-
+		        if (vainq) tableLayout.addView(addNB("Champion",ProVolley.COULEUR_CLASSEMENT_VAINQUEUR));
 	        }
 			else {
 				// FIXME : hardcoded

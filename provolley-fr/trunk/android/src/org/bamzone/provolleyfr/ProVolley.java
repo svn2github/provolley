@@ -132,6 +132,7 @@ public class ProVolley {
 	 public static final int COULEUR_CLASSEMENT_RELEG =  Color.parseColor("#ff0000");
 	 public static final int COULEUR_CLASSEMENT_MAINT =  Color.parseColor("#ffe400");
 	 public static final int COULEUR_CLASSEMENT_MONTEE =  Color.parseColor("#12ff00");
+	 public static final int COULEUR_CLASSEMENT_VAINQUEUR =  Color.parseColor("#12ff00");
 	 public static final int COULEUR_CLASSEMENT_NB =  Color.parseColor("#c6c6c6");
 	 
 	 public static final Map<String , Integer> COULEURS_CLASSEMENT = new HashMap<String , Integer>() {{
@@ -150,7 +151,7 @@ public class ProVolley {
 			put(CLASSEMENT_QUALPO3ASS, COULEUR_CLASSEMENT_QUALPO3);
 			put(CLASSEMENT_RELEGASS, COULEUR_CLASSEMENT_RELEG);
 			put(CLASSEMENT_MONTEEASS, COULEUR_CLASSEMENT_MONTEE);
-			put(CLASSEMENT_VAINQUEUR, COULEUR_CLASSEMENT_MONTEE);
+			put(CLASSEMENT_VAINQUEUR, COULEUR_CLASSEMENT_VAINQUEUR);
 	 }};
 
 
