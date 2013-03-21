@@ -1,0 +1,18 @@
+{
+	"version": 1,
+	"live": 
+		{
+		"maj":"23:08:38",
+		"nblive":0,
+		"matchs": 
+			[
+{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM169"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM170"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM171"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM172"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM173"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM174"}
+,{"saison":"1213" ,"competition": "LAM", "equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "service": "", "victoire": "", "etat": "AVenir", "code": "LAM175"}
+			]
+		}
+}

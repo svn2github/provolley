@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond_notile"
+    android:gravity="center" 
+    android:tileMode="disabled">
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/NewsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_news" 
+            android:onClick="onNewsButtonClick"/>
+
+        <ImageButton
+            android:id="@+id/ProgTVButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_tv" 
+            android:onClick="onProgTVButtonClick"/>
+
+       <ImageButton
+            android:id="@+id/ResultatsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_resultats"
+            android:onClick="onResultatsButtonClick"/>
+
+        <ImageButton
+            android:id="@+id/ClassementButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_classements"
+            android:onClick="onClassementsButtonClick" />
+        
+	</TableRow>
+    
+	<TableRow>
+        <ImageButton
+            android:id="@+id/LiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_live" 
+            android:onClick="onLiveButtonClick"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_coupe" 
+            android:onClick="onCoupeButtonClick"/>
+	
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_bientot" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:minHeight="96dip"
+            android:maxHeight="96dip"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bt_bientot" />
+	</TableRow>
+
+</TableLayout>

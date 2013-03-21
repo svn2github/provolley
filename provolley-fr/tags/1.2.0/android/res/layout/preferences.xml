@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="ProVolley-fr"
+	android:theme="@android:style/Theme.NoTitleBar">
+	
+	<PreferenceCategory
+	   android:summary="Préférences Générales"
+	   android:title="Préférences Générales" >
+	    
+		<ListPreference android:key="server"
+		    android:enabled="false"
+			android:title="Serveur"
+			android:entries="@array/server_entries_array"
+			android:entryValues="@array/server_values_array"
+			android:dialogTitle="Serveur à utiliser"
+			android:persistent="true"
+			android:defaultValue="@string/server_default_value">
+		</ListPreference>
+
+		<ListPreference android:key="liveInterval"
+			android:title="Interval du live"
+			android:entries="@array/live_interval_entries_array"
+			android:entryValues="@array/live_interval_values_array"
+			android:dialogTitle="Interval de rechargement du live"
+			android:persistent="true"
+			android:defaultValue="@string/live_interval_default_value">
+		</ListPreference>
+
+		<CheckBoxPreference
+                android:key="showAds"
+                android:title="Afficher la publicité"
+                android:summary="Merci de soutenir le développement et l'hébergement de ProVolley-fr en activant la publicité !"
+                android:persistent="true"
+                android:defaultValue="true">
+        </CheckBoxPreference>
+
+		<CheckBoxPreference
+                android:key="disableSleepInLive"
+                android:title="Désactiver la veille"
+                android:summary="Désactiver la mise en veille lors de la consultation des matchs en direct"
+                android:persistent="true"
+                android:defaultValue="true">
+        </CheckBoxPreference>
+	</PreferenceCategory>
+
+</PreferenceScreen>

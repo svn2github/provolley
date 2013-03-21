@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/titleHeaderLayout">
+	    	    
+    <ImageView
+         android:id="@+id/logoImageView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:padding="3dip"
+         android:src="@drawable/ic_launcher" />
+ 
+    <TextView
+        android:id="@+id/DateHeureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/logoImageView"
+        android:text="jour XX mois à HH:MM"
+        android:paddingLeft="5dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/TitreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DateHeureTextView"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/logoImageView"
+        android:text="Super Nouvelle"
+        android:paddingLeft="5dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:ellipsize="end"
+        android:maxLines="2"/>
+    </RelativeLayout>
+   
+    <ScrollView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleHeaderLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/adView"
+        >
+	    <TextView
+	        android:id="@+id/TexteTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Texte de la super nouvelle"
+	        android:paddingLeft="5dip"
+	        android:paddingRight="5dip"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+   </ScrollView>
+
+    	<org.bamzone.provolleyfr.AdView
+	    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	    android:id="@+id/adView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    ads:adSize="SMART_BANNER"
+	    ads:adUnitId="a150a27381d8efa"
+	    ads:testDevices="TEST_EMULATOR, MB136PL24755"
+	    ads:loadAdOnCreate="false" />
+
+</RelativeLayout> 

@@ -1,0 +1,175 @@
+<resources>
+
+        <string name="application_name">ProVolley-fr</string>
+        <string name="application_version">version 1.2.0</string>
+        
+        <string name="application_version_1_0_0">version 1.0.0</string>
+        <string name="application_version_1_0_1">version 1.0.1</string>
+        <string name="application_version_1_1_0">version 1.1.0</string>
+        <string name="application_version_1_2_0">version 1.2.0</string>
+        
+        <string name="application_website">www.provolley.fr</string>
+        <string name="application_copyright">Copyright 2013 Christophe Bothamy</string>
+        <string name="application_email">info@provolley.fr</string>
+       
+         <string name="application_description"><![CDATA[<h3>Bienvenue dans ProVolley-fr !</h3>
+             ProVolley-fr est une application dédiée au Volley-Ball professionnel en France.<br/> 
+             Vous y trouverez, pour les ligues A masculine et féminine et B masculine, 
+             les résultats et calendriers des différentes journées, les classements, les scores
+             en direct ainsi que les programmes TV à venir.
+             <br/>ProVolley-fr a été créé et est maintenu par des passionnés. 
+             N\'hésitez pas à nous écrire pour nous signaler des erreurs, nous encourager, 
+             ou nous faire part de vos remarques, critiques, et idées d\'améliorations. 
+             <br/><br/>Retrouvez ces informations sur notre site http://www.provolley.fr
+             <br/><br/>
+              ]]></string>
+
+         <string name="application_historique"><![CDATA[<h4>Historique des versions</h4>]]></string>
+         <string name="application_maj"><![CDATA[<h4>Mises à jour depuis la dernière version</h4>]]></string>
+         
+         <string name="application_histo_v1_2_0"><![CDATA[
+             <b>v1.2.0</b> Nouvelles fonctionnalités :<br/>
+             <ul>
+             <li>Ajout d\'un ascenseur dans les écrans d\'aide et de licence</li>
+             <li>Vainqueur en gras sur les écrans de résultats et du live</li>
+             <li>Rechargement de l\'écran du live toutes les 10 minutes quand pas de match en cours</li>
+             <li>Affichage des équipes championnes, reléguées et qualifiées pour les play-offs</li>
+             </ul>
+             <br/><br/>
+             ]]></string>
+         
+         <string name="application_histo_v1_1_0"><![CDATA[
+             <b>v1.1.0</b> Nouvelles fonctionnalités :<br/>
+             <ul>
+             <li>affichage des matchs de Coupe de France</li>
+             </ul>
+             <br/><br/>
+             ]]></string>
+         
+         <string name="application_histo_v1_0_1"><![CDATA[
+             <b>v1.0.1</b> Corrections :<br/>
+             <ul>
+             <li>affichage du titre des news sur les petits écrans</li>
+             <li>crash lors des rotation sur les news et programmes tv</li>
+             </ul>
+             <br/><br/>
+             ]]></string>
+         
+         <string name="application_histo_v1_0_0"><![CDATA[
+             <b>v1.0.0</b> Nouvelles fonctionnalités :<br/>
+             <ul>
+             <li>affichage des news,</li>
+             <li>les scores en direct, avec indicateur de l\'équipe au service,</li>
+             <li>les résultats passés et les matchs à venir,</li>
+             <li>les classements,</li>
+             <li>les programmes TV et les matchs diffusés sur internet.</li>
+             </ul>
+             <br/><br/>
+             ]]></string>
+         
+   <string-array name="server_entries_array">
+        <item>Fichiers Locaux</item>
+        <item>Serveur de Test</item>
+        <item>Serveur de Production</item>
+    </string-array>
+
+   <string-array name="server_values_array">
+        <item>Local</item>
+        <item>Test</item>
+        <item>Production</item>
+    </string-array>
+    <string name="server_default_value">Production</string>
+
+   <string-array name="live_interval_entries_array">
+        <item>15 sec</item>
+        <item>30 sec</item>
+        <item>45 sec</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>3 min</item>
+        <item>4 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+   </string-array>
+
+   <string-array name="live_interval_values_array">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>600</item>
+        <item>900</item>
+        <item>1800</item>
+   </string-array>
+   <string name="live_interval_default_value">30</string>
+   
+   <string name="parameters">Préférences</string>
+    <string name="license">Licence</string>
+    <string name="help">Aide</string>
+    <string name="about">A propos</string>
+
+        <string name="legal_text">
+                <![CDATA[
+                ProVolley-fr est distribué sous licence GPL v3 ou supérieure.<br/><br/>
+                Veuillez consulter la section \'Licence\' dans le menu de cette
+                application pour consulter le texte complet de la licence.<br/><br/> 
+                Les moyens d\'obtenir le code source de cette application sont décrits sur le site Web.
+                ]]>
+        </string>
+        
+        <string name="help_text">
+            <![CDATA[
+             ProVolley-fr est une application dédiée au Volley-Ball professionnel en France. 
+             Vous y trouverez, pour les ligues A masculine et féminine et B masculine, 
+             les résultats et calendriers des différentes journées, les classements, les scores
+             en live ainsi que les programmes TV à venir.<br/><br/>
+             ProVolley-fr a été créé et est maintenu par des passionnés. 
+ 			 N\'hésitez pas à nous écrire pour nous signaler des erreurs, nous encourager, 
+             ou nous faire part de vos remarques, critiques, et idées d\'améliorations
+             à info@provolley.fr , via twitter @provolleyfr 
+			 ou notre site http://www.provolley.fr .
+             
+                <h3>Crédits</h3>
+                Les scores en direct, classements et calendriers proviennent de l\'open data du site de la LNV : http://www.lnv.fr<br/>
+                Néanmoins, le site de la lnv connait de nombreux soucis; des dysfonctionnements peuvent 
+                gêner le bon fonctionnement de l\'application, en provoquant notament des retards dans les mises
+                à jour des résultats, ou des retards ou absences de score pour les matchs en direct.<br/><br/>
+                L\'application contient des ressources provenant de :<ul>
+                <li>wikipedia : les maillots, informations sur les clubs et joueurs, licence CC-BY-SA 3.0,</li>
+                <li>pjt56 : photographie http://fr.wikipedia.org/wiki/Fichier:Volleyball_Block.jpg , license CC-BY-SA 3.0,</li>
+                <li>GraphicsFuel.com : icone "coupe", licence freeware,</li>
+                <li>Cemagraphics : icone "journal", licence freeware.</li>
+                </ul><br/>
+                Les logos de la CEV, de la LNV, des clubs, des chaines de télévision et sites internet sont affichés dans un but d\'illustration, 
+                mais restent la propriété exclusive de leurs propriétaires respectifs.
+                <br/><br/>
+                <h3>Remerciements</h3>
+                <ul>
+                <li>Frédéric Bothamy, expert en volley-ball, pour ses critiques des versions beta, et pour ses idées sur l\'ergonomie et les fonctionnalités présentes et futures de l\'application,</li>
+                <li>Patrick Decat et Florian Boulay pour leurs conseils avisés en programmation Android.</li>
+                </ul>
+                <h3>Licence</h3>
+    Copyright (C) 2012 Christophe Bothamy<br/><br/>
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.<br><br>
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.<br><br>
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses .<br><br>
+                 ]]>
+        </string>
+        
+         <string name="alertIfNoNetwork">Merci d\'activer la connexion au réseau pour utiliser cette fonctionnalité</string>
+
+
+</resources>

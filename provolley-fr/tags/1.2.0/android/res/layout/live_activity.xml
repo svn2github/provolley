@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:gravity="right"
+		    android:orientation="vertical" 
+		    android:layout_above="@+id/adView">
+
+			<RelativeLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="left" >
+
+			   	<TextView
+			        android:id="@+id/MajTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentLeft="true"
+			        android:text="srv:"
+			        android:textSize="10sp"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+			   	<TextView
+			        android:id="@+id/HeureMajTextView"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignTop="@id/MajTextView"
+			        android:layout_toRightOf="@+id/MajTextView"
+			        android:text=""
+			        android:textSize="10sp"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+			    
+			   	<!--  
+			     <Button
+			         android:id="@+id/ReloadButton"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_alignParentRight="true"
+			         android:gravity="center"
+			         android:onClick="onReloadClick"
+			         android:text=" ↻" 
+			         android:enabled="false"/>
+				-->
+			     <TextView
+			         android:id="@+id/LiveTextView"
+			         android:layout_width="match_parent"
+			         android:layout_height="wrap_content"
+			         android:layout_alignParentLeft="true"
+			         android:layout_centerVertical="true"
+			         android:gravity="center"
+			         android:text="Matchs en Direct"
+			         android:textAppearance="?android:attr/textAppearanceLarge" />
+			  
+			     <ProgressBar
+			         android:id="@+id/ProgressBar"
+			         android:layout_width="wrap_content"
+			         android:layout_height="wrap_content"
+			         android:layout_alignParentRight="true"
+			         android:layout_alignBottom="@id/LiveTextView"
+			         style="@android:style/Widget.ProgressBar.Small"
+			         android:layout_centerVertical="true"
+			         >
+
+			         <!-- 
+			         android:maxHeight="28dip"
+			         android:maxWidth="20dip"
+			         android:minHeight="28dip"
+			         android:minWidth="20dip"
+			         android:minHeight="28dip"
+			          --> 
+			         			         
+			     </ProgressBar>
+			</RelativeLayout>
+	
+					<ListView
+			            android:id="@android:id/list"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content" >
+			        </ListView>
+		        
+			        <TextView
+			            android:id="@android:id/empty"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content" 
+			            android:text="Chargement en cours"
+			            android:gravity="center">
+			        </TextView>
+	</LinearLayout>
+
+<org.bamzone.provolleyfr.AdView
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/adView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    ads:adSize="SMART_BANNER"
+    ads:adUnitId="a150a27381d8efa"
+    ads:testDevices="TEST_EMULATOR, MB136PL24755"
+    ads:loadAdOnCreate="false" />
+
+</RelativeLayout> 

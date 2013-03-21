@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_above="@+id/adView">
+ 
+			<RelativeLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="fill_horizontal" >
+
+			    <TextView
+			        android:id="@+id/ClassementTextView"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_centerHorizontal="true"
+			        android:layout_centerVertical="true"
+			        android:layout_gravity="center"
+			        android:gravity="center"
+			        android:text="Classement"
+			        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			</RelativeLayout>
+	
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    
+	        <TableLayout
+	            android:id="@+id/TableLayout"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" 
+	            android:stretchColumns="1">
+	        </TableLayout>
+	</ScrollView>
+	
+</LinearLayout> 
+
+<org.bamzone.provolleyfr.AdView
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/adView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    ads:adSize="SMART_BANNER"
+    ads:adUnitId="a150a27381d8efa"
+    ads:loadAdOnCreate="false" />
+
+</RelativeLayout> 

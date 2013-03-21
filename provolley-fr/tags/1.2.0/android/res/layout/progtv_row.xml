@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ProgTVRowLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical" >
+
+     <ImageView
+         android:id="@+id/logoImageView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:padding="3dip"
+         android:src="@drawable/ic_launcher" />
+ 
+    <TextView
+        android:id="@+id/DateHeureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/logoImageView"
+        android:text="jour XX mois à HH:MM"
+        android:paddingLeft="5dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/Sep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/DateHeureTextView"
+        android:text="-"
+        android:paddingLeft="2dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/DureeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/Sep1"
+        android:text="52 mins"
+        android:paddingLeft="2dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/TypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DateHeureTextView"
+        android:layout_toRightOf="@id/logoImageView"
+        android:text="Ma Super Chaine"
+        android:paddingLeft="5dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+     <TextView
+        android:id="@+id/Sep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DateHeureTextView"
+        android:layout_toRightOf="@id/TypeTextView"
+        android:text="-"
+        android:paddingLeft="2dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     
+    <TextView
+         android:id="@+id/DiffusionTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/DateHeureTextView"
+         android:layout_toRightOf="@+id/Sep2"
+         android:paddingLeft="2dip"
+         android:text="Direct"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+      
+     <TextView
+        android:id="@+id/TitreTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TypeTextView"
+        android:layout_toRightOf="@id/logoImageView"
+        android:layout_alignParentRight="true"
+        android:text="Super Programme télé"
+        android:paddingLeft="5dip"
+        android:textSize="16sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:ellipsize="end"
+        android:maxLines="3"/>
+
+     
+</RelativeLayout>

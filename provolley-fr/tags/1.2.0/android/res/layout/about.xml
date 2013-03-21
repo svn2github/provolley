@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical" 
+    android:padding="10dp"
+    >
+
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/ic_launcher"
+android:layout_gravity="center_horizontal|center_vertical"
+android:layout_margin="8dip"/>
+
+<TextView
+    android:id="@+id/application_name_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center"
+    android:text="@string/application_name"
+    android:textSize="20sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/application_version_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:gravity="center"
+    android:text="@string/application_version"
+    android:textSize="13sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/application_website_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:text="@string/application_website"
+    android:textSize="14sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/application_copyright_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:text="@string/application_copyright"
+    android:textSize="14sp" />
+
+<TextView
+    android:id="@+id/application_email_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:text="@string/application_email"
+    android:textSize="14sp" />
+
+<TextView
+    android:id="@+id/legal_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dip"
+    android:text="@string/legal_text"
+    android:textColor="#cccccc"
+    android:textSize="11sp"
+    android:textStyle="italic" 
+    android:ellipsize="none"
+    android:scrollHorizontally="false"
+    android:maxEms="25"
+    android:singleLine="false"/>
+
+</LinearLayout>
