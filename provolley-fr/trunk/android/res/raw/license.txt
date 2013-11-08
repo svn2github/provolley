@@ -629,6 +629,6 @@ copy of the Program in return for a fee.</p>
 <h4>Additional permission under GNU GPL version 3 section 7<h4>
 
 <p>If you modify this Program, or any covered work, by linking or combining 
-it with Google Admob or Goggle Analytics libraries (or a modified version of those libraries), 
+it with Google Admob or Google Analytics libraries (or a modified version of those libraries), 
 containing parts covered by the terms of the Google licenses, the licensors of this 
 Program grant you additional permission to convey the resulting work.</p>

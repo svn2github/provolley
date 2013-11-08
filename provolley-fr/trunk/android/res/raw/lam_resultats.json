@@ -1,427 +1,427 @@
 {
-	"version": 1,
+	"version": 2,
 	"resultats": 
 		{
-		"nomsaison": "2012-2013",		
-		"saison": "1213",		
-		"minJournee": 1,"maxJournee": 26, "currentJournee": 25,
+		"nomsaison": "2013-2014",		
+		"saison": "1314",		
 		"journees": 
 			[
 				{
                                         "numero": 1,
 					"titre": "1<sup><small>ère</small></sup> Journée",
-					"date": "sam 13 oct",
+					"date": "mar 8 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-27 27-25 25-21 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-18 25-21 25-17", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-21 25-18 19-25 25-12", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-23 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-14 26-24 24-26 20-25 15-8", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-11 27-25 25-17", "victoire": "Domicile"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-22 25-21 16-25 25-18", "victoire": "Domicile"}
+{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-22 18-25 25-23 25-22", "victoire": "Domicile", "code": "LAM002"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 16-25 16-25 25-19 17-19", "victoire": "Exterieur", "code": "LAM003"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-16 25-20 25-21", "victoire": "Domicile", "code": "LAM004"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-15 25-23 25-22", "victoire": "Domicile", "code": "LAM005"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "0-3", "score": "25-27 24-26 24-26", "victoire": "Exterieur", "code": "LAM006"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-16 25-14", "victoire": "Domicile", "code": "LAM007"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "1-3", "score": "16-25 25-22 20-25 22-25", "victoire": "Exterieur", "code": "LAM001"}
 						]
 				}
 ,
 				{
                                         "numero": 2,
 					"titre": "2<sup><small>ème</small></sup> Journée",
-					"date": "mar 16 oct",
+					"date": "sam 12 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "22-25 25-21 18-25 18-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-1", "score": "42-44 25-20 25-21 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-1", "score": "20-25 25-13 25-14 25-16", "victoire": "Domicile"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 20-25 26-24 25-19 15-11", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-21 25-23 20-25 17-25 15-13", "victoire": "Domicile"}
-,{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 21-25 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-19 25-23", "victoire": "Domicile"}
+{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-22 22-25 23-25 25-19 15-8", "victoire": "Domicile", "code": "LAM011"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-22 25-23 23-25 20-25 8-15", "victoire": "Exterieur", "code": "LAM013"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-22 27-25 23-25 27-29 16-14", "victoire": "Domicile", "code": "LAM008"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-2", "score": "31-29 22-25 25-13 17-25 16-14", "victoire": "Domicile", "code": "LAM009"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-16 25-21 25-17", "victoire": "Domicile", "code": "LAM010"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "25-27 25-21 22-25 22-25", "victoire": "Exterieur", "code": "LAM012"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "2-3", "score": "19-25 22-25 25-21 25-23 6-15", "victoire": "Exterieur", "code": "LAM014"}
 						]
 				}
 ,
 				{
                                         "numero": 3,
 					"titre": "3<sup><small>ème</small></sup> Journée",
-					"date": "sam 20 oct",
+					"date": "mar 15 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-23 22-25 23-25 25-23 15-12", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 25-23 17-25 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-18 25-21 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-20 25-18", "victoire": "Domicile"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 21-25 28-26 25-21", "victoire": "Domicile"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 25-21 22-25 25-15", "victoire": "Domicile"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "1-3", "score": "22-25 25-12 26-28 20-25", "victoire": "Exterieur"}
+{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-14 25-21", "victoire": "Domicile", "code": "LAM015"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-20 25-22", "victoire": "Domicile", "code": "LAM016"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-27 25-22 18-25 25-19 19-17", "victoire": "Domicile", "code": "LAM017"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "23-25 28-26 22-25 22-25", "victoire": "Exterieur", "code": "LAM018"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 26-24 21-25 23-25 12-15", "victoire": "Exterieur", "code": "LAM019"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 21-25 25-16 28-26", "victoire": "Domicile", "code": "LAM020"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 25-20 18-25 25-22", "victoire": "Domicile", "code": "LAM021"}
 						]
 				}
 ,
 				{
                                         "numero": 4,
 					"titre": "4<sup><small>ème</small></sup> Journée",
-					"date": "ven 26 oct",
+					"date": "sam 19 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-22 25-20 22-25 25-19", "victoire": "Domicile"}
-,{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 20-25 25-21 26-24 15-12", "victoire": "Domicile"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-18 21-25 29-27 25-21", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "2-3", "score": "25-20 25-18 18-25 19-25 13-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-22 17-25 25-23 26-24", "victoire": "Domicile"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "18-25 15-25 20-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-22 23-25 18-25 18-25", "victoire": "Exterieur"}
+{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "23-25 18-25 25-19 25-23 15-12", "victoire": "Domicile", "code": "LAM022"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "3-2", "score": "25-19 16-25 25-20 20-25 19-17", "victoire": "Domicile", "code": "LAM023"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-21 22-25 25-20 25-17", "victoire": "Domicile", "code": "LAM024"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-22 16-25 20-25 19-25", "victoire": "Exterieur", "code": "LAM025"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 20-25 20-25 25-21 16-14", "victoire": "Domicile", "code": "LAM026"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-15 22-25 20-25 25-22 13-15", "victoire": "Exterieur", "code": "LAM027"}
+,{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "2-3", "score": "17-25 25-20 25-21 17-25 8-15", "victoire": "Exterieur", "code": "LAM028"}
 						]
 				}
 ,
 				{
                                         "numero": 5,
 					"titre": "5<sup><small>ème</small></sup> Journée",
-					"date": "sam 3 nov",
+					"date": "sam 26 oct",
 					"matchs": 
 						[
-{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "1-3", "score": "30-32 26-24 24-26 22-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "0-3", "score": "24-26 21-25 23-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 25-17 22-25 25-14", "victoire": "Domicile"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "0-3", "score": "22-25 21-25 18-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "2-3", "score": "24-26 25-23 17-25 25-19 11-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-21 25-21 21-25 25-14", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 25-18 21-25 28-26 15-13", "victoire": "Domicile"}
+{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-14 25-17 25-19", "victoire": "Domicile", "code": "LAM031"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-22 25-22", "victoire": "Domicile", "code": "LAM030"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-22 25-23 20-25 25-23", "victoire": "Domicile", "code": "LAM032"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-1", "score": "24-26 25-18 25-21 25-17", "victoire": "Domicile", "code": "LAM033"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 25-27 28-26 25-21", "victoire": "Domicile", "code": "LAM034"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "2-3", "score": "21-25 25-19 25-19 16-25 11-15", "victoire": "Exterieur", "code": "LAM035"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 23-25 28-26 26-24", "victoire": "Domicile", "code": "LAM029"}
 						]
 				}
 ,
 				{
                                         "numero": 6,
 					"titre": "6<sup><small>ème</small></sup> Journée",
-					"date": "ven 9 nov",
+					"date": "sam 2 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-1", "score": "21-25 25-19 27-25 25-19", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-21 21-25 16-25 14-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-20 21-25 25-23 20-25 10-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "19-25 24-26 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-22 17-25 25-22 23-25 15-12", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-18 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "22-25 24-26 15-25", "victoire": "Exterieur"}
+{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LAM036"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LAM037"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LAM038"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LAM040"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LAM041"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LAM042"}
+,{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "dim 3 nov", "score": "17:00", "victoire": "", "code": "LAM039"}
 						]
 				}
 ,
 				{
                                         "numero": 7,
 					"titre": "7<sup><small>ème</small></sup> Journée",
-					"date": "sam 17 nov",
+					"date": "sam 9 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-16 25-18 25-21", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-2", "score": "20-25 25-21 25-27 25-16 15-13", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-22 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-20 25-23 17-25 26-28 12-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-17 25-14 25-17", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "23-25 25-17 25-20 30-28", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 25-22 22-25 25-20", "victoire": "Domicile"}
+{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 8 nov", "score": "20:00", "victoire": "", "code": "LAM045"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "ven 8 nov", "score": "20:00", "victoire": "", "code": "LAM048"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "16:30", "victoire": "", "code": "LAM049"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "20:00", "victoire": "", "code": "LAM043"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "20:00", "victoire": "", "code": "LAM044"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "20:00", "victoire": "", "code": "LAM046"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "20:00", "victoire": "", "code": "LAM047"}
 						]
 				}
 ,
 				{
                                         "numero": 8,
 					"titre": "8<sup><small>ème</small></sup> Journée",
-					"date": "sam 24 nov",
+					"date": "mar 12 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-2", "score": "17-25 25-23 21-25 25-22 15-10", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-2", "score": "30-28 18-25 17-25 25-22 15-13", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "21-25 21-25 16-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "1-3", "score": "16-25 20-25 25-20 23-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "0-3", "score": "19-25 19-25 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "1-3", "score": "20-25 25-19 25-27 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "23-25 27-25 25-11 25-22", "victoire": "Domicile"}
+{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "mar 12 nov", "score": "20:00", "victoire": "", "code": "LAM050"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "mar 12 nov", "score": "20:00", "victoire": "", "code": "LAM052"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "mar 12 nov", "score": "20:00", "victoire": "", "code": "LAM053"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "mar 12 nov", "score": "20:00", "victoire": "", "code": "LAM054"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "mar 12 nov", "score": "20:00", "victoire": "", "code": "LAM055"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "mar 12 nov", "score": "20:00", "victoire": "", "code": "LAM056"}
+,{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "mar 12 nov", "score": "20:30", "victoire": "", "code": "LAM051"}
 						]
 				}
 ,
 				{
                                         "numero": 9,
 					"titre": "9<sup><small>ème</small></sup> Journée",
-					"date": "sam 1 déc",
+					"date": "sam 16 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-22 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-1", "score": "23-25 25-15 25-23 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-16 22-25 32-30 17-25 15-12", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-19 23-25 23-25 25-20 15-17", "victoire": "Exterieur"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "1-3", "score": "20-25 19-25 25-21 18-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-22 25-18", "victoire": "Domicile"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "23-25 25-16 31-29 25-14", "victoire": "Domicile"}
+{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 15 nov", "score": "20:00", "victoire": "", "code": "LAM062"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LAM057"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LAM058"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LAM059"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LAM060"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LAM061"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LAM063"}
 						]
 				}
 ,
 				{
                                         "numero": 10,
 					"titre": "10<sup><small>ème</small></sup> Journée",
-					"date": "sam 8 déc",
+					"date": "sam 23 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-2", "score": "23-25 25-21 17-25 25-16 15-9", "victoire": "Domicile"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "0-3", "score": "21-25 22-25 12-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "23-25 21-25 25-27", "victoire": "Exterieur"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "25-23 23-25 22-25 17-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-23 25-18 18-25 23-25 17-15", "victoire": "Domicile"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 21-25 25-19 25-23 18-16", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-17 25-21 23-25 20-25 15-12", "victoire": "Domicile"}
+{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "16:30", "victoire": "", "code": "LAM064"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LAM065"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LAM068"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LAM069"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LAM070"}
+,{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "dim 24 nov", "score": "17:00", "victoire": "", "code": "LAM066"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "dim 24 nov", "score": "17:00", "victoire": "", "code": "LAM067"}
 						]
 				}
 ,
 				{
                                         "numero": 11,
 					"titre": "11<sup><small>ème</small></sup> Journée",
-					"date": "sam 15 déc",
+					"date": "sam 30 nov",
 					"matchs": 
 						[
-{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-18 22-25 23-25 22-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-12 23-25 25-17 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "20-25 22-25 25-20 22-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 25-21 29-31 25-15", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "0-3", "score": "18-25 26-28 28-30", "victoire": "Exterieur"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 14-25 25-17 17-25 28-30", "victoire": "Exterieur"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-2", "score": "19-25 25-27 26-24 25-20 15-11", "victoire": "Domicile"}
+{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "ven 29 nov", "score": "20:00", "victoire": "", "code": "LAM072"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 29 nov", "score": "20:00", "victoire": "", "code": "LAM074"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 29 nov", "score": "20:00", "victoire": "", "code": "LAM075"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LAM071"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LAM073"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LAM076"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LAM077"}
 						]
 				}
 ,
 				{
                                         "numero": 12,
 					"titre": "12<sup><small>ème</small></sup> Journée",
-					"date": "mar 18 déc",
+					"date": "sam 7 déc",
 					"matchs": 
 						[
-{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "3-2", "score": "25-21 13-25 25-27 26-24 15-11", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "21-25 25-19 25-15 25-15", "victoire": "Domicile"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-21 25-20 20-25 22-25 15-7", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "26-24 28-26 26-28 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-20 25-17", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-22 23-25 22-25 26-24 7-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-2", "score": "20-25 25-23 16-25 25-19 15-13", "victoire": "Domicile"}
+{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "ven 6 déc", "score": "20:00", "victoire": "", "code": "LAM081"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 6 déc", "score": "20:00", "victoire": "", "code": "LAM083"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "17:00", "victoire": "", "code": "LAM079"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "17:00", "victoire": "", "code": "LAM082"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "20:00", "victoire": "", "code": "LAM078"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "20:00", "victoire": "", "code": "LAM080"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "dim 8 déc", "score": "17:00", "victoire": "", "code": "LAM084"}
 						]
 				}
 ,
 				{
                                         "numero": 13,
 					"titre": "13<sup><small>ème</small></sup> Journée",
-					"date": "sam 29 déc",
+					"date": "sam 14 déc",
 					"matchs": 
 						[
-{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 25-23 21-25 31-29", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 23-25 25-22 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "27-25 25-22 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "1-3", "score": "26-28 23-25 28-26 20-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-19 25-20 21-25 26-28 11-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-20 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-14 18-25 25-27 17-25", "victoire": "Exterieur"}
+{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LAM086"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LAM087"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LAM088"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LAM089"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LAM090"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LAM091"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "dim 15 déc", "score": "17:00", "victoire": "", "code": "LAM085"}
 						]
 				}
 ,
 				{
                                         "numero": 14,
 					"titre": "14<sup><small>ème</small></sup> Journée",
-					"date": "sam 5 jan",
+					"date": "sam 11 jan",
 					"matchs": 
 						[
-{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 28-26 29-27", "victoire": "Domicile"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-1", "score": "23-25 25-23 25-19 26-24", "victoire": "Domicile"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "3-1", "score": "13-25 25-20 28-26 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "2-3", "score": "27-25 23-25 25-19 19-25 10-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "18-25 21-25 22-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "0-3", "score": "16-25 23-25 21-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-1", "score": "20-25 25-23 25-21 25-23", "victoire": "Domicile"}
+{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "ven 10 jan", "score": "20:00", "victoire": "", "code": "LAM094"}
+,{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 10 jan", "score": "20:00", "victoire": "", "code": "LAM097"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 10 jan", "score": "20:00", "victoire": "", "code": "LAM098"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 11 jan", "score": "20:00", "victoire": "", "code": "LAM092"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 11 jan", "score": "20:00", "victoire": "", "code": "LAM093"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 11 jan", "score": "20:00", "victoire": "", "code": "LAM095"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 11 jan", "score": "20:00", "victoire": "", "code": "LAM096"}
 						]
 				}
 ,
 				{
                                         "numero": 15,
 					"titre": "15<sup><small>ème</small></sup> Journée",
-					"date": "sam 12 jan",
+					"date": "sam 18 jan",
 					"matchs": 
 						[
-{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-21 21-25 25-18 33-31", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-17 25-19 25-16", "victoire": "Domicile"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-17 25-15 17-25 25-27 15-13", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-15 25-14 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-18 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-11 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "1-3", "score": "22-25 21-25 25-18 20-25", "victoire": "Exterieur"}
+{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "ven 17 jan", "score": "20:00", "victoire": "", "code": "LAM099"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LAM100"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LAM101"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LAM102"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LAM103"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LAM104"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LAM105"}
 						]
 				}
 ,
 				{
                                         "numero": 16,
 					"titre": "16<sup><small>ème</small></sup> Journée",
-					"date": "sam 19 jan",
+					"date": "sam 25 jan",
 					"matchs": 
 						[
-{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-22 16-25 17-25 25-22 17-15", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-18 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "1-3", "score": "17-25 25-22 23-25 24-26", "victoire": "Exterieur"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "1-3", "score": "26-28 25-23 23-25 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "16-25 20-25 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-21 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "3-2", "score": "27-25 22-25 25-18 22-25 15-9", "victoire": "Domicile"}
+{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LAM106"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LAM107"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LAM108"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LAM109"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LAM110"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LAM111"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LAM112"}
 						]
 				}
 ,
 				{
                                         "numero": 17,
 					"titre": "17<sup><small>ème</small></sup> Journée",
-					"date": "sam 26 jan",
+					"date": "sam 1 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-23 28-26 18-25 23-25 15-11", "victoire": "Domicile"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-2", "score": "31-33 25-21 25-27 25-21 15-10", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "19-25 25-19 25-15 25-18", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 18-25 25-21 25-17 15-10", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-19 22-25 22-25 25-27", "victoire": "Exterieur"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-17 25-21 22-25 25-21", "victoire": "Domicile"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "2-3", "score": "23-25 25-15 27-25 17-25 10-15", "victoire": "Exterieur"}
+{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "17:00", "victoire": "", "code": "LAM116"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LAM113"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LAM114"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LAM117"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LAM118"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LAM119"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "dim 2 fév", "score": "17:00", "victoire": "", "code": "LAM115"}
 						]
 				}
 ,
 				{
                                         "numero": 18,
 					"titre": "18<sup><small>ème</small></sup> Journée",
-					"date": "sam 2 fév",
+					"date": "sam 8 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 25-22 20-25 21-25 11-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "25-21 20-25 16-25 16-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-15 25-21 26-28 25-21", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "0-3", "score": "20-25 16-25 21-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 19-25 25-20 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-21 27-29 26-24 21-25 15-13", "victoire": "Domicile"}
-,{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 27-25 20-25 21-25 15-12", "victoire": "Domicile"}
+{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 7 fév", "score": "20:00", "victoire": "", "code": "LAM124"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "ven 7 fév", "score": "20:00", "victoire": "", "code": "LAM125"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "ven 7 fév", "score": "20:00", "victoire": "", "code": "LAM126"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "20:00", "victoire": "", "code": "LAM120"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 8 fév", "score": "20:00", "victoire": "", "code": "LAM121"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "20:00", "victoire": "", "code": "LAM122"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "20:00", "victoire": "", "code": "LAM123"}
 						]
 				}
 ,
 				{
                                         "numero": 19,
 					"titre": "19<sup><small>ème</small></sup> Journée",
-					"date": "sam 9 fév",
+					"date": "sam 15 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 25-18 23-25 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-19 25-20 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 25-22 20-25 25-12", "victoire": "Domicile"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 27-25 25-17", "victoire": "Domicile"}
-,{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "2-3", "score": "24-26 16-25 25-21 25-22 12-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "29-27 25-17 25-17", "victoire": "Domicile"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "30-28 25-17 25-18", "victoire": "Domicile"}
+{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 14 fév", "score": "20:00", "victoire": "", "code": "LAM129"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "ven 14 fév", "score": "20:00", "victoire": "", "code": "LAM132"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LAM127"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LAM128"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LAM130"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LAM131"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LAM133"}
 						]
 				}
 ,
 				{
                                         "numero": 20,
 					"titre": "20<sup><small>ème</small></sup> Journée",
-					"date": "sam 16 fév",
+					"date": "sam 22 fév",
 					"matchs": 
 						[
-{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "2-3", "score": "20-25 22-25 25-20 26-24 12-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "21-25 16-25 25-23 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-2", "score": "23-25 25-20 25-14 24-26 15-7", "victoire": "Domicile"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 27-25 27-25", "victoire": "Domicile"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-1", "score": "22-25 25-23 25-12 25-21", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "17-25 21-25 16-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 25-19 20-25 25-22 15-9", "victoire": "Domicile"}
+{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "ven 21 fév", "score": "20:00", "victoire": "", "code": "LAM136"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "ven 21 fév", "score": "20:00", "victoire": "", "code": "LAM140"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LAM134"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LAM135"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LAM137"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LAM138"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LAM139"}
 						]
 				}
 ,
 				{
                                         "numero": 21,
 					"titre": "21<sup><small>ème</small></sup> Journée",
-					"date": "sam 23 fév",
+					"date": "sam 1 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "1-3", "score": "20-25 22-25 25-19 24-26", "victoire": "Exterieur"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-17 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-21 26-24 17-25 21-25 15-17", "victoire": "Exterieur"}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-20 29-27", "victoire": "Domicile"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 25-21 21-25 25-22 15-10", "victoire": "Domicile"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-19 19-25 23-25 25-18 15-11", "victoire": "Domicile"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-19 22-25 20-25 17-25", "victoire": "Exterieur"}
+{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 28 fév", "score": "20:00", "victoire": "", "code": "LAM141"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "ven 28 fév", "score": "20:00", "victoire": "", "code": "LAM146"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LAM142"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LAM143"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LAM144"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LAM145"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LAM147"}
 						]
 				}
 ,
 				{
                                         "numero": 22,
 					"titre": "22<sup><small>ème</small></sup> Journée",
-					"date": "ven 1 mar",
+					"date": "sam 15 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "24-26 22-25 21-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-23 22-25 25-21 21-25 11-15", "victoire": "Exterieur"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 26-24 25-19", "victoire": "Domicile"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "0-3", "score": "22-25 14-25 25-27", "victoire": "Exterieur"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 26-24 25-18", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-2", "score": "23-25 21-25 25-23 25-20 15-13", "victoire": "Domicile"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 25-13 21-25 25-16 15-8", "victoire": "Domicile"}
+{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "ven 14 mar", "score": "20:00", "victoire": "", "code": "LAM148"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "ven 14 mar", "score": "20:00", "victoire": "", "code": "LAM150"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "ven 14 mar", "score": "20:00", "victoire": "", "code": "LAM151"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LAM149"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LAM152"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LAM153"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LAM154"}
 						]
 				}
 ,
 				{
                                         "numero": 23,
 					"titre": "23<sup><small>ème</small></sup> Journée",
-					"date": "sam 9 mar",
+					"date": "sam 22 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-14 31-29 22-25 25-27 15-12", "victoire": "Domicile"}
-,{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-1", "score": "21-25 25-18 25-23 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "0-3", "score": "21-25 17-25 26-28", "victoire": "Exterieur"}
-,{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-15 27-29 26-24 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "1-3", "score": "23-25 25-22 19-25 25-27", "victoire": "Exterieur"}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-19 27-25 18-25 25-23", "victoire": "Domicile"}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-22 21-25 25-22 21-25 12-15", "victoire": "Exterieur"}
+{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 21 mar", "score": "20:00", "victoire": "", "code": "LAM158"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "ven 21 mar", "score": "20:00", "victoire": "", "code": "LAM159"}
+,{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LAM155"}
+,{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LAM156"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LAM157"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LAM160"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LAM161"}
 						]
 				}
 ,
 				{
                                         "numero": 24,
 					"titre": "24<sup><small>ème</small></sup> Journée",
-					"date": "sam 16 mar",
+					"date": "sam 29 mar",
 					"matchs": 
 						[
-{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "22-25 18-25 19-25", "victoire": "Exterieur"}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-19 25-20", "victoire": "Domicile"}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-21 29-31 25-21 25-21", "victoire": "Domicile"}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "3-0", "score": "25-17 25-23 25-15", "victoire": "Domicile"}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-22 25-22", "victoire": "Domicile"}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-17 25-22 20-25 25-18", "victoire": "Domicile"}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-2", "score": "22-25 21-25 25-21 25-23 22-20", "victoire": "Domicile"}
+{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "ven 28 mar", "score": "20:00", "victoire": "", "code": "LAM165"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "ven 28 mar", "score": "20:00", "victoire": "", "code": "LAM166"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "ven 28 mar", "score": "20:00", "victoire": "", "code": "LAM167"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LAM162"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LAM163"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LAM164"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LAM168"}
 						]
 				}
 ,
 				{
                                         "numero": 25,
 					"titre": "25<sup><small>ème</small></sup> Journée",
-					"date": "mar 19 mar",
+					"date": "sam 5 avr",
 					"matchs": 
 						[
-{"equipeDomicile": "Tours", "rangDomicile": "(1<small><sup>er</sup></small>)", "equipeExterieur": "Cannes", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Avignon", "rangDomicile": "(12<small><sup>e</sup></small>)", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Beauvais", "rangDomicile": "(9<small><sup>e</sup></small>)", "equipeExterieur": "Toulouse", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Ajaccio", "rangDomicile": "(11<small><sup>e</sup></small>)", "equipeExterieur": "Narbonne", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Tourcoing", "rangDomicile": "(14<small><sup>e</sup></small>)", "equipeExterieur": "Paris", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Montpellier", "rangDomicile": "(10<small><sup>e</sup></small>)", "equipeExterieur": "Rennes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Chaumont", "rangDomicile": "(4<small><sup>e</sup></small>)", "equipeExterieur": "Sète", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "mar 19 mar", "score": "20:00", "victoire": ""}
+{"codeDomicile": "TVB", "equipeDomicile": "Tours", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "ARAGO", "equipeExterieur": "Sète", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LAM169"}
+,{"codeDomicile": "MAVUC", "equipeDomicile": "Montpellier", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "NRMV", "equipeExterieur": "Nantes Rezé", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LAM170"}
+,{"codeDomicile": "SPACERS", "equipeDomicile": "Toulouse", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "CVB52", "equipeExterieur": "Chaumont", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LAM171"}
+,{"codeDomicile": "BOUC", "equipeDomicile": "Beauvais", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "RV35", "equipeExterieur": "Rennes", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LAM172"}
+,{"codeDomicile": "GFCA", "equipeDomicile": "Ajaccio", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "ASC", "equipeExterieur": "Cannes", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LAM173"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "CENT", "equipeExterieur": "Narbonne", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LAM174"}
+,{"codeDomicile": "ASUL", "equipeDomicile": "Lyon", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "PV", "equipeExterieur": "Paris", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LAM175"}
 						]
 				}
 ,
 				{
                                         "numero": 26,
 					"titre": "26<sup><small>ème</small></sup> Journée",
-					"date": "sam 23 mar",
+					"date": "sam 12 avr",
 					"matchs": 
 						[
-{"equipeDomicile": "Sète", "rangDomicile": "(2<small><sup>e</sup></small>)", "equipeExterieur": "Tours", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Cannes", "rangDomicile": "(6<small><sup>e</sup></small>)", "equipeExterieur": "Avignon", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Nantes Rezé", "rangDomicile": "(3<small><sup>e</sup></small>)", "equipeExterieur": "Beauvais", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Toulouse", "rangDomicile": "(13<small><sup>e</sup></small>)", "equipeExterieur": "Ajaccio", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Narbonne", "rangDomicile": "(5<small><sup>e</sup></small>)", "equipeExterieur": "Tourcoing", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Paris", "rangDomicile": "(7<small><sup>e</sup></small>)", "equipeExterieur": "Montpellier", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
-,{"equipeDomicile": "Rennes", "rangDomicile": "(8<small><sup>e</sup></small>)", "equipeExterieur": "Chaumont", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 23 mar", "score": "20:00", "victoire": ""}
+{"codeDomicile": "PV", "equipeDomicile": "Paris", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "TVB", "equipeExterieur": "Tours", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LAM176"}
+,{"codeDomicile": "ARAGO", "equipeDomicile": "Sète", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LAM177"}
+,{"codeDomicile": "NRMV", "equipeDomicile": "Nantes Rezé", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LAM178"}
+,{"codeDomicile": "CVB52", "equipeDomicile": "Chaumont", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LAM179"}
+,{"codeDomicile": "RV35", "equipeDomicile": "Rennes", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LAM180"}
+,{"codeDomicile": "ASC", "equipeDomicile": "Cannes", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "SNVBA", "equipeExterieur": "St-Nazaire", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LAM181"}
+,{"codeDomicile": "CENT", "equipeDomicile": "Narbonne", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LAM182"}
 						]
 				}
-			]
+			],
+		"minJournee": 1,"maxJournee": 26, "currentJournee": 5
 		}
 }
