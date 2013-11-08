@@ -21,5 +21,5 @@ public interface ResourcesProvider {
 	
     public Drawable getLogoChaine(String CodeChaine);
 	public Drawable getLogoNews(String codeNews);
-	public Drawable getMaillot(String saison, String competition, String equipe, String lieu);
+	public Drawable getMaillot(String codeEquipe, String lieu);
 }

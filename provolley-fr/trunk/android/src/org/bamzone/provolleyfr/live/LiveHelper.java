@@ -52,11 +52,15 @@ public class LiveHelper {
 			        String classementDomicile = match.getString("rangDomicile");
 			        String classementExterieur = match.getString("rangExterieur");
 			        String victoire = match.getString("victoire");
+			        String codeDomicile = match.getString("codeDomicile");
+			        String codeExterieur = match.getString("codeExterieur");
+			        String codeMatch = match.getString("code");
 			        //Log.d(LiveHelper.class.getName(), equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+service+"/"+competition+"/"+etat+"/"+victoire);
 
-			        LiveMatch liveMatch = new LiveMatch(saison, equipeDomicile, equipeExterieur, resultat, 
-			        		score, service, competition, etat, classementDomicile, classementExterieur,
-			        		victoire);
+			        LiveMatch liveMatch = new LiveMatch(saison,competition,codeMatch,
+			        		codeDomicile,equipeDomicile,classementDomicile,
+			        		codeExterieur,equipeExterieur,classementExterieur,
+			        		resultat,score,service,etat,victoire);
 			        resultatsLive.getMatchs().add(liveMatch);
 				}
 			return resultatsLive;

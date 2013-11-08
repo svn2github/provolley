@@ -23,4 +23,5 @@ public interface JSONProvider {
     public String getLive();
     public String getProgrammeTV();
     public String getNews();
+    public String getSaison();
 }

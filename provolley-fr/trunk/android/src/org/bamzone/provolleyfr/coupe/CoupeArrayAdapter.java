@@ -85,9 +85,9 @@ public class CoupeArrayAdapter extends ArrayAdapter<ResultatsMatch> {
     if(score!=null)score.setText(match.getScore());
     
     if (icon1!=null) 
-    	icon1.setImageDrawable(resourcesProvider.getMaillot(match.getSaison(), match.getCompetition(), match.getEquipe1(), ProVolley.LIBELLE_MAILLOT_DOMICILE));
+    	icon1.setImageDrawable(resourcesProvider.getMaillot(match.getCode1(), ProVolley.LIBELLE_MAILLOT_DOMICILE));
     if (icon2!=null) 
-    	icon2.setImageDrawable(resourcesProvider.getMaillot(match.getSaison(), match.getCompetition(), match.getEquipe2(), ProVolley.LIBELLE_MAILLOT_EXTERIEUR));
+    	icon2.setImageDrawable(resourcesProvider.getMaillot(match.getCode2(), ProVolley.LIBELLE_MAILLOT_EXTERIEUR));
     	
     return rowView;
   }

@@ -57,6 +57,7 @@ public class ClassementsHelper {
 		        JSONObject equipe = equipes.getJSONObject(i);
 
 		        int rang = equipe.getInt("rang");
+		        String code = equipe.getString("code");
 		        String nom = equipe.getString("equipe");
 		        int points = equipe.getInt("points");
 		        int mj = equipe.getInt("mj");
@@ -78,7 +79,7 @@ public class ClassementsHelper {
 		        String etat2 = equipe.getString("etat2");
 		        int pen = equipe.getInt("pen");
 		        
-		        ClassementEquipe classementEquipe = new ClassementEquipe(rang,nom,points,mj,mg,mp,m30,m31,m32,m23,m13,m03,sp,sc,rs,pp,pc,rp,etat,etat2,pen);
+		        ClassementEquipe classementEquipe = new ClassementEquipe(rang,code,nom,points,mj,mg,mp,m30,m31,m32,m23,m13,m03,sp,sc,rs,pp,pc,rp,etat,etat2,pen);
 		        classementCompetition.getEquipes().add(classementEquipe);
 				
 		        //Log.d(ClassementsActivity.class.getName(),rang+"/"+nom+"/"+pen+"/"+assure);

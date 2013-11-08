@@ -16,6 +16,22 @@
 package org.bamzone.provolleyfr.data;
 
 public class LiveMatch {
+
+	String equipe1;
+	String equipe2;
+	String resultat; // ou Date
+	String score; // ou heure
+	String service;
+	String competition;
+	String etat;
+	String classement1;
+	String classement2;
+	String saison;
+	String victoire;
+	String codem;
+	String code1;
+	String code2;
+
 	public String getEquipe1() {
 		return equipe1;
 	}
@@ -60,11 +76,36 @@ public class LiveMatch {
 		return victoire;
 	}
 
-	public LiveMatch(String saison, String equipe1, String equipe2, String resultat,
-			String score, String service, String competition, String etat, String classement1, 
-			String classement2, String victoire) {
+	public String getCodem() {
+		return codem;
+	}
+
+	public void setCodem(String codem) {
+		this.codem = codem;
+	}
+
+	public String getCode1() {
+		return code1;
+	}
+
+	public void setCode1(String code1) {
+		this.code1 = code1;
+	}
+
+	public String getCode2() {
+		return code2;
+	}
+
+	public void setCode2(String code2) {
+		this.code2 = code2;
+	}
+
+	public LiveMatch(String saison, String competition, String codem, 
+			String code1, String equipe1, String classement1, 
+			String code2, String equipe2, String classement2, 
+			String resultat, String score, String service, 
+			String etat, String victoire) {
 		super();
-		this.saison = saison;
 		this.equipe1 = equipe1;
 		this.equipe2 = equipe2;
 		this.resultat = resultat;
@@ -72,19 +113,12 @@ public class LiveMatch {
 		this.service = service;
 		this.competition = competition;
 		this.etat = etat;
-		this.classement1=classement1;
-		this.classement2=classement2;
-		this.victoire=victoire;
-		}
-	String equipe1;
-	String equipe2;
-	String resultat; // ou Date
-	String score; // ou heure
-	String service;
-	String competition;
-	String etat;
-	String classement1;
-	String classement2;
-	String saison;
-	String victoire;
+		this.classement1 = classement1;
+		this.classement2 = classement2;
+		this.saison = saison;
+		this.victoire = victoire;
+		this.codem = codem;
+		this.code1 = code1;
+		this.code2 = code2;
+	}
 }

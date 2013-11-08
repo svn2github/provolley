@@ -28,6 +28,9 @@ import android.util.Log;
 
 public class TestJSONProvider implements JSONProvider {
 	
+	private static int CONNECT_TIMEOUT=5000; 
+	private static int READ_TIMEOUT=20000; 
+	
 	protected String server;
 	protected String json;
 
@@ -45,7 +48,7 @@ public class TestJSONProvider implements JSONProvider {
 				.equals(competition))
 			file = "LBM_resultats.json";
 
-		return readFile(server + json + file);
+		return loadUrl(server + json + file);
 	}
 
 	public String getResultatsCoupe(String competition) {
@@ -54,7 +57,7 @@ public class TestJSONProvider implements JSONProvider {
 				.equals(competition))
 			file = "CNF_resultats.json";
 
-		return readFile(server + json + file);
+		return loadUrl(server + json + file);
 	}
 
 	@Override
@@ -67,29 +70,36 @@ public class TestJSONProvider implements JSONProvider {
 				.equals(competition))
 			file = "LBM_classement.json";
 
-		return readFile(server + json + file);
+		return loadUrl(server + json + file);
 	}
 
 	@Override
 	public String getLive() {
 		String file = "live2.json";
-		return readFile(server + json + file);
+		return loadUrl(server + json + file);
 	}
 
 	@Override
 	public String getProgrammeTV() {
 		String file = "tv.json";
-		return readFile(server + json + file);
+		return loadUrl(server + json + file);
 	}
 	
 	@Override
 	public String getNews() {
 		String file = "news.json";
-		return readFile(server + json + file);
+		return loadUrl(server + json + file);
 	}
 
-	private String readFile(String s) {
-		Log.d(this.getClass().getName(), "Reading "+s);
+	@Override
+	public String getSaison() {
+		String file = "saison.json";
+		return loadUrl(server + json + file);
+	}
+
+
+	private String loadUrl(String s) {
+		Log.d(this.getClass().getName(), "Loading "+s);
 		
 		StringBuilder builder = new StringBuilder();
 		try {
@@ -97,6 +107,8 @@ public class TestJSONProvider implements JSONProvider {
 		
 			URL url = new URL(s);
 			HttpURLConnection con = (HttpURLConnection) url.openConnection();
+			con.setConnectTimeout(CONNECT_TIMEOUT);
+			con.setReadTimeout(READ_TIMEOUT);
 			BufferedReader reader = null;
 			try {
 				reader = new BufferedReader(new InputStreamReader(

@@ -32,6 +32,7 @@ import android.preference.PreferenceManager;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebView.FindListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -47,6 +48,7 @@ import org.bamzone.provolleyfr.data.*;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.provider.JSONProviderFactory;
 import org.bamzone.provolleyfr.utils.ListTagHandler;
+import org.bamzone.provolleyfr.utils.OnSwipeTouchListener;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -90,6 +92,18 @@ public class ResultatsActivity extends ListActivity {
         
         DownloadResultatsSaison task  = new DownloadResultatsSaison();
         task.execute(new String[] {competition});
+        
+        ListView listView=getListView();
+        listView.setOnTouchListener(new OnSwipeTouchListener() {
+            @Override
+            public void onSwipeLeft() {
+            	onNextButtonClick(null);
+            }
+            @Override
+            public void onSwipeRight() {
+            	onPrevButtonClick(null);
+            }
+        });
     }
     
     public void onPrevButtonClick(View view) {
@@ -118,15 +132,14 @@ public class ResultatsActivity extends ListActivity {
 	private void displayJournee() {
         
 		if (resultatsSaison!=null) {
-	        for (ResultatsJournee resultatJournee: resultatsSaison.getJournees()) {
-	        	if (resultatJournee.getNumJournee()==numJournee) {
-	        		TextView journee = (TextView) findViewById(R.id.JourneeTextView);
-	                if (journee!=null) journee.setText(Html.fromHtml(resultatJournee.getTitre(),null,new ListTagHandler()));
-	                
-	        		List<ResultatsMatch> matchs = resultatJournee.getMatchs();
-	        		ResultatsArrayAdapter adapter = new ResultatsArrayAdapter(this, matchs);
-	                setListAdapter(adapter);
-	        	}
+			ResultatsJournee resultatJournee = resultatsSaison.getResultatsJournee(numJournee);
+			if (resultatJournee!=null) {
+        		TextView journee = (TextView) findViewById(R.id.JourneeTextView);
+                if (journee!=null) journee.setText(Html.fromHtml(resultatJournee.getTitre(),null,new ListTagHandler()));
+                
+        		List<ResultatsMatch> matchs = resultatJournee.getMatchs();
+        		ResultatsArrayAdapter adapter = new ResultatsArrayAdapter(this, matchs);
+                setListAdapter(adapter);
 	        }
         }
     }

@@ -16,7 +16,6 @@
 package org.bamzone.provolleyfr.utils;
 
 import java.io.UnsupportedEncodingException;
-import java.nio.charset.UnsupportedCharsetException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 

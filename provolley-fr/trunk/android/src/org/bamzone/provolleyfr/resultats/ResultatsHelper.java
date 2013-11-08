@@ -60,7 +60,7 @@ public class ResultatsHelper {
 		        JSONObject journee = journees.getJSONObject(i);
 
 		        ResultatsJournee resultatsJournee = new ResultatsJournee(journee.getInt("numero"),journee.getString("titre"));
-				resultatsSaison.getJournees().add(resultatsJournee);
+				resultatsSaison.addResultatsJournee(resultatsJournee);
 				
 				JSONArray matchs = journee.getJSONArray("matchs");
 				for (int j = 0; j < matchs.length(); j++) {
@@ -72,8 +72,15 @@ public class ResultatsHelper {
 			        String classementDomicile = match.getString("rangDomicile");
 			        String classementExterieur = match.getString("rangExterieur");
 			        String victoire = match.getString("victoire");
+			        String codeDomicile = match.getString("codeDomicile");
+			        String codeExterieur = match.getString("codeExterieur");
+			        String codeMatch = match.getString("code");
 			        
-			        ResultatsMatch resultatsMatch = new ResultatsMatch(saison, competition, equipeDomicile, equipeExterieur, resultat, score, classementDomicile, classementExterieur, victoire);
+			        ResultatsMatch resultatsMatch = new ResultatsMatch(saison, 
+			        		competition, codeMatch, 
+			        		codeDomicile, equipeDomicile, classementDomicile,  
+			        		codeExterieur, equipeExterieur, classementExterieur,  
+			        		resultat, score, victoire);
 			        resultatsJournee.getMatchs().add(resultatsMatch);
 			        //Log.d(ResultatsActivity.class.getName(),resultatsJournee.getNumJournee()+"/"+equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+victoire);
 				}

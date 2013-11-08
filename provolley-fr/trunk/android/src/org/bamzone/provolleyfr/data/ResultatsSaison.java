@@ -16,14 +16,17 @@
 package org.bamzone.provolleyfr.data;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ResultatsSaison {
-	String saison;
-	int minJournee;
-	int maxJournee;
-	int currentJournee;
-	List<ResultatsJournee> journees;
+	private String saison;
+	private int minJournee;
+	private int maxJournee;
+	private int currentJournee;
+	//List<ResultatsJournee> journees;
+	private Map<Integer,ResultatsJournee> journees;
 	
 	public ResultatsSaison(String saison, int minJournee, int maxJournee,
 			int currentJournee) {
@@ -32,7 +35,7 @@ public class ResultatsSaison {
 		this.minJournee = minJournee;
 		this.maxJournee = maxJournee;
 		this.currentJournee = currentJournee;
-		this.journees = new ArrayList<ResultatsJournee>();
+		this.journees = new HashMap<Integer,ResultatsJournee>();
 	}
 	
 	public String getSaison() {
@@ -59,7 +62,13 @@ public class ResultatsSaison {
 	public void setCurrentJournee(int currentJournee) {
 		this.currentJournee = currentJournee;
 	}
-	public List<ResultatsJournee> getJournees() {
-		return journees;
+	public List<ResultatsJournee> getListResultatsJournees() {
+		return new ArrayList<ResultatsJournee>(journees.values());
+	}
+	public void addResultatsJournee(ResultatsJournee journee) {
+		journees.put(journee.numJournee, journee);
+	}
+	public ResultatsJournee getResultatsJournee(int n) {
+		return journees.get(n);
 	}
 }

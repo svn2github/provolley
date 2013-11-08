@@ -80,6 +80,12 @@ public class LocalJSONProvider implements JSONProvider {
 	}
 
 
+	@Override
+	public String getSaison() {
+		int id = R.raw.saison;
+		return readResource(id);
+	}
+
 	private String readResource(int id) {
 		StringBuilder builder = new StringBuilder();
 

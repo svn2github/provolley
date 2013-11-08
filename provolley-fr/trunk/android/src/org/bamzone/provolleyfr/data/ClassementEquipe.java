@@ -19,6 +19,7 @@ public class ClassementEquipe {
 
 	private int rang;
 	private String equipe;
+	private String code;
 	private int point;
 	private int mj;
 	private int mg;
@@ -39,12 +40,13 @@ public class ClassementEquipe {
 	private String etat2;
 	private int pen;
 	
-	public ClassementEquipe(int rang, String equipe, int point, int mj, int mg,
+	public ClassementEquipe(int rang, String code, String equipe, int point, int mj, int mg,
 			int mp, int m30, int m31, int m32, int m23, int m13, int m03,
 			int sp, int sc, String rs, int pp, int pc, String rp, String etat,
 			String etat2, int pen) {
 		super();
 		this.rang = rang;
+		this.code = code;
 		this.equipe = equipe;
 		this.point = point;
 		this.mj = mj;
@@ -69,6 +71,14 @@ public class ClassementEquipe {
 
 	public int getRang() {
 		return rang;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
 	}
 
 	public String getEquipe() {

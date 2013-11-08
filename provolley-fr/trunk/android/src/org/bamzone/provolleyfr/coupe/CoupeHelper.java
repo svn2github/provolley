@@ -15,33 +15,17 @@
 */  	
 package org.bamzone.provolleyfr.coupe;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.List;
-
 import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.data.ResultatsJournee;
 import org.bamzone.provolleyfr.data.ResultatsMatch;
 import org.bamzone.provolleyfr.data.ResultatsSaison;
 import org.bamzone.provolleyfr.provider.JSONProvider;
-
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
-import android.app.ListActivity;
-import android.content.Context;
-import android.content.res.Resources;
 import android.util.Log;
-import android.widget.TextView;
-import java.io.BufferedReader;
 
 public class CoupeHelper {
-	
-	private static Resources resources;
 	
 	public static ResultatsSaison getResultatsSaison(JSONProvider dp, String competition) {
     	try {
@@ -59,7 +43,7 @@ public class CoupeHelper {
 		        JSONObject journee = journees.getJSONObject(i);
 
 		        ResultatsJournee resultatsJournee = new ResultatsJournee(journee.getInt("numero"),journee.getString("titre"));
-				resultatsSaison.getJournees().add(resultatsJournee);
+				resultatsSaison.addResultatsJournee(resultatsJournee);
 				
 				JSONArray matchs = journee.getJSONArray("matchs");
 				for (int j = 0; j < matchs.length(); j++) {
@@ -71,8 +55,15 @@ public class CoupeHelper {
 			        String classementDomicile = match.getString("rangDomicile");
 			        String classementExterieur = match.getString("rangExterieur");
 			        String victoire = match.getString("victoire");
+			        String codeDomicile = match.getString("codeDomicile");
+			        String codeExterieur = match.getString("codeExterieur");
+			        String codeMatch = match.getString("code");
 			        
-			        ResultatsMatch resultatsMatch = new ResultatsMatch(saison, competition, equipeDomicile, equipeExterieur, resultat, score, classementDomicile, classementExterieur, victoire);
+			        ResultatsMatch resultatsMatch = new ResultatsMatch(saison, 
+			        		competition, codeMatch, 
+			        		codeDomicile, equipeDomicile, classementDomicile,  
+			        		codeExterieur, equipeExterieur, classementExterieur,  
+			        		resultat, score, victoire);
 			        resultatsJournee.getMatchs().add(resultatsMatch);
 			        //Log.d(CoupeActivity.class.getName(),resultatsJournee.getNumJournee()+"/"+equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+victoire);
 				}

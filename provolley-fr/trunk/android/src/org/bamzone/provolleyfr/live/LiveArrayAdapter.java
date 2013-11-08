@@ -124,9 +124,9 @@ public class LiveArrayAdapter extends ArrayAdapter<LiveMatch> {
     // Si match en cours, affichage maillot
     if(LiveHelper.isMatchEnCours(match)) {
 	    if (maillot1!=null) 
-	    	maillot1.setImageDrawable(resourcesProvider.getMaillot(match.getSaison(), match.getCompetition(), match.getEquipe1(), ProVolley.LIBELLE_MAILLOT_DOMICILE));
+	    	maillot1.setImageDrawable(resourcesProvider.getMaillot(match.getCode1(), ProVolley.LIBELLE_MAILLOT_DOMICILE));
 	    if (maillot2!=null) 
-	    	maillot2.setImageDrawable(resourcesProvider.getMaillot(match.getSaison(), match.getCompetition(), values.get(position).getEquipe2(), ProVolley.LIBELLE_MAILLOT_EXTERIEUR));
+	    	maillot2.setImageDrawable(resourcesProvider.getMaillot(match.getCode2(), ProVolley.LIBELLE_MAILLOT_EXTERIEUR));
     }
     else {
 	    if (maillot1!=null) 

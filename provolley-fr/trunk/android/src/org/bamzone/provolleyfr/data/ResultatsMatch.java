@@ -26,6 +26,9 @@ public class ResultatsMatch {
 	String classement1;
 	String classement2;
 	String victoire;
+	String code1;
+	String code2;
+	String codem;
 
 	public String getEquipe1() {
 		return equipe1;
@@ -63,8 +66,34 @@ public class ResultatsMatch {
 		return victoire;
 	}
 
-	public ResultatsMatch(String saison, String competition, String equipe1, String equipe2, String resultat,
-			String score, String classement1, String classement2, String victoire) {
+	public String getCode1() {
+		return code1;
+	}
+
+	public void setCode1(String code1) {
+		this.code1 = code1;
+	}
+
+	public String getCode2() {
+		return code2;
+	}
+
+	public void setCode2(String code2) {
+		this.code2 = code2;
+	}
+
+	public String getCodem() {
+		return codem;
+	}
+
+	public void setCodem(String codem) {
+		this.codem = codem;
+	}
+
+	public ResultatsMatch(String saison, String competition, String codem,
+			String code1, String equipe1, String classement1,
+			String code2, String equipe2, String classement2,
+			String resultat, String score, String victoire) {
 		super();
 		this.saison = saison;
 		this.competition = competition;
@@ -75,5 +104,9 @@ public class ResultatsMatch {
 		this.classement1 = classement1;
 		this.classement2 = classement2;
 		this.victoire = victoire;
+		this.code1 = code1;
+		this.code2 = code2;
+		this.codem = codem;
 	}
+
 }

@@ -192,21 +192,21 @@ public class ClassementsActivity extends Activity {
 		        	tableLayout.addView(newSeparator());
 		        if (penalite) tableLayout.addView(addNB("(-x) Pénalité sur décision DNACG",ProVolley.COULEUR_CLASSEMENT_NB));
 
-		        if (monteeass) tableLayout.addView(addNB("Champion - Promotion en LAM assurée",ProVolley.COULEUR_CLASSEMENT_MONTEE));
-		        if (poass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEUR_CLASSEMENT_QUALPO));
-		        if (po1ass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEUR_CLASSEMENT_QUALPO1));
-		        if (po2ass) tableLayout.addView(addNB("Qualification play-offs de classement assurée",ProVolley.COULEUR_CLASSEMENT_QUALPO2));
-		        if (po3ass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEUR_CLASSEMENT_QUALPO3));
-		        if (maintass) tableLayout.addView(addNB("Maintien assuré",ProVolley.COULEUR_CLASSEMENT_MAINT));
-		        if (relegass) tableLayout.addView(addNB("Relégation assurée",ProVolley.COULEUR_CLASSEMENT_RELEG));
+		        if (monteeass) tableLayout.addView(addNB("Promotion en LAM assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_VAINQUEUR)));
+		        if (poass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPOASS)));
+		        if (po1ass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO1ASS)));
+		        if (po2ass) tableLayout.addView(addNB("Qualification play-offs de classement assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO2ASS)));
+		        if (po3ass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO3ASS)));
+		        if (maintass) tableLayout.addView(addNB("Maintien assuré",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MAINTASS)));
+		        if (relegass) tableLayout.addView(addNB("Relégation assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_RELEGASS)));
 
-		        if (montee) tableLayout.addView(addNB("Champion - Promu en LAM",ProVolley.COULEUR_CLASSEMENT_MONTEE));
-		        if (po) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEUR_CLASSEMENT_QUALPO));
-		        if (po1) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEUR_CLASSEMENT_QUALPO1));
-		        if (po2) tableLayout.addView(addNB("Qualifié pour les play-offs de classement",ProVolley.COULEUR_CLASSEMENT_QUALPO2));
-		        if (po3) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEUR_CLASSEMENT_QUALPO3));
-		        if (releg) tableLayout.addView(addNB("Relégué",ProVolley.COULEUR_CLASSEMENT_RELEG));
-		        if (vainq) tableLayout.addView(addNB("Champion",ProVolley.COULEUR_CLASSEMENT_VAINQUEUR));
+		        if (montee) tableLayout.addView(addNB("Promu en LAM",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MONTEE)));
+		        if (po) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO)));
+		        if (po1) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO1)));
+		        if (po2) tableLayout.addView(addNB("Qualifié pour les play-offs de classement",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO2)));
+		        if (po3) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO3)));
+		        if (releg) tableLayout.addView(addNB("Relégué",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_RELEG)));
+		        if (vainq) tableLayout.addView(addNB("Champion",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_VAINQUEUR)));
 	        }
 			else {
 				// FIXME : hardcoded
