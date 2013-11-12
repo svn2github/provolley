@@ -32,8 +32,7 @@
 	         android:layout_toRightOf="@+id/classement1"
 	         android:layout_below="@+id/equipe1"
 	         android:layout_centerVertical="true"
-	         android:paddingBottom="1dip"
-	         android:src="@drawable/ic_jersey_generic" />
+	         android:paddingBottom="1dip" />
 	 
 	    <ImageView
 	        android:id="@+id/service1"
@@ -100,8 +99,7 @@
 	         android:layout_toLeftOf="@+id/classement2"
 	         android:layout_below="@+id/equipe2"
 	         android:layout_centerVertical="true"
-	         android:paddingBottom="1dip"
-	         android:src="@drawable/ic_jersey_generic" />
+	         android:paddingBottom="1dip" />
 	
 	    <ImageView
 	        android:id="@+id/service2"

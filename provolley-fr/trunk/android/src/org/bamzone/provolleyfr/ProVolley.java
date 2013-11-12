@@ -54,8 +54,8 @@ public class ProVolley {
 	public static final String CODE_NEWS_CNF="CNF";
 	public static final String CODE_NEWS_LNV="LNV";
 	
-	public static final String LIBELLE_MAILLOT_DOMICILE="domicile";
-	public static final String LIBELLE_MAILLOT_EXTERIEUR="exterieur";
+	public static final String LIBELLE_MAILLOT_DOMICILE="dom";
+	public static final String LIBELLE_MAILLOT_EXTERIEUR="ext";
 	
 	public static final String CODE_COMPETITION_LAM="LAM";
 	public static final String CODE_COMPETITION_LAF="LAF";
