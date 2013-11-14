@@ -23,10 +23,12 @@ import org.bamzone.provolleyfr.coupe.CoupeHelper;
 import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.provider.ResourcesProvider;
 import org.bamzone.provolleyfr.provider.ResourcesProviderFactory;
+import org.bamzone.provolleyfr.utils.MaillotsHelper;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -123,10 +125,12 @@ public class LiveArrayAdapter extends ArrayAdapter<LiveMatch> {
     
     // Si match en cours, affichage maillot
     if(LiveHelper.isMatchEnCours(match)) {
+    	
+    	Drawable[] drawableArray = MaillotsHelper.getProbableMaillots(resourcesProvider,match.getCode1(),match.getCode2());
 	    if (maillot1!=null) 
-	    	maillot1.setImageDrawable(resourcesProvider.getMaillot(match.getCode1(), ProVolley.LIBELLE_MAILLOT_DOMICILE));
+	    	maillot1.setImageDrawable(drawableArray[0]);
 	    if (maillot2!=null) 
-	    	maillot2.setImageDrawable(resourcesProvider.getMaillot(match.getCode2(), ProVolley.LIBELLE_MAILLOT_EXTERIEUR));
+	    	maillot2.setImageDrawable(drawableArray[1]);
     }
     else {
 	    if (maillot1!=null) 

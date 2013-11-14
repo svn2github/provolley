@@ -181,6 +181,89 @@ public class LocalResourcesProvider implements ResourcesProvider {
 		put("autre", R.drawable.maillot_autre);
 	}};
 
+	private static final Map<String , String> COULEUR_MAILLOTS = new HashMap<String , String>() {{
+		put("ALCM-dom", "rouge");
+		put("ALCM-ext", "blanc");
+		put("ANGELS-dom", "bleu");
+		put("ANGELS-ext", "blanc");
+		put("ARAGO-dom", "rose");
+		put("ARAGO-ext", "bleu");
+		put("ASC-dom","rouge");
+		put("ASC-ext", "noir");
+		put("ASON-dom", "orange");
+		put("ASON-ext", "noir");
+		put("ASPTT-dom", "noir");
+		put("ASPTT-ext", "blanc");
+		put("ASUL-dom", "rouge");
+		put("ASUL-ext", "bleu");
+		put("AV92-dom", "rouge");
+		put("AV92-ext", "bleu");
+		put("AVB-dom", "bleu");
+		put("AVB-ext", "blanc");
+		put("BOUC-dom", "rouge");
+		put("BOUC-ext", "blanc");
+		put("CAC-dom", "bleu");
+		put("CAC-ext", "blanc");
+		put("CENT-dom", "noir");
+		put("CENT-ext", "blanc");
+		put("CVB52-dom", "rouge");
+		put("CVB52-ext", "noir");
+		put("CVEC-dom", "bleu");
+		put("CVEC-ext", "rouge"); 
+		put("ESCR-dom", "noir");
+		put("ESCR-ext", "blanc");
+		put("EVB-dom", "bleu");
+		put("EVB-ext", "noir");
+		put("GFCA-dom", "rouge");
+		put("GFCA-ext", "bleu");
+		put("GOELO-dom", "jaune");
+		put("GOELO-ext", "bleu");
+		put("HVB-dom", "noir");
+		put("HVB-ext", "rose");
+		put("HV-dom", "rouge");
+		put("HV-ext", "blanc");
+		put("IOPV-dom", "blanc");
+		put("IOPV-ext", "noir");
+		put("LISSP-dom", "bleu");
+		put("LISSP-ext","blanc");
+		put("MAVUC-dom", "blanc");
+		put("MAVUC-ext", "bleu");
+		put("MNVJ-dom", "bleu");
+		put("MNVJ-ext", "blanc");
+		put("MVB-dom", "rouge");
+		put("MVB-ext", "blanc");
+		put("NRMV-dom", "blanc");
+		put("NRMV-ext", "bleu");
+		put("NVB-dom", "bleu");
+		put("NVB-ext", "blanc");
+		put("PAVVB-dom", "noir");
+		put("PAVVB-ext", "bleu");
+		put("PRVB-dom", "noir");
+		put("PRVB-ext", "blanc");
+		put("PV-dom", "bleu");
+		put("PV-ext", "blanc");
+		put("QV29-dom", "noir");
+		put("QV29-ext", "blanc");
+		put("RCC-dom", "noir");
+		put("RCC-ext", "jaune");
+		put("RV35-dom", "noir");
+		put("RV35-ext", "blanc");
+		put("SCPSF-dom", "bleu");
+		put("SCPSF-ext", "rouge");
+		put("SNVBA-dom", "bleu");
+		put("SNVBA-ext", "blanc");
+		put("SPACERS-dom", "bleu");
+		put("SPACERS-ext", "blanc");
+		put("TFOC-dom", "blanc");
+		put("TFOC-ext", "bleu");
+		put("TLM-dom", "blanc");
+		put("TLM-ext", "noir");
+		put("TVB-dom", "blanc");
+		put("TVB-ext", "blanc");
+		put("VBN-dom", "noir");
+		put("VBN-ext", "jaune");
+	}};
+	
 	public Drawable getMaillot(String codeEquipe, String lieu) {
 		
 		String key = codeEquipe+"-"+lieu;
@@ -193,4 +276,18 @@ public class LocalResourcesProvider implements ResourcesProvider {
 		
 		return resources.getDrawable(R.drawable.maillot_autre);
 	}
+
+	public String getMaillotCouleur(String codeEquipe, String lieu) {
+		
+		String key = codeEquipe+"-"+lieu;
+		
+		//Log.d(this.getClass().getName(),"Looking for : "+key);
+		
+		if (COULEUR_MAILLOTS.containsKey(key)) {
+			return COULEUR_MAILLOTS.get(key);
+		}
+		
+		return "";
+	}
+
 }
