@@ -15,6 +15,7 @@
 */  	
 package org.bamzone.provolleyfr;
 
+import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
 import org.bamzone.provolleyfr.classements.ClassementsTabActivity;
 import org.bamzone.provolleyfr.coupe.CoupeTabActivity;
 import org.bamzone.provolleyfr.live.LiveActivity;
@@ -45,6 +46,9 @@ public class AccueilActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.accueil_activity);
+		
+		// Init cache
+		ProVolleyCacheManager.init(getApplicationContext());
 		
 		// Check if first launch of this version
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
@@ -97,25 +101,15 @@ public class AccueilActivity extends Activity {
 	}
 
 	public void onResultatsButtonClick(View view) {
-		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT)
-					.show();
-		else {
-			Intent resultatsTabIntent = new Intent(this,
-					ResultatsTabActivity.class);
-			startActivity(resultatsTabIntent);
-		}
+		Intent resultatsTabIntent = new Intent(this,
+				ResultatsTabActivity.class);
+		startActivity(resultatsTabIntent);
 	}
 
 	public void onCoupeButtonClick(View view) {
-		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT)
-					.show();
-		else {
-			Intent coupeTabIntent = new Intent(this,
-					CoupeTabActivity.class);
-			startActivity(coupeTabIntent);
-		}
+		Intent coupeTabIntent = new Intent(this,
+				CoupeTabActivity.class);
+		startActivity(coupeTabIntent);
 	}
 
 	public void onClassementsButtonClick(View view) {

@@ -15,6 +15,8 @@
 */  	
 package org.bamzone.provolleyfr;
 
+import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
+import org.bamzone.provolleyfr.resultats.ResultatsActivity;
 import org.bamzone.provolleyfr.utils.SimpleHasher;
 
 import com.google.analytics.tracking.android.EasyTracker;
@@ -26,12 +28,15 @@ import android.os.Bundle;
 import android.preference.EditTextPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.Window;
+import android.widget.Toast;
 
 
 public class PreferencesActivity extends PreferenceActivity implements
@@ -68,7 +73,25 @@ public class PreferencesActivity extends PreferenceActivity implements
 		// Enable local + test server on selected devices
 		Preference server = getPreferenceScreen().findPreference(ProVolley.PREF_KEY_SERVER);
 		server.setEnabled(isTestDevice());
-
+		server.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+			@Override
+			public boolean onPreferenceChange(Preference preference, Object newValue) {
+				ProVolleyCacheManager.getInstance().getCacheDataSource().deleteAllCachedItems();
+				return true;
+			}
+		});
+		
+		// Action for emptying the cache
+		Preference cleanCache = getPreferenceScreen().findPreference(ProVolley.PREF_KEY_CLEAN_CACHE);
+		cleanCache.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+			@Override
+			public boolean onPreferenceClick(Preference preference) {
+				ProVolleyCacheManager.getInstance().getCacheDataSource().deleteAllCachedItems();
+				Toast.makeText(getApplicationContext(), "Le cache a été vidé.", Toast.LENGTH_SHORT).show();
+				return false;
+			}
+		});
+		
 		getPreferenceScreen().getSharedPreferences()
 				.registerOnSharedPreferenceChangeListener(this);
 		
@@ -118,7 +141,8 @@ public class PreferencesActivity extends PreferenceActivity implements
 		}
 
 	}
-	 @SuppressLint("NewApi")
+	
+	@SuppressLint("NewApi")
 	private boolean isTestDevice() {
 		 String serial = "";
 		 try {

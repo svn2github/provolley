@@ -74,6 +74,9 @@ public class ProVolley {
 	 public static final String PREF_VALUE_TEST  = "Test";
 	 public static final String PREF_VALUE_PROD  = "Production";
 	 
+	 public static final String PREF_KEY_CLEAN_CACHE  = "cleanCache";
+	 
+	 
 	 public static final String PREF_KEY_SHOWADS = "showAds";
 	 public static final String PREF_KEY_LIVEINTERVAL = "liveInterval";
 	 public static final String PREF_KEY_DISABLE_SLEEP_IN_LIVE = "disableSleepInLive";
