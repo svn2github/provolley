@@ -46,6 +46,7 @@ import org.bamzone.provolleyfr.R.layout;
 import org.bamzone.provolleyfr.data.*;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.provider.JSONProviderFactory;
+import org.bamzone.provolleyfr.resultats.ResultatsHelper;
 import org.bamzone.provolleyfr.utils.ListTagHandler;
 import org.bamzone.provolleyfr.utils.OnSwipeTouchListener;
 import org.json.JSONArray;
@@ -84,11 +85,14 @@ public class CoupeActivity extends ListActivity {
         ((TextView) findViewById(R.id.JourneeTextView)).setText("");
         
         competition = getIntent().getExtras().getString(ProVolley.INTENT_EXTRA_COMPETITION);
+        
         Resources resources = getApplicationContext().getResources();
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
-        
         dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
-        
+
+        displayResultats(CoupeHelper.getResultatsSaisonFromCache(competition));        displayResultats(ResultatsHelper.getResultatsSaisonFromCache(competition));
+
+
         DownloadResultatsSaison task  = new DownloadResultatsSaison();
         task.execute(new String[] {competition});
 
@@ -109,7 +113,7 @@ public class CoupeActivity extends ListActivity {
     	if(numJournee>minJournee) {
     		numJournee--;
         	enableButtons();
-        	displayJournee();
+        	displayJourneeSelectionnee();
     	}
     }
     
@@ -117,7 +121,7 @@ public class CoupeActivity extends ListActivity {
     	if(numJournee<maxJournee) {
     		numJournee++;
         	enableButtons();
-        	displayJournee();
+        	displayJourneeSelectionnee();
     	}
     }
     
@@ -128,7 +132,7 @@ public class CoupeActivity extends ListActivity {
 		if (next!=null) next.setEnabled(numJournee<maxJournee);
     }
     
-	private void displayJournee() {
+	private void displayJourneeSelectionnee() {
         
 		if (resultatsSaison!=null) {
 			ResultatsJournee resultatJournee = resultatsSaison.getResultatsJournee(numJournee);
@@ -143,26 +147,37 @@ public class CoupeActivity extends ListActivity {
         }
     }
     
+	private void displayResultats(ResultatsSaison result) {
+		if (result!=null) {
+			// Save results
+			resultatsSaison=result;
+			
+	        // recup journee a afficher
+	        minJournee = resultatsSaison.getMinJournee();
+	        maxJournee = resultatsSaison.getMaxJournee();
+	        if(numJournee==0) numJournee=resultatsSaison.getCurrentJournee();
+	        if(numJournee>maxJournee)numJournee=maxJournee;
+        
+	        // Afficher ou griser bouton de nav
+	        enableButtons();
+	        
+	        // Display 
+	        displayJourneeSelectionnee();
+        }
+	}
+
 	private class DownloadResultatsSaison extends AsyncTask<String, Void, ResultatsSaison> {
 
 		@Override
 		protected ResultatsSaison doInBackground(String... competitions) {
-			 return(CoupeHelper.getResultatsSaison(dataProvider, competitions[0]));
+			 return(CoupeHelper.getResultatsSaisonFromServer(dataProvider, competitions[0]));
 		}
 		
 		protected void onPostExecute(ResultatsSaison result) {
-			resultatsSaison=result;
-			if (resultatsSaison!=null) {
-		        // recup journee a afficher
-		        minJournee = resultatsSaison.getMinJournee();
-		        maxJournee = resultatsSaison.getMaxJournee();
-		        numJournee = resultatsSaison.getCurrentJournee();
-	        
-		        // Afficher ou griser bouton de nav
-		        enableButtons();
-		        displayJournee();
-	        }
-			else {
+			displayResultats(result);
+
+			// Now if resultatsSaison is still null, nothing has been displayed. Finish activity
+			if(resultatsSaison==null) {
 				// FIXME : hardcoded
 				Toast.makeText(CoupeActivity.this, "Les informations ne sont pas disponibles pour le moment. Veuillez réessayer dans un instant.", Toast.LENGTH_LONG).show();
 				CoupeActivity.this.finish();
