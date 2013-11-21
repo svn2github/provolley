@@ -27,6 +27,18 @@
          <string name="application_historique"><![CDATA[<h4>Historique des versions</h4>]]></string>
          <string name="application_maj"><![CDATA[<h4>Mises à jour depuis la dernière version</h4>]]></string>
          
+         <string name="application_histo_v1_3_0"><![CDATA[
+             <b>v1.3.0</b> Nouvelles fonctionnalités :<br/>
+             <ul>
+             <li>Ajout d\'une gestion de cache des données permettant d\'utiliser l\'application même sans réseau</li>
+             <li>Mise à jour des maillots pour la saison 2013/2014</li>
+             <li>Correction des plantages sur l\'écran du live lors de la sortie de veille</li>
+             <li>Ajout du swipe pour naviguer de journée en journée pour les résultats de championnat et de coupe de France</li>
+             <li>Ajout d'un algorithme pour déterminer les couleurs probables des maillots lors des live</li>
+             </ul>
+             <br/><br/>
+             ]]></string>
+         
          <string name="application_histo_v1_2_0"><![CDATA[
              <b>v1.2.0</b> Nouvelles fonctionnalités :<br/>
              <ul>
@@ -171,5 +183,6 @@
         
          <string name="alertIfNoNetwork">Merci d\'activer la connexion au réseau pour utiliser cette fonctionnalité</string>
 
+         <string name="elementsInCache">Nombre d\'éléments en Cache :</string>
 
 </resources>
