@@ -20,10 +20,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import android.annotation.SuppressLint;
 import android.graphics.Color;
-import android.provider.Settings;
-import android.util.Log;
 
 public class ProVolley {
 	

@@ -56,6 +56,7 @@ public class NewsActivity extends ListActivity {
 	    EasyTracker.getInstance().activityStop(this);
 	  }
 
+	  NewsProVolley news;
 	  JSONProvider dataProvider;
 
 	  public void onCreate(Bundle savedInstanceState) {
@@ -68,46 +69,55 @@ public class NewsActivity extends ListActivity {
 
 		dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
 
+		displayResults(NewsHelper.getNewsProVolleyFromCache());
+		
 		DownloadNews task  = new DownloadNews();
         task.execute();
         
 	}
 
+	private void displayResults(NewsProVolley result) {
+        if (result != null) {
+        	
+        	news = result;
+			final List<NewsItem> newsItems = result.getNewsItems();
+			
+			if (newsItems.size()==0) {
+				// FIXME : hardcoded
+				final ArrayAdapter<String> adapter = new ArrayAdapter<String>(NewsActivity.this,R.layout.news_none, new String[] {"Pas de programme trouvé..."});
+			        setListAdapter(adapter);
+			}
+			else {
+				final NewsArrayAdapter adapter = new NewsArrayAdapter(NewsActivity.this, newsItems);
+				setListAdapter(adapter);
+			
+				NewsActivity.this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
+					@Override
+					public void onItemClick(AdapterView<?> parent, View view,
+							int position, long id) {
+						
+						Intent newsDetailIntent = new Intent(NewsActivity.this, NewsDetailActivity.class);
+						Sharable newsItem = new Sharable(adapter.getItem(position));
+						newsDetailIntent.putExtra(ProVolley.INTENT_EXTRA_NEWSITEM, newsItem);
+						startActivity(newsDetailIntent);
+					}
+				});
+			}
+        }
+	}
+	
 	private class DownloadNews extends AsyncTask<Void, Void, NewsProVolley> {
 
 		@Override
 		protected NewsProVolley doInBackground(Void... args) {
   			 Log.d(this.getClass().getName(),"Downloading News");
-			 return(NewsHelper.getNewsProVolley(dataProvider));
+			 return(NewsHelper.getNewsProVolleyFromServer(dataProvider));
 		}
 		
-		protected void onPostExecute(NewsProVolley news) {
-	        if (news != null) {
-    			final List<NewsItem> newsItems = news.getNewsItems();
-    			
-    			if (newsItems.size()==0) {
-    				// FIXME : hardcoded
-    				final ArrayAdapter<String> adapter = new ArrayAdapter<String>(NewsActivity.this,R.layout.news_none, new String[] {"Pas de programme trouvé..."});
-   			        setListAdapter(adapter);
-    			}
-    			else {
-    				final NewsArrayAdapter adapter = new NewsArrayAdapter(NewsActivity.this, newsItems);
-    				setListAdapter(adapter);
-    			
-    				NewsActivity.this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
-						@Override
-						public void onItemClick(AdapterView<?> parent, View view,
-								int position, long id) {
-							
-							Intent newsDetailIntent = new Intent(NewsActivity.this, NewsDetailActivity.class);
-							Sharable newsItem = new Sharable(adapter.getItem(position));
-							newsDetailIntent.putExtra(ProVolley.INTENT_EXTRA_NEWSITEM, newsItem);
-							startActivity(newsDetailIntent);
-						}
-    				});
-    			}
-	        }
-			else {
+		protected void onPostExecute(NewsProVolley result) {
+			displayResults(result);
+			
+			if (news == null) {
 				// FIXME : hardcoded
 				Toast.makeText(NewsActivity.this, "Les informations ne sont pas disponibles pour le moment. Veuillez réessayer dans un instant.", Toast.LENGTH_LONG).show();
 				NewsActivity.this.finish();

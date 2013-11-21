@@ -15,39 +15,24 @@
 */  	
 package org.bamzone.provolleyfr.resultats;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.List;
-
 import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
-import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.data.ResultatsJournee;
 import org.bamzone.provolleyfr.data.ResultatsMatch;
 import org.bamzone.provolleyfr.data.ResultatsSaison;
 import org.bamzone.provolleyfr.provider.JSONProvider;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
-import android.app.ListActivity;
-import android.content.Context;
-import android.content.res.Resources;
 import android.util.Log;
-import android.webkit.CacheManager;
-import android.widget.TextView;
-import java.io.BufferedReader;
 
 public class ResultatsHelper {
 	
 	private static final String CACHE_KEY="RESULT_";
 	
-	public static ResultatsSaison getResultatsSaisonFromJson(String competition, String json) {
-		ResultatsSaison resultatsSaison = null;
+	private static ResultatsSaison getResultatsSaisonFromJson(String competition, String json) {
+		
 		try {
 			JSONObject resultats = new JSONObject(json).getJSONObject("resultats");
 			String saison = resultats.getString("saison");
@@ -56,7 +41,7 @@ public class ResultatsHelper {
 			int currentJournee = resultats.getInt("currentJournee");
 	
 			Log.d(ResultatsActivity.class.getName(), saison +"/"+ minJournee +"/"+ maxJournee +"/"+ currentJournee);
-			resultatsSaison = new ResultatsSaison(saison,minJournee,maxJournee,currentJournee);
+			ResultatsSaison resultatsSaison = new ResultatsSaison(saison,minJournee,maxJournee,currentJournee);
 			
 			JSONArray journees = resultats.getJSONArray("journees");
 			for (int i = 0; i < journees.length(); i++) {
@@ -88,11 +73,12 @@ public class ResultatsHelper {
 			        //Log.d(ResultatsActivity.class.getName(),resultatsJournee.getNumJournee()+"/"+equipeDomicile+"/"+equipeExterieur+"/"+resultat+"/"+score+"/"+victoire);
 				}
 			}
+			return resultatsSaison;
 		}
 		catch(JSONException je) {
-    		Log.e(ResultatsActivity.class.getName(), "Can't parse json file" , je);
+			Log.e(ResultatsActivity.class.getName(), "Can't parse json file : " + json , je);
 		}
-		return resultatsSaison;
+		return null;
 	}
 	
 	public static boolean isVictoireDomicile(ResultatsMatch match) {
@@ -113,27 +99,17 @@ public class ResultatsHelper {
 		String json = dp.getResultatsLigue(competition);
 		if(json==null) return null;
 		//Log.d(ResultatsActivity.class.getName(), "JSON: "+json);
-		try {
-    		ResultatsSaison resultats = getResultatsSaisonFromJson(competition, json);
-    		ProVolleyCacheManager.getInstance().getCacheDataSource().insertCachedItem(CACHE_KEY+competition, json);
-    		return resultats;
-    	} catch (Exception e) {
-    		Log.e(ResultatsActivity.class.getName(), "Can't read json file" , e);
-    	}
-		return null;
+
+		ResultatsSaison resultats = getResultatsSaisonFromJson(competition, json);
+		ProVolleyCacheManager.getInstance().getCacheDataSource().insertCachedItem(CACHE_KEY+competition, json);
+		return resultats;
     }
     
 	public static ResultatsSaison getResultatsSaisonFromCache(String competition) {
 		String json = ProVolleyCacheManager.getInstance().getCacheDataSource().getCachedItem(CACHE_KEY+competition);
 		if(json==null) return null;
 
-		try {
-			return getResultatsSaisonFromJson(competition, json);
-    	} catch (Exception e) {
-    		Log.e(ResultatsActivity.class.getName(), "Can't read json file" , e);
-    	}
-		return null;
+		return getResultatsSaisonFromJson(competition, json);
     }
-    
 
 }

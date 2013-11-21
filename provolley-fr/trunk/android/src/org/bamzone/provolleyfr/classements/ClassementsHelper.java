@@ -15,38 +15,23 @@
 */  	
 package org.bamzone.provolleyfr.classements;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.List;
-
+import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
 import org.bamzone.provolleyfr.data.ClassementCompetition;
 import org.bamzone.provolleyfr.data.ClassementEquipe;
-import org.bamzone.provolleyfr.data.ResultatsJournee;
-import org.bamzone.provolleyfr.data.ResultatsMatch;
-import org.bamzone.provolleyfr.data.ResultatsSaison;
 import org.bamzone.provolleyfr.provider.JSONProvider;
-
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
-import android.app.ListActivity;
-import android.content.Context;
-import android.content.res.Resources;
 import android.util.Log;
-import android.widget.TextView;
-import java.io.BufferedReader;
 
 public class ClassementsHelper {
 	
-	private static Resources resources;
+	private static final String CACHE_KEY="CLASSEMENT_";
 	
-	public static ClassementCompetition getClassementCompetition(JSONProvider dp, String competition) {
+	private static ClassementCompetition getClassementFromJson(String competition, String json) {
+		
     	try {
-			JSONObject classement = new JSONObject(dp.getClassement(competition)).getJSONObject("classement");
+			JSONObject classement = new JSONObject(json).getJSONObject("classement");
 			String saison = classement.getString("saison");
 			
 			Log.d(ClassementsActivity.class.getName(), saison );
@@ -90,6 +75,20 @@ public class ClassementsHelper {
 		}
     	return null;
     }
-    
 
+	public static ClassementCompetition getClassementFromServer(JSONProvider dp, String competition) {
+		String json = dp.getClassement(competition);
+		if(json==null) return null;
+
+		ClassementCompetition classement = getClassementFromJson(competition, json);
+		ProVolleyCacheManager.getInstance().getCacheDataSource().insertCachedItem(CACHE_KEY+competition, json);
+		return classement;
+    }
+    
+	public static ClassementCompetition getClassementFromCache(String competition) {
+		String json = ProVolleyCacheManager.getInstance().getCacheDataSource().getCachedItem(CACHE_KEY+competition);
+		if(json==null) return null;
+
+		return getClassementFromJson(competition, json);
+    }
 }

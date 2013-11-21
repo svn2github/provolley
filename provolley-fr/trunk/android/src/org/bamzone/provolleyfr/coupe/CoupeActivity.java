@@ -90,8 +90,7 @@ public class CoupeActivity extends ListActivity {
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
         dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
 
-        displayResultats(CoupeHelper.getResultatsSaisonFromCache(competition));        displayResultats(ResultatsHelper.getResultatsSaisonFromCache(competition));
-
+        displayResultats(CoupeHelper.getResultatsSaisonFromCache(competition));
 
         DownloadResultatsSaison task  = new DownloadResultatsSaison();
         task.execute(new String[] {competition});

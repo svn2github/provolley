@@ -163,7 +163,7 @@ public class ResultatsActivity extends ListActivity {
 		protected void onPostExecute(ResultatsSaison result) {
 			displayResultats(result);
 			
-			// Now if resultatsSaison is still null, nothing has been displayed. Finish activity
+			// Now if main variable is still null, nothing has been displayed. Finish activity
 			if (resultatsSaison==null) {
 				// FIXME : hardcoded
 				Toast.makeText(ResultatsActivity.this, "Les informations ne sont pas disponibles pour le moment. Veuillez réessayer dans un instant.", Toast.LENGTH_LONG).show();

@@ -92,7 +92,7 @@ public class LocalJSONProvider implements JSONProvider {
     			
         InputStream inputStream = resources.openRawResource(id);
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream),8192);
         String line;
         try {
 			while ((line = reader.readLine()) != null) {

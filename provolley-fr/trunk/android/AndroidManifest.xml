@@ -8,6 +8,7 @@
         android:targetSdkVersion="15" />
 
   	 <application
+  	    android:name="org.bamzone.provolleyfr.ProVolleyApplication"
         android:icon="@drawable/ic_launcher"
         android:label="@string/application_name"
         android:theme="@style/AppTheme" >

@@ -28,7 +28,6 @@ import android.util.Log;
 
 public class LiveHelper {
 	
-	
 	public static LiveResultats getResultatsLive(JSONProvider dp) {
     	try {
 			JSONObject live = new JSONObject(dp.getLive()).getJSONObject("live");

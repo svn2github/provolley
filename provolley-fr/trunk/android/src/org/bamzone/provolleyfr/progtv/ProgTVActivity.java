@@ -12,7 +12,7 @@
     GNU General Public License for more details.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see http://www.gnu.org/licenses.
-*/  	
+ */
 package org.bamzone.provolleyfr.progtv;
 
 import java.util.List;
@@ -26,6 +26,7 @@ import org.bamzone.provolleyfr.news.NewsDetailActivity;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.provider.JSONProviderFactory;
 import org.bamzone.provolleyfr.resultats.ResultatsActivity;
+import org.bamzone.provolleyfr.resultats.ResultatsHelper;
 import org.bamzone.provolleyfr.utils.Sharable;
 
 import android.app.ListActivity;
@@ -48,75 +49,84 @@ import android.widget.Toast;
 import com.google.analytics.tracking.android.EasyTracker;
 
 public class ProgTVActivity extends ListActivity {
-	
-	  @Override
-	  public void onStart() {
-	    super.onStart();
-	
-	    EasyTracker.getInstance().activityStart(this); 
-	  }
 
-	  @Override
-	  public void onStop() {
-	    super.onStop();
+	@Override
+	public void onStart() {
+		super.onStart();
 
-	    EasyTracker.getInstance().activityStop(this);
-	  }
+		EasyTracker.getInstance().activityStart(this);
+	}
 
-	  JSONProvider dataProvider;
+	@Override
+	public void onStop() {
+		super.onStop();
 
-	  public void onCreate(Bundle savedInstanceState) {
+		EasyTracker.getInstance().activityStop(this);
+	}
+
+	TVProgramme programmeTV;
+	JSONProvider dataProvider;
+
+	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.progtv_activity);
 
 		Resources resources = getApplicationContext().getResources();
-		SharedPreferences prefs = PreferenceManager
-				.getDefaultSharedPreferences(this);
-
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
 
-		DownloadProgTV task  = new DownloadProgTV();
-        task.execute();
+		displayResults(ProgTVHelper.getProgrammeTVFromCache());
+		
+		DownloadProgTV task = new DownloadProgTV();
+		task.execute();
+	}
+
+	private void displayResults(TVProgramme result) {
+		if (result != null) {
+			programmeTV = result;
+			final List<TVEmission> emissions = programmeTV.getEmissions();
+
+			if (emissions.size() == 0) {
+				// FIXME : hardcoded
+				final ArrayAdapter<String> adapter = new ArrayAdapter<String>(ProgTVActivity.this, R.layout.progtv_none,
+						new String[] { "Pas de programme trouvé..." });
+				setListAdapter(adapter);
+			} else {
+				final ProgTVArrayAdapter adapter = new ProgTVArrayAdapter(ProgTVActivity.this, emissions);
+				setListAdapter(adapter);
+
+				ProgTVActivity.this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
+					@Override
+					public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+						Sharable progtv = new Sharable(adapter.getItem(position));
+
+						Intent progTVDetailIntent = new Intent(ProgTVActivity.this, ProgTVDetailActivity.class);
+						progTVDetailIntent.putExtra(ProVolley.INTENT_EXTRA_PROGSTVITEM, progtv);
+						startActivity(progTVDetailIntent);
+					}
+				});
+
+			}
+		}
 	}
 
 	private class DownloadProgTV extends AsyncTask<Void, Void, TVProgramme> {
 
 		@Override
 		protected TVProgramme doInBackground(Void... args) {
-  			 Log.d(this.getClass().getName(),"Downloading ProgrammeTV data");
-			 return(ProgTVHelper.getProgrammeTV(dataProvider));
+			Log.d(this.getClass().getName(), "Downloading ProgrammeTV data");
+			return (ProgTVHelper.getProgrammeTVFromServer(dataProvider));
 		}
-		
-		protected void onPostExecute(TVProgramme programmeTV) {
-	        if (programmeTV != null) {
-    			final List<TVEmission> emissions = programmeTV.getEmissions();
-    			
-    			if (emissions.size()==0) {
-    				// FIXME : hardcoded
-    				final ArrayAdapter<String> adapter = new ArrayAdapter<String>(ProgTVActivity.this,R.layout.progtv_none, new String[] {"Pas de programme trouvé..."});
-   			        setListAdapter(adapter);
-    			}
-    			else {
-    				final ProgTVArrayAdapter adapter = new ProgTVArrayAdapter(ProgTVActivity.this, emissions);
-    				setListAdapter(adapter);
-    				
-    				ProgTVActivity.this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {
-						@Override
-						public void onItemClick(AdapterView<?> parent, View view,
-								int position, long id) {
-							Sharable progtv = new Sharable(adapter.getItem(position));
-							
-							Intent progTVDetailIntent = new Intent(ProgTVActivity.this, ProgTVDetailActivity.class);
-							progTVDetailIntent.putExtra(ProVolley.INTENT_EXTRA_PROGSTVITEM, progtv);
-							startActivity(progTVDetailIntent);
-						}
-    				});
 
-    			}
-	        }
-			else {
+		protected void onPostExecute(TVProgramme result) {
+			displayResults(result);
+
+			// Now if main variable is still null, nothing has been displayed.
+			// Finish activity
+			if (programmeTV == null) {
 				// FIXME : hardcoded
-				Toast.makeText(ProgTVActivity.this, "Les informations ne sont pas disponibles pour le moment. Veuillez réessayer dans un instant.", Toast.LENGTH_LONG).show();
+				Toast.makeText(ProgTVActivity.this, "Les informations ne sont pas disponibles pour le moment. Veuillez réessayer dans un instant.",
+						Toast.LENGTH_LONG).show();
 				ProgTVActivity.this.finish();
 			}
 		}

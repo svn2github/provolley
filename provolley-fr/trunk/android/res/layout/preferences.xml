@@ -18,7 +18,21 @@
 			android:defaultValue="@string/server_default_value">
 		</ListPreference>
 
-		<ListPreference android:key="liveInterval"
+		<CheckBoxPreference
+                android:key="showAds"
+                android:title="Afficher la publicité"
+                android:summary="Merci de soutenir le développement et l'hébergement de ProVolley-fr en activant la publicité !"
+                android:persistent="true"
+                android:defaultValue="true">
+        </CheckBoxPreference>
+
+	</PreferenceCategory>
+	
+	<PreferenceCategory 
+	   android:summary="Live"
+	   android:title="Live" >
+
+	    <ListPreference android:key="liveInterval"
 			android:title="Interval du live"
 			android:entries="@array/live_interval_entries_array"
 			android:entryValues="@array/live_interval_values_array"
@@ -28,14 +42,6 @@
 		</ListPreference>
 
 		<CheckBoxPreference
-                android:key="showAds"
-                android:title="Afficher la publicité"
-                android:summary="Merci de soutenir le développement et l'hébergement de ProVolley-fr en activant la publicité !"
-                android:persistent="true"
-                android:defaultValue="true">
-        </CheckBoxPreference>
-
-		<CheckBoxPreference
                 android:key="disableSleepInLive"
                 android:title="Désactiver la veille"
                 android:summary="Désactiver la mise en veille lors de la consultation des matchs en direct"
@@ -43,21 +49,23 @@
                 android:defaultValue="true">
         </CheckBoxPreference>
 	</PreferenceCategory>
-
+	    	
 	<PreferenceCategory 
 	   android:summary="Cache"
 	   android:title="Cache" >
 		<CheckBoxPreference
                 android:key="useCache"
-                android:title="Mettre les données en Cache"
+                android:title="Utiliser un Cache"
                 android:summary="La mise des données en cache permet d'utiliser l'application même si le réseau n'est pas disponible."
                 android:persistent="true"
                 android:defaultValue="true">
         </CheckBoxPreference>
         
 		<Preference android:key="cleanCache"
-                android:title="Effacer le Cache">
+                android:title="Effacer le Cache"
+                android:summary="X éléments dans le cache">
 		</Preference>
+		
 	</PreferenceCategory>
 	
 </PreferenceScreen>

@@ -112,7 +112,7 @@ public class TestJSONProvider implements JSONProvider {
 			BufferedReader reader = null;
 			try {
 				reader = new BufferedReader(new InputStreamReader(
-						con.getInputStream()));
+						con.getInputStream()),8192);
 				String line = "";
 				while ((line = reader.readLine()) != null) {
 					builder.append(line);

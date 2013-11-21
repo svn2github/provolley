@@ -12,7 +12,7 @@
     GNU General Public License for more details.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see http://www.gnu.org/licenses.
-*/  	
+ */
 package org.bamzone.provolleyfr;
 
 import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
@@ -46,13 +46,13 @@ public class AccueilActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.accueil_activity);
-		
+
 		// Init cache
 		ProVolleyCacheManager.init(getApplicationContext());
-		
+
 		// Check if first launch of this version
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-		final String version = getResources().getString(R.string.application_version); 
+		final String version = getResources().getString(R.string.application_version);
 		// FIXME : Hardcoded
 		if (!version.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
 			// Display Greetings text
@@ -60,73 +60,59 @@ public class AccueilActivity extends Activity {
 			greets.requestWindowFeature(Window.FEATURE_NO_TITLE);
 			greets.show();
 		}
+		
 	}
 
-	  @Override
-	  public void onStart() {
-	    super.onStart();
-	
-	    EasyTracker.getInstance().activityStart(this); 
-	  }
+	@Override
+	public void onStart() {
+		super.onStart();
 
-	  @Override
-	  public void onStop() {
-	    super.onStop();
+		EasyTracker.getInstance().activityStart(this);
+	}
 
-	    EasyTracker.getInstance().activityStop(this);
-	  }
+	@Override
+	public void onStop() {
+		super.onStop();
 
-	  @Override
+		EasyTracker.getInstance().activityStop(this);
+	}
+
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.menu, menu);
 		return true;
 	}
 
 	public void onNewsButtonClick(View view) {
-		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT)
-					.show();
-		else {
-			Intent newsIntent = new Intent(this, NewsActivity.class);
-			startActivity(newsIntent);
-		}
+		Intent newsIntent = new Intent(this, NewsActivity.class);
+		startActivity(newsIntent);
 	}
 
 	public void onEquipesButtonClick(View view) {
 		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT)
-					.show();
+			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT).show();
 		else
 			Toast.makeText(this, "Equipes...", Toast.LENGTH_SHORT).show();
 	}
 
 	public void onResultatsButtonClick(View view) {
-		Intent resultatsTabIntent = new Intent(this,
-				ResultatsTabActivity.class);
+		Intent resultatsTabIntent = new Intent(this, ResultatsTabActivity.class);
 		startActivity(resultatsTabIntent);
 	}
 
 	public void onCoupeButtonClick(View view) {
-		Intent coupeTabIntent = new Intent(this,
-				CoupeTabActivity.class);
+		Intent coupeTabIntent = new Intent(this, CoupeTabActivity.class);
 		startActivity(coupeTabIntent);
 	}
 
 	public void onClassementsButtonClick(View view) {
-		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT)
-					.show();
-		else {
-			Intent classementsTabIntent = new Intent(this,
-					ClassementsTabActivity.class);
-			startActivity(classementsTabIntent);
-		}
+		Intent classementsTabIntent = new Intent(this, ClassementsTabActivity.class);
+		startActivity(classementsTabIntent);
 	}
 
 	public void onLiveButtonClick(View view) {
 		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT)
-					.show();
+			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT).show();
 		else {
 			Intent liveIntent = new Intent(this, LiveActivity.class);
 			startActivity(liveIntent);
@@ -134,13 +120,8 @@ public class AccueilActivity extends Activity {
 	}
 
 	public void onProgTVButtonClick(View view) {
-		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT)
-					.show();
-		else {
-			Intent progTVIntent = new Intent(this, ProgTVActivity.class);
-			startActivity(progTVIntent);
-		}
+		Intent progTVIntent = new Intent(this, ProgTVActivity.class);
+		startActivity(progTVIntent);
 	}
 
 	public boolean onOptionsItemSelected(MenuItem item) {
@@ -162,8 +143,7 @@ public class AccueilActivity extends Activity {
 			about.show();
 			return true;
 		case R.id.parameters:
-			Intent settingsActivity = new Intent(getBaseContext(),
-					PreferencesActivity.class);
+			Intent settingsActivity = new Intent(getBaseContext(), PreferencesActivity.class);
 			startActivity(settingsActivity);
 			return true;
 		default:
@@ -172,9 +152,7 @@ public class AccueilActivity extends Activity {
 	}
 
 	public boolean isNetworkAvailable() {
-		ConnectivityManager connectivity = (ConnectivityManager) this
-				.getApplicationContext().getSystemService(
-						Context.CONNECTIVITY_SERVICE);
+		ConnectivityManager connectivity = (ConnectivityManager) this.getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
 		if (connectivity == null) {
 			return false;
 		} else {

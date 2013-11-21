@@ -15,6 +15,7 @@
 */  	
 package org.bamzone.provolleyfr.news;
 
+import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
 import org.bamzone.provolleyfr.data.NewsItem;
 import org.bamzone.provolleyfr.data.NewsProVolley;
 import org.bamzone.provolleyfr.data.TVEmission;
@@ -31,12 +32,13 @@ import android.util.Log;
 
 public class NewsHelper {
 	
+	private final static String CACHE_KEY = "NEWS"; 
 	
-	public static NewsProVolley getNewsProVolley(JSONProvider dp) {
+	private static NewsProVolley getNewsProVolleyFromJson(String json) {
     	try {
     		NewsProVolley news = new NewsProVolley();
     		
-			JSONArray programme = new JSONObject(dp.getNews()).getJSONArray("news");
+			JSONArray programme = new JSONObject(json).getJSONArray("news");
 			for (int j = 0; j < programme.length(); j++) {
 					JSONObject emission = programme.getJSONObject(j);
 			        String date = emission.getString("date");
@@ -52,11 +54,26 @@ public class NewsHelper {
 			        news.getNewsItems().add(newsItem);
 				}
 			return news;
-		} catch (Exception e) {
-			Log.e(ResultatsActivity.class.getName(), "Can't read parse json file" , e);
+		} catch (JSONException je) {
+			Log.e(ResultatsActivity.class.getName(), "Can't parse json file : " + json , je);
 		}
     	return null;
     }
     
+	public static NewsProVolley getNewsProVolleyFromServer(JSONProvider dp) {
+		String json = dp.getNews();
+		if(json==null) return null;
+
+		NewsProVolley news = getNewsProVolleyFromJson(json);
+		ProVolleyCacheManager.getInstance().getCacheDataSource().insertCachedItem(CACHE_KEY, json);
+		return news;
+    }
+    
+	public static NewsProVolley getNewsProVolleyFromCache() {
+		String json = ProVolleyCacheManager.getInstance().getCacheDataSource().getCachedItem(CACHE_KEY);
+		if(json==null) return null;
+
+		return getNewsProVolleyFromJson(json);
+    }
 
 }
