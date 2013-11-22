@@ -62,8 +62,8 @@
         </CheckBoxPreference>
         
 		<Preference android:key="cleanCache"
-                android:title="Effacer le Cache"
-                android:summary="Nombre d'éléments en Cache :">
+                android:title="Vider le Cache"
+                android:summary="Nombre d'éléments en cache :">
 		</Preference>
 		
 	</PreferenceCategory>
