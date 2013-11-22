@@ -17,11 +17,9 @@ package org.bamzone.provolleyfr.coupe;
 
 import java.util.List;
 
-import org.bamzone.provolleyfr.ProVolley;
+import org.bamzone.provolleyfr.ProVolleyApplication;
 import org.bamzone.provolleyfr.R;
 import org.bamzone.provolleyfr.data.ResultatsMatch;
-import org.bamzone.provolleyfr.provider.ResourcesProvider;
-import org.bamzone.provolleyfr.provider.ResourcesProviderFactory;
 import org.bamzone.provolleyfr.resultats.ResultatsHelper;
 
 import android.content.Context;
@@ -31,24 +29,19 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class CoupeArrayAdapter extends ArrayAdapter<ResultatsMatch> {
-  private final Context context;
   private final List<ResultatsMatch> values;
-  private final ResourcesProvider resourcesProvider;
 
-  public CoupeArrayAdapter(Context context, List<ResultatsMatch> values) {
-    super(context, R.layout.coupe_row, values);
-    this.context = context;
+  public CoupeArrayAdapter(List<ResultatsMatch> values) {
+    super(ProVolleyApplication.getAppContext(), R.layout.coupe_row, values);
     this.values = values;
-    this.resourcesProvider = ResourcesProviderFactory.getDataProvider(context.getResources());
   }
 
   @Override
   public View getView(int position, View convertView, ViewGroup parent) {
-    LayoutInflater inflater = (LayoutInflater) context
+    LayoutInflater inflater = (LayoutInflater) ProVolleyApplication.getAppContext()
         .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     View rowView = inflater.inflate(R.layout.coupe_row, parent, false);
     TextView equipe1 = (TextView) rowView.findViewById(R.id.equipe1);
@@ -59,8 +52,8 @@ public class CoupeArrayAdapter extends ArrayAdapter<ResultatsMatch> {
     TextView classement1 = (TextView) rowView.findViewById(R.id.classement1);
     TextView classement2 = (TextView) rowView.findViewById(R.id.classement2);
     
-    ImageView icon1 = null; // (ImageView) rowView.findViewById(R.id.icon1);
-    ImageView icon2 = null; //(ImageView) rowView.findViewById(R.id.icon2);
+//    ImageView icon1 = null; // (ImageView) rowView.findViewById(R.id.icon1);
+//    ImageView icon2 = null; //(ImageView) rowView.findViewById(R.id.icon2);
 
     ResultatsMatch match = values.get(position);
 

@@ -19,10 +19,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
-import org.apache.http.client.HttpClient;
+import org.bamzone.provolleyfr.ProVolleyApplication;
 import org.bamzone.provolleyfr.R;
 import org.bamzone.provolleyfr.resultats.ResultatsActivity;
 
@@ -33,8 +31,8 @@ public class LocalJSONProvider implements JSONProvider {
 	
 	private Resources resources;
 	
-	public LocalJSONProvider(Resources r) {
-		resources = r;
+	public LocalJSONProvider() {
+		resources = ProVolleyApplication.getAppContext().getResources();
 	}
 	
     public String getResultatsLigue(String competition) {

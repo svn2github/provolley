@@ -41,8 +41,12 @@ public class HelpDialog extends Dialog{
 		TextView tv;
 		
 		tv = (TextView)findViewById(R.id.help_text);
+		// TODO use reflection to dynamically create  text
 		tv.setText(Html.fromHtml(mContext.getResources().getString(R.string.help_text)
+				+mContext.getResources().getString(R.string.application_copyright)
+				+mContext.getResources().getString(R.string.help_license)
 				+mContext.getResources().getString(R.string.application_historique)
+				+mContext.getResources().getString(R.string.application_histo_v1_3_0)
 				+mContext.getResources().getString(R.string.application_histo_v1_2_0)
 				+mContext.getResources().getString(R.string.application_histo_v1_1_0)
 				+mContext.getResources().getString(R.string.application_histo_v1_0_0)

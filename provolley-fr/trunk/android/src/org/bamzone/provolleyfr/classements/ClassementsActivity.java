@@ -27,13 +27,11 @@ import com.google.analytics.tracking.android.EasyTracker;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -65,10 +63,9 @@ public class ClassementsActivity extends Activity {
         setContentView(R.layout.classements_activity);
         
         String competition = getIntent().getExtras().getString(ProVolley.INTENT_EXTRA_COMPETITION);
-        Resources resources = getApplicationContext().getResources();
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
         
-        dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
+        dataProvider = JSONProviderFactory.getDataProvider(prefs);
         tableLayout = (TableLayout)findViewById(R.id.TableLayout);
         inflater = (LayoutInflater) getApplicationContext()
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);

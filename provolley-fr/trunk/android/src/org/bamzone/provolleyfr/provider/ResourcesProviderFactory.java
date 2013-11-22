@@ -15,14 +15,10 @@
 */  	
 package org.bamzone.provolleyfr.provider;
 
-import org.bamzone.provolleyfr.ProVolley;
-
-import android.content.SharedPreferences;
-import android.content.res.Resources;
 
 public class ResourcesProviderFactory {
 	
-    public static ResourcesProvider getDataProvider(Resources resources) {
+    public static ResourcesProvider getDataProvider() {
     	
 //    	String server = prefs.getString(ProVolley.PREF_KEY_SERVER, ProVolley.PREF_VALUE_PROD);
     	
@@ -36,7 +32,7 @@ public class ResourcesProviderFactory {
 //    		return new ProductionJSONProvider();
 //    	}
     	
-    	return new LocalResourcesProvider(resources);
+    	return new LocalResourcesProvider();
     }
 
 }

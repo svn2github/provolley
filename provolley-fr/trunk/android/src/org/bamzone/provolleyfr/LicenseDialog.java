@@ -22,16 +22,14 @@ import java.io.InputStreamReader;
 
 import org.bamzone.provolleyfr.utils.ListTagHandler;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.util.Linkify;
-
-import android.graphics.Color;
-
 import android.widget.TextView;
+
 public class LicenseDialog extends Dialog{
 	private static Context mContext = null;
 	public LicenseDialog(Context context) {

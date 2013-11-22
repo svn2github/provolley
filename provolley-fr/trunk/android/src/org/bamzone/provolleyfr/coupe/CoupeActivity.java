@@ -15,43 +15,29 @@
 */  	
 package org.bamzone.provolleyfr.coupe;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.ListResourceBundle;
+
+import org.bamzone.provolleyfr.ProVolley;
+import org.bamzone.provolleyfr.R;
+import org.bamzone.provolleyfr.data.ResultatsJournee;
+import org.bamzone.provolleyfr.data.ResultatsMatch;
+import org.bamzone.provolleyfr.data.ResultatsSaison;
+import org.bamzone.provolleyfr.provider.JSONProvider;
+import org.bamzone.provolleyfr.provider.JSONProviderFactory;
+import org.bamzone.provolleyfr.utils.ListTagHandler;
+import org.bamzone.provolleyfr.utils.OnSwipeTouchListener;
 
 import android.app.ListActivity;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
-import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.bamzone.provolleyfr.ProVolley;
-import org.bamzone.provolleyfr.R;
-import org.bamzone.provolleyfr.R.id;
-import org.bamzone.provolleyfr.R.layout;
-import org.bamzone.provolleyfr.data.*;
-import org.bamzone.provolleyfr.provider.JSONProvider;
-import org.bamzone.provolleyfr.provider.JSONProviderFactory;
-import org.bamzone.provolleyfr.resultats.ResultatsHelper;
-import org.bamzone.provolleyfr.utils.ListTagHandler;
-import org.bamzone.provolleyfr.utils.OnSwipeTouchListener;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import com.google.analytics.tracking.android.EasyTracker;
  
@@ -86,9 +72,8 @@ public class CoupeActivity extends ListActivity {
         
         competition = getIntent().getExtras().getString(ProVolley.INTENT_EXTRA_COMPETITION);
         
-        Resources resources = getApplicationContext().getResources();
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
-        dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
+        dataProvider = JSONProviderFactory.getDataProvider(prefs);
 
         displayResultats(CoupeHelper.getResultatsSaisonFromCache(competition));
 
@@ -140,7 +125,7 @@ public class CoupeActivity extends ListActivity {
                 if (journee!=null) journee.setText(Html.fromHtml(resultatJournee.getTitre(),null,new ListTagHandler()));
                 
         		List<ResultatsMatch> matchs = resultatJournee.getMatchs();
-        		CoupeArrayAdapter adapter = new CoupeArrayAdapter(this, matchs);
+        		CoupeArrayAdapter adapter = new CoupeArrayAdapter(matchs);
                 setListAdapter(adapter);
 	        }
         }

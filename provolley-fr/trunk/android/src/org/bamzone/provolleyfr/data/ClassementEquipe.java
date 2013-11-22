@@ -157,16 +157,8 @@ public class ClassementEquipe {
 		return etat2;
 	}
 
-	public void setEtat2(String assure) {
-		this.etat2 = etat2;
-	}
-
 	public int getPen() {
 		return pen;
 	}
 
-	public void setPen(int pen) {
-		this.pen = pen;
-	}
-	
 }

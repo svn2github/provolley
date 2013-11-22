@@ -18,10 +18,6 @@ package org.bamzone.provolleyfr.news;
 import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
 import org.bamzone.provolleyfr.data.NewsItem;
 import org.bamzone.provolleyfr.data.NewsProVolley;
-import org.bamzone.provolleyfr.data.TVEmission;
-import org.bamzone.provolleyfr.data.LiveMatch;
-import org.bamzone.provolleyfr.data.TVProgramme;
-import org.bamzone.provolleyfr.data.LiveResultats;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.resultats.ResultatsActivity;
 import org.json.JSONArray;
@@ -65,12 +61,12 @@ public class NewsHelper {
 		if(json==null) return null;
 
 		NewsProVolley news = getNewsProVolleyFromJson(json);
-		ProVolleyCacheManager.getInstance().getCacheDataSource().insertCachedItem(CACHE_KEY, json);
+		ProVolleyCacheManager.getInstance().getChosenCache().insertCachedItem(CACHE_KEY, json);
 		return news;
     }
     
 	public static NewsProVolley getNewsProVolleyFromCache() {
-		String json = ProVolleyCacheManager.getInstance().getCacheDataSource().getCachedItem(CACHE_KEY);
+		String json = ProVolleyCacheManager.getInstance().getChosenCache().getCachedItem(CACHE_KEY);
 		if(json==null) return null;
 
 		return getNewsProVolleyFromJson(json);

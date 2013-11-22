@@ -21,29 +21,20 @@ import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.R;
 import org.bamzone.provolleyfr.data.TVEmission;
 import org.bamzone.provolleyfr.data.TVProgramme;
-import org.bamzone.provolleyfr.news.NewsActivity;
-import org.bamzone.provolleyfr.news.NewsDetailActivity;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.provider.JSONProviderFactory;
-import org.bamzone.provolleyfr.resultats.ResultatsActivity;
-import org.bamzone.provolleyfr.resultats.ResultatsHelper;
 import org.bamzone.provolleyfr.utils.Sharable;
 
 import android.app.ListActivity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.analytics.tracking.android.EasyTracker;
@@ -71,9 +62,8 @@ public class ProgTVActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.progtv_activity);
 
-		Resources resources = getApplicationContext().getResources();
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-		dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
+		dataProvider = JSONProviderFactory.getDataProvider(prefs);
 
 		displayResults(ProgTVHelper.getProgrammeTVFromCache());
 		
@@ -92,7 +82,7 @@ public class ProgTVActivity extends ListActivity {
 						new String[] { "Pas de programme trouvé..." });
 				setListAdapter(adapter);
 			} else {
-				final ProgTVArrayAdapter adapter = new ProgTVArrayAdapter(ProgTVActivity.this, emissions);
+				final ProgTVArrayAdapter adapter = new ProgTVArrayAdapter(emissions);
 				setListAdapter(adapter);
 
 				ProgTVActivity.this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {

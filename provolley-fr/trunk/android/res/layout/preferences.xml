@@ -56,14 +56,14 @@
 		<CheckBoxPreference
                 android:key="useCache"
                 android:title="Utiliser un Cache"
-                android:summary="La mise des données en cache permet d'utiliser l'application même si le réseau n'est pas disponible."
+                android:summary="La mise des données en cache permet d'utiliser l'application même si le réseau n'est pas disponible"
                 android:persistent="true"
                 android:defaultValue="true">
         </CheckBoxPreference>
         
 		<Preference android:key="cleanCache"
                 android:title="Effacer le Cache"
-                android:summary="X éléments dans le cache">
+                android:summary="Nombre d'éléments en Cache :">
 		</Preference>
 		
 	</PreferenceCategory>

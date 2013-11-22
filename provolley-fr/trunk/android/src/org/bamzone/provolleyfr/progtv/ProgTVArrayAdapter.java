@@ -18,6 +18,7 @@ package org.bamzone.provolleyfr.progtv;
 import java.util.List;
 
 import org.bamzone.provolleyfr.ProVolley;
+import org.bamzone.provolleyfr.ProVolleyApplication;
 import org.bamzone.provolleyfr.R;
 import org.bamzone.provolleyfr.data.TVEmission;
 import org.bamzone.provolleyfr.provider.ResourcesProvider;
@@ -35,20 +36,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ProgTVArrayAdapter extends ArrayAdapter<TVEmission> {
-  private final Context context;
   private final List<TVEmission> values;
   private final ResourcesProvider resourcesProvider;
 
-  public ProgTVArrayAdapter(Context context, List<TVEmission> values) {
-    super(context, R.layout.progtv_row, values);
-    this.context = context;
+  public ProgTVArrayAdapter( List<TVEmission> values) {
+    super(ProVolleyApplication.getAppContext(), R.layout.progtv_row, values);
     this.values = values;
-    this.resourcesProvider = ResourcesProviderFactory.getDataProvider(context.getResources());
+    this.resourcesProvider = ResourcesProviderFactory.getDataProvider();
   }
 
   @Override
   public View getView(int position, View convertView, ViewGroup parent) {
-    LayoutInflater inflater = (LayoutInflater) context
+    LayoutInflater inflater = (LayoutInflater) ProVolleyApplication.getAppContext()
         .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     View rowView = inflater.inflate(R.layout.progtv_row, parent, false);
 

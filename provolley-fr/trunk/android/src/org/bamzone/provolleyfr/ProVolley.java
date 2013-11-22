@@ -72,7 +72,7 @@ public class ProVolley {
 	 public static final String PREF_VALUE_PROD  = "Production";
 	 
 	 public static final String PREF_KEY_CLEAN_CACHE  = "cleanCache";
-	 
+	 public static final String PREF_KEY_CACHE_ACTIVE  = "useCache";
 	 
 	 public static final String PREF_KEY_SHOWADS = "showAds";
 	 public static final String PREF_KEY_LIVEINTERVAL = "liveInterval";

@@ -15,7 +15,6 @@
  */
 package org.bamzone.provolleyfr;
 
-import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
 import org.bamzone.provolleyfr.classements.ClassementsTabActivity;
 import org.bamzone.provolleyfr.coupe.CoupeTabActivity;
 import org.bamzone.provolleyfr.live.LiveActivity;
@@ -23,22 +22,21 @@ import org.bamzone.provolleyfr.news.NewsActivity;
 import org.bamzone.provolleyfr.progtv.ProgTVActivity;
 import org.bamzone.provolleyfr.resultats.ResultatsTabActivity;
 
-import com.google.analytics.tracking.android.EasyTracker;
-
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
+
+import com.google.analytics.tracking.android.EasyTracker;
 
 public class AccueilActivity extends Activity {
 
@@ -46,9 +44,6 @@ public class AccueilActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.accueil_activity);
-
-		// Init cache
-		ProVolleyCacheManager.init(getApplicationContext());
 
 		// Check if first launch of this version
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
@@ -111,12 +106,8 @@ public class AccueilActivity extends Activity {
 	}
 
 	public void onLiveButtonClick(View view) {
-		if (!isNetworkAvailable())
-			Toast.makeText(this, R.string.alertIfNoNetwork, Toast.LENGTH_SHORT).show();
-		else {
-			Intent liveIntent = new Intent(this, LiveActivity.class);
-			startActivity(liveIntent);
-		}
+		Intent liveIntent = new Intent(this, LiveActivity.class);
+		startActivity(liveIntent);
 	}
 
 	public void onProgTVButtonClick(View view) {

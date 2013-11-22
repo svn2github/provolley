@@ -16,10 +16,7 @@
 package org.bamzone.provolleyfr;
 
 import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
-import org.bamzone.provolleyfr.resultats.ResultatsActivity;
 import org.bamzone.provolleyfr.utils.SimpleHasher;
-
-import com.google.analytics.tracking.android.EasyTracker;
 
 import android.annotation.SuppressLint;
 import android.content.SharedPreferences;
@@ -35,8 +32,9 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.util.Log;
-import android.view.Window;
 import android.widget.Toast;
+
+import com.google.analytics.tracking.android.EasyTracker;
 
 
 public class PreferencesActivity extends PreferenceActivity implements
@@ -56,6 +54,7 @@ public class PreferencesActivity extends PreferenceActivity implements
 	    EasyTracker.getInstance().activityStop(this);
 	  }
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
@@ -76,7 +75,8 @@ public class PreferencesActivity extends PreferenceActivity implements
 		server.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
 			@Override
 			public boolean onPreferenceChange(Preference preference, Object newValue) {
-				ProVolleyCacheManager.getInstance().getCacheDataSource().deleteAllCachedItems();
+				ProVolleyCacheManager.getInstance().getRealCache().deleteAllCachedItems();
+				updateCachedItemCount();
 				return true;
 			}
 		});
@@ -86,17 +86,27 @@ public class PreferencesActivity extends PreferenceActivity implements
 		cleanCache.setOnPreferenceClickListener(new OnPreferenceClickListener() {
 			@Override
 			public boolean onPreferenceClick(Preference preference) {
-				ProVolleyCacheManager.getInstance().getCacheDataSource().deleteAllCachedItems();
+				ProVolleyCacheManager.getInstance().getRealCache().deleteAllCachedItems();
 				Toast.makeText(getApplicationContext(), "Le cache a été vidé.", Toast.LENGTH_SHORT).show();
+				updateCachedItemCount();
 				return false;
 			}
 		});
+		updateCachedItemCount();
 		
 		getPreferenceScreen().getSharedPreferences()
 				.registerOnSharedPreferenceChangeListener(this);
 		
 	}
 
+	private void updateCachedItemCount() {
+		@SuppressWarnings("deprecation")
+		Preference cleanCache = getPreferenceScreen().findPreference(ProVolley.PREF_KEY_CLEAN_CACHE);
+		int nbElems = ProVolleyCacheManager.getInstance().getRealCache().countAllCachedItems();
+		cleanCache.setSummary(getString(R.string.elementsInCache)+" "+nbElems);
+	}
+	
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -105,6 +115,7 @@ public class PreferencesActivity extends PreferenceActivity implements
 				.registerOnSharedPreferenceChangeListener(this);
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onPause() {
 		super.onPause();
@@ -113,6 +124,7 @@ public class PreferencesActivity extends PreferenceActivity implements
 				.unregisterOnSharedPreferenceChangeListener(this);
 	}
 
+	@SuppressWarnings("deprecation")
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
 			String key) {
 		updatePrefSummary(findPreference(key));
@@ -142,6 +154,7 @@ public class PreferencesActivity extends PreferenceActivity implements
 
 	}
 	
+	@SuppressWarnings("deprecation")
 	@SuppressLint("NewApi")
 	private boolean isTestDevice() {
 		 String serial = "";

@@ -22,7 +22,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import org.bamzone.provolleyfr.ProVolley;
-import org.bamzone.provolleyfr.R;
 
 import android.util.Log;
 

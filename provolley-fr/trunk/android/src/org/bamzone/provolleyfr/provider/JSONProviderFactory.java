@@ -18,16 +18,15 @@ package org.bamzone.provolleyfr.provider;
 import org.bamzone.provolleyfr.ProVolley;
 
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 
 public class JSONProviderFactory {
 	
-    public static JSONProvider getDataProvider(Resources resources, SharedPreferences prefs) {
+    public static JSONProvider getDataProvider(SharedPreferences prefs) {
     	
     	String server = prefs.getString(ProVolley.PREF_KEY_SERVER, ProVolley.PREF_VALUE_PROD);
     	
     	if (ProVolley.PREF_VALUE_LOCAL.equals(server)) {
-    		return new LocalJSONProvider(resources);
+    		return new LocalJSONProvider();
     	}
     	else if (ProVolley.PREF_VALUE_TEST.equals(server)) {
     		return new TestJSONProvider();

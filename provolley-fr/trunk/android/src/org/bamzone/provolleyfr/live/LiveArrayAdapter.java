@@ -18,8 +18,8 @@ package org.bamzone.provolleyfr.live;
 import java.util.List;
 
 import org.bamzone.provolleyfr.ProVolley;
+import org.bamzone.provolleyfr.ProVolleyApplication;
 import org.bamzone.provolleyfr.R;
-import org.bamzone.provolleyfr.coupe.CoupeHelper;
 import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.provider.ResourcesProvider;
 import org.bamzone.provolleyfr.provider.ResourcesProviderFactory;
@@ -38,15 +38,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class LiveArrayAdapter extends ArrayAdapter<LiveMatch> {
-  private final Context context;
   private final List<LiveMatch> values;
   private final ResourcesProvider resourcesProvider;
 
-  public LiveArrayAdapter(Context context, List<LiveMatch> values) {
-    super(context, R.layout.live_row, values);
-    this.context = context;
+  public LiveArrayAdapter(List<LiveMatch> values) {
+    super(ProVolleyApplication.getAppContext(), R.layout.live_row, values);
     this.values = values;
-    this.resourcesProvider = ResourcesProviderFactory.getDataProvider(context.getResources());
+    this.resourcesProvider = ResourcesProviderFactory.getDataProvider();
   }
 
   public void refill(List<LiveMatch> matchs) {
@@ -58,7 +56,7 @@ public class LiveArrayAdapter extends ArrayAdapter<LiveMatch> {
   
   @Override
   public View getView(int position, View convertView, ViewGroup parent) {
-    LayoutInflater inflater = (LayoutInflater) context
+    LayoutInflater inflater = (LayoutInflater) ProVolleyApplication.getAppContext()
         .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     View rowView = inflater.inflate(R.layout.live_row, parent, false);
     LiveMatch match = values.get(position);

@@ -64,7 +64,7 @@ public class NewsDetailActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.news_detail_activity);
 		
-		// Retrive current news item as a Sharable. 
+		// Retreive current news item as a Sharable. 
 		// If returning from background state, in the saved instance, 
 		// otherwise in the extra parameters from the Intent
 		Sharable sharable;
@@ -91,7 +91,7 @@ public class NewsDetailActivity extends Activity {
 			Linkify.addLinks(texte, Linkify.ALL);
 	    }
 		if (logo != null) {
-	    	logo.setImageDrawable(ResourcesProviderFactory.getDataProvider(this.getResources()).getLogoNews(currentNewsItem.getCategorie()));
+	    	logo.setImageDrawable(ResourcesProviderFactory.getDataProvider().getLogoNews(currentNewsItem.getCategorie()));
 	    }
 	}
 

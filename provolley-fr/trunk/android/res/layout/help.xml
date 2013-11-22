@@ -33,23 +33,23 @@ android:layout_margin="8dip"
     android:textStyle="bold" 
     />
 
-<ScrollView 
+	<ScrollView 
     	android:layout_width="fill_parent" 
     	android:layout_height="wrap_content" 
     >
-	<TextView
-	    android:id="@+id/help_text"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:ellipsize="none"
-	    android:maxLines="200"
-	    android:scrollHorizontally="false"
-	    android:text="@string/help_text"
-	    android:textColor="#cccccc"
-	    android:textSize="11sp"
-	    android:textStyle="italic"
-	    android:padding="8dip"
-	     />
+		<TextView
+		    android:id="@+id/help_text"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:ellipsize="none"
+		    android:maxLines="200"
+		    android:scrollHorizontally="false"
+		    android:text="@string/help_text"
+		    android:textColor="#cccccc"
+		    android:textSize="11sp"
+		    android:textStyle="italic"
+		    android:padding="8dip"
+		     />
 	</ScrollView>
-
+	
 </LinearLayout>

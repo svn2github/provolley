@@ -1,9 +1,9 @@
 package org.bamzone.provolleyfr.cache;
 
-import android.content.Context;
+import org.bamzone.provolleyfr.ProVolleyApplication;
+
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.database.sqlite.SQLiteDatabase.CursorFactory;
 
 public 	class CacheDatabaseHelper extends SQLiteOpenHelper {
 
@@ -14,11 +14,11 @@ public 	class CacheDatabaseHelper extends SQLiteOpenHelper {
 	public final static String PROVOLLEY_CACHE_CONTENT = "CONTENT";
 	private final static String PROVOLLEY_CREATE_CACHE_TABLE = "create table "+PROVOLLEY_CACHE_TABLE+" ("+
 			PROVOLLEY_CACHE_ID+" VARCHAR(16) PRIMARY KEY,"+PROVOLLEY_CACHE_CONTENT+" TEXT NOT NULL);";
-	private final static String PROVOLLEY_DROP_CACHE_TABLE = "drop table "+PROVOLLEY_CACHE_TABLE+";";
+//	private final static String PROVOLLEY_DROP_CACHE_TABLE = "drop table "+PROVOLLEY_CACHE_TABLE+";";
 	public final static String PROVOLLEY_CACHE_QUERY_BY_ID = PROVOLLEY_CACHE_ID+"=?";
 	
-	public CacheDatabaseHelper(Context context) {
-		super(context, PROVOLLEY_CACHE_DB, null, PROVOLLEY_CACHE_VERSION);
+	public CacheDatabaseHelper() {
+		super(ProVolleyApplication.getAppContext(), PROVOLLEY_CACHE_DB, null, PROVOLLEY_CACHE_VERSION);
 	}
  
 	@Override

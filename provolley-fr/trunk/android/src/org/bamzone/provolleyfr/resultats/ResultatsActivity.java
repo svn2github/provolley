@@ -29,7 +29,6 @@ import org.bamzone.provolleyfr.utils.OnSwipeTouchListener;
 
 import android.app.ListActivity;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -74,9 +73,8 @@ public class ResultatsActivity extends ListActivity {
         
         competition = getIntent().getExtras().getString(ProVolley.INTENT_EXTRA_COMPETITION);
         
-        Resources resources = getApplicationContext().getResources();
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
-        dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
+        dataProvider = JSONProviderFactory.getDataProvider(prefs);
 
         displayResultats(ResultatsHelper.getResultatsSaisonFromCache(competition));
         
@@ -128,7 +126,7 @@ public class ResultatsActivity extends ListActivity {
                 if (journee!=null) journee.setText(Html.fromHtml(resultatJournee.getTitre(),null,new ListTagHandler()));
                 
         		List<ResultatsMatch> matchs = resultatJournee.getMatchs();
-        		ResultatsArrayAdapter adapter = new ResultatsArrayAdapter(this, matchs);
+        		ResultatsArrayAdapter adapter = new ResultatsArrayAdapter(matchs);
                 setListAdapter(adapter);
 	        }
         }

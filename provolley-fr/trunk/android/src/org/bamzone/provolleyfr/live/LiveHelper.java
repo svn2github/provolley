@@ -16,21 +16,24 @@
 package org.bamzone.provolleyfr.live;
 
 import org.bamzone.provolleyfr.ProVolley;
+import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
 import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.data.LiveResultats;
+import org.bamzone.provolleyfr.data.NewsProVolley;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.resultats.ResultatsActivity;
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.util.Log;
 
 public class LiveHelper {
 	
-	public static LiveResultats getResultatsLive(JSONProvider dp) {
+	private final static String CACHE_KEY = "LIVE"; 
+	
+	public static LiveResultats getResultatsLiveFromJSON(String json) {
     	try {
-			JSONObject live = new JSONObject(dp.getLive()).getJSONObject("live");
+			JSONObject live = new JSONObject(json).getJSONObject("live");
 
 			String heureMaj = live.getString("maj");
 			int nblive = live.getInt("nblive");
@@ -102,4 +105,20 @@ public class LiveHelper {
 		if(ProVolley.LIVE_VICTOIRE_EXTERIEUR.equals(match.getVictoire())) return true;
 		return false;
 	}
+	
+	public static LiveResultats getResultatsLiveFromServer(JSONProvider dp) {
+		String json = dp.getLive();
+		if(json==null) return null;
+
+		LiveResultats liveResults = getResultatsLiveFromJSON(json);
+		ProVolleyCacheManager.getInstance().getChosenCache().insertCachedItem(CACHE_KEY, json);
+		return liveResults;
+    }
+    
+	public static LiveResultats getResultatsLiveFromCache() {
+		String json = ProVolleyCacheManager.getInstance().getChosenCache().getCachedItem(CACHE_KEY);
+		if(json==null) return null;
+
+		return getResultatsLiveFromJSON(json);
+    }
 }

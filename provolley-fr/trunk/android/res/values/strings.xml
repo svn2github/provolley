@@ -1,12 +1,13 @@
 <resources>
 
         <string name="application_name">ProVolley-fr</string>
-        <string name="application_version">version 1.2.0</string>
+        <string name="application_version">version 1.3.0</string>
         
         <string name="application_version_1_0_0">version 1.0.0</string>
         <string name="application_version_1_0_1">version 1.0.1</string>
         <string name="application_version_1_1_0">version 1.1.0</string>
         <string name="application_version_1_2_0">version 1.2.0</string>
+        <string name="application_version_1_3_0">version 1.3.0</string>
         
         <string name="application_website">www.provolley.fr</string>
         <string name="application_copyright">Copyright 2013 Christophe Bothamy</string>
@@ -32,9 +33,8 @@
              <ul>
              <li>Ajout d\'une gestion de cache des données permettant d\'utiliser l\'application même sans réseau</li>
              <li>Mise à jour des maillots pour la saison 2013/2014</li>
-             <li>Correction des plantages sur l\'écran du live lors de la sortie de veille</li>
+             <li>Correction des erreurs sur l\'écran des lives lors de la sortie de veille</li>
              <li>Ajout du swipe pour naviguer de journée en journée pour les résultats de championnat et de coupe de France</li>
-             <li>Ajout d'un algorithme pour déterminer les couleurs probables des maillots lors des live</li>
              </ul>
              <br/><br/>
              ]]></string>
@@ -153,21 +153,24 @@
                 gêner le bon fonctionnement de l\'application, en provoquant notament des retards dans les mises
                 à jour des résultats, ou des retards ou absences de score pour les matchs en direct.<br/><br/>
                 L\'application contient des ressources provenant de :<ul>
-                <li>wikipedia : les maillots, informations sur les clubs et joueurs, licence CC-BY-SA 3.0,</li>
+                <li>wikipedia : les informations sur les clubs et joueurs, licence CC-BY-SA 3.0,</li>
                 <li>pjt56 : photographie http://fr.wikipedia.org/wiki/Fichier:Volleyball_Block.jpg , license CC-BY-SA 3.0,</li>
                 <li>GraphicsFuel.com : icone "coupe", licence freeware,</li>
                 <li>Cemagraphics : icone "journal", licence freeware.</li>
                 </ul><br/>
-                Les logos de la CEV, de la LNV, des clubs, des chaines de télévision et sites internet sont affichés dans un but d\'illustration, 
-                mais restent la propriété exclusive de leurs propriétaires respectifs.
+                Les logos de la CEV, de la LNV, des clubs, des chaines de télévision et sites internet, les designs des maillots 
+                sont affichés dans un but d\'illustration, mais restent la propriété exclusive de leurs propriétaires respectifs.
                 <br/><br/>
                 <h3>Remerciements</h3>
                 <ul>
                 <li>Frédéric Bothamy, expert en volley-ball, pour ses critiques des versions beta, et pour ses idées sur l\'ergonomie et les fonctionnalités présentes et futures de l\'application,</li>
                 <li>Patrick Decat et Florian Boulay pour leurs conseils avisés en programmation Android.</li>
                 </ul>
-                <h3>Licence</h3>
-    Copyright (C) 2012 Christophe Bothamy<br/><br/>
+                <h3>Licence</h3>]]>
+        </string>
+
+        <string name="help_license">
+            <![CDATA[<br/><br/>
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -177,8 +180,7 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.<br><br>
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see http://www.gnu.org/licenses .<br><br>
-                 ]]>
+    along with this program.  If not, see http://www.gnu.org/licenses .<br><br>]]>
         </string>
         
          <string name="alertIfNoNetwork">Merci d\'activer la connexion au réseau pour utiliser cette fonctionnalité</string>

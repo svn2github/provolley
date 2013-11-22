@@ -28,7 +28,6 @@ import org.bamzone.provolleyfr.utils.Sharable;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -63,11 +62,10 @@ public class NewsActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.news_activity);
 
-		Resources resources = getApplicationContext().getResources();
 		SharedPreferences prefs = PreferenceManager
 				.getDefaultSharedPreferences(this);
 
-		dataProvider = JSONProviderFactory.getDataProvider(resources, prefs);
+		dataProvider = JSONProviderFactory.getDataProvider(prefs);
 
 		displayResults(NewsHelper.getNewsProVolleyFromCache());
 		
@@ -88,7 +86,7 @@ public class NewsActivity extends ListActivity {
 			        setListAdapter(adapter);
 			}
 			else {
-				final NewsArrayAdapter adapter = new NewsArrayAdapter(NewsActivity.this, newsItems);
+				final NewsArrayAdapter adapter = new NewsArrayAdapter(newsItems);
 				setListAdapter(adapter);
 			
 				NewsActivity.this.getListView().setOnItemClickListener(new AdapterView.OnItemClickListener() {

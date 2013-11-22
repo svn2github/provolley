@@ -15,27 +15,19 @@
 */  	
 package org.bamzone.provolleyfr;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-
 import org.bamzone.provolleyfr.utils.ListTagHandler;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.Html;
 import android.text.util.Linkify;
-
-import android.graphics.Color;
-
-import android.view.Window;
 import android.widget.TextView;
+
 public class GreetingsDialog extends Dialog{
 	private static Context mContext = null;
 	public GreetingsDialog(Context context) {
@@ -57,24 +49,34 @@ public class GreetingsDialog extends Dialog{
 		String s = "";
 
 		final String version_1_1_0 = mContext.getResources().getString(R.string.application_version_1_1_0);
+		final String version_1_2_0 = mContext.getResources().getString(R.string.application_version_1_2_0);
 		
 		// Application Never Launched
+		// TODO use reflection to dynamiccaly create text
 		if ("0".equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
 			s = mContext.getResources().getString(R.string.application_description) +
 					mContext.getResources().getString(R.string.application_historique) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_0)+
 					mContext.getResources().getString(R.string.application_histo_v1_2_0)+
 					mContext.getResources().getString(R.string.application_histo_v1_1_0)+
 					mContext.getResources().getString(R.string.application_histo_v1_0_0);
 			
 		}
+		else if (version_1_2_0.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
+			// Upgrade from version 1.2.0
+			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_0);
+		}
 		else if (version_1_1_0.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
 			// Upgrade from version 1.1.0
 			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_0) +
 					mContext.getResources().getString(R.string.application_histo_v1_2_0);
 		}
 		else {
 			// Upgrade from version 1.0.1 / 1.0.0
 			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_0) +
 					mContext.getResources().getString(R.string.application_histo_v1_2_0) +
 					mContext.getResources().getString(R.string.application_histo_v1_1_0);
 		}

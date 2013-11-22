@@ -73,13 +73,13 @@ public class ProgTVHelper {
 		// Log.d(ProgTVHelper.class.getName(), "JSON: "+json);
 
 		TVProgramme progTV = getProgrammeTVFromJson(json);
-		ProVolleyCacheManager.getInstance().getCacheDataSource()
+		ProVolleyCacheManager.getInstance().getChosenCache()
 				.insertCachedItem(CACHE_KEY, json);
 		return progTV;
 	}
 
 	public static TVProgramme getProgrammeTVFromCache() {
-		String json = ProVolleyCacheManager.getInstance().getCacheDataSource()
+		String json = ProVolleyCacheManager.getInstance().getChosenCache()
 				.getCachedItem(CACHE_KEY);
 		if (json == null)
 			return null;

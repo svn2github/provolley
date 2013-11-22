@@ -105,12 +105,12 @@ public class CoupeHelper {
 		// Log.d(ResultatsActivity.class.getName(), "JSON: "+json);
 
 		ResultatsSaison resultats = getResultatsSaisonFromJson(competition, json);
-		ProVolleyCacheManager.getInstance().getCacheDataSource().insertCachedItem(CACHE_KEY + competition, json);
+		ProVolleyCacheManager.getInstance().getChosenCache().insertCachedItem(CACHE_KEY + competition, json);
 		return resultats;
 	}
 
 	public static ResultatsSaison getResultatsSaisonFromCache(String competition) {
-		String json = ProVolleyCacheManager.getInstance().getCacheDataSource().getCachedItem(CACHE_KEY + competition);
+		String json = ProVolleyCacheManager.getInstance().getChosenCache().getCachedItem(CACHE_KEY + competition);
 		if (json == null)
 			return null;
 

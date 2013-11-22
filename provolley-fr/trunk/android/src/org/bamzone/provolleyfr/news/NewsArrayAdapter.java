@@ -12,26 +12,20 @@
     GNU General Public License for more details.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see http://www.gnu.org/licenses.
-*/  	
+ */
 package org.bamzone.provolleyfr.news;
 
 import java.util.List;
 
-import org.bamzone.provolleyfr.ProVolley;
+import org.bamzone.provolleyfr.ProVolleyApplication;
 import org.bamzone.provolleyfr.R;
 import org.bamzone.provolleyfr.data.NewsItem;
-import org.bamzone.provolleyfr.data.TVEmission;
-import org.bamzone.provolleyfr.data.LiveMatch;
-import org.bamzone.provolleyfr.data.TVProgramme;
 import org.bamzone.provolleyfr.provider.ResourcesProvider;
 import org.bamzone.provolleyfr.provider.ResourcesProviderFactory;
 import org.bamzone.provolleyfr.utils.ListTagHandler;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.text.GetChars;
 import android.text.Html;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,46 +34,43 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class NewsArrayAdapter extends ArrayAdapter<NewsItem> {
-  private final Context context;
-  private final List<NewsItem> values;
-  private final ResourcesProvider resourcesProvider;
+	private final List<NewsItem> values;
+	private final ResourcesProvider resourcesProvider;
 
-  public NewsArrayAdapter(Context context, List<NewsItem> values) {
-    super(context, R.layout.news_row, values);
-    this.context = context;
-    this.values = values;
-    this.resourcesProvider = ResourcesProviderFactory.getDataProvider(context.getResources());
-  }
+	public NewsArrayAdapter(List<NewsItem> values) {
+		super(ProVolleyApplication.getAppContext(), R.layout.news_row, values);
+		this.values = values;
+		this.resourcesProvider = ResourcesProviderFactory.getDataProvider();
+	}
 
-  /* Return the number of items in our model */
-  @Override
-  public int getCount() {
-	  return values.size();
-  }
-   
-  /* Return a single item from a selected position from our model */
-  @Override
-  public NewsItem getItem(int arg0) {
-	  return values.get(arg0);
-  }
-  
-  @Override
-  public View getView(int position, View convertView, ViewGroup parent) {
-    LayoutInflater inflater = (LayoutInflater) context
-        .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-    View rowView = inflater.inflate(R.layout.news_row, parent, false);
+	/* Return the number of items in our model */
+	@Override
+	public int getCount() {
+		return values.size();
+	}
 
-    TextView dateHeure = (TextView) rowView.findViewById(R.id.DateHeureTextView);
-    TextView titre = (TextView) rowView.findViewById(R.id.TitreTextView);
-    
-    dateHeure.setText(values.get(position).getDate()+", "+values.get(position).getHeure());
-    titre.setText(Html.fromHtml(values.get(position).getTitre(),null,new ListTagHandler()));
-    
-    ImageView logo = (ImageView) rowView.findViewById(R.id.logoImageView);
-    if (logo != null) {
-    	logo.setImageDrawable(resourcesProvider.getLogoNews(values.get(position).getCategorie()));
-    }
-    
-    return rowView;
-  }
-} 
+	/* Return a single item from a selected position from our model */
+	@Override
+	public NewsItem getItem(int arg0) {
+		return values.get(arg0);
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		LayoutInflater inflater = (LayoutInflater) ProVolleyApplication.getAppContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		View rowView = inflater.inflate(R.layout.news_row, parent, false);
+
+		TextView dateHeure = (TextView) rowView.findViewById(R.id.DateHeureTextView);
+		TextView titre = (TextView) rowView.findViewById(R.id.TitreTextView);
+
+		dateHeure.setText(values.get(position).getDate() + ", " + values.get(position).getHeure());
+		titre.setText(Html.fromHtml(values.get(position).getTitre(), null, new ListTagHandler()));
+
+		ImageView logo = (ImageView) rowView.findViewById(R.id.logoImageView);
+		if (logo != null) {
+			logo.setImageDrawable(resourcesProvider.getLogoNews(values.get(position).getCategorie()));
+		}
+
+		return rowView;
+	}
+}

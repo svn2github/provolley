@@ -17,10 +17,6 @@ package org.bamzone.provolleyfr.resultats;
 
 import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.R;
-import org.bamzone.provolleyfr.R.drawable;
-import org.bamzone.provolleyfr.R.layout;
-
-import com.google.analytics.tracking.android.EasyTracker;
 
 import android.app.TabActivity;
 import android.content.Intent;
@@ -28,6 +24,7 @@ import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
+@SuppressWarnings("deprecation")
 public class ResultatsTabActivity extends TabActivity {
 
    /** Called when the activity is first created. */

@@ -19,18 +19,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.bamzone.provolleyfr.ProVolley;
+import org.bamzone.provolleyfr.ProVolleyApplication;
 import org.bamzone.provolleyfr.R;
 
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
-import android.util.Log;
 
 public class LocalResourcesProvider implements ResourcesProvider {
 	
 	private Resources resources;
 	
-	public LocalResourcesProvider(Resources r) {
-		resources = r;
+	public LocalResourcesProvider() {
+		resources = ProVolleyApplication.getAppContext().getResources();
 	}
 	
 	@Override

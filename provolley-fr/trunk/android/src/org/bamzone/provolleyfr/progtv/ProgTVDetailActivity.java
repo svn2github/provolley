@@ -17,7 +17,6 @@ package org.bamzone.provolleyfr.progtv;
 
 import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.R;
-import org.bamzone.provolleyfr.data.NewsItem;
 import org.bamzone.provolleyfr.data.TVEmission;
 import org.bamzone.provolleyfr.provider.ResourcesProviderFactory;
 import org.bamzone.provolleyfr.utils.ListTagHandler;
@@ -103,7 +102,7 @@ public class ProgTVDetailActivity extends Activity {
 			Linkify.addLinks(texte, Linkify.ALL);
 	    }
 	    if (logo != null) {
-	    	logo.setImageDrawable(ResourcesProviderFactory.getDataProvider(this.getResources()).getLogoChaine(currentTVEmission.getIdChaine()));
+	    	logo.setImageDrawable(ResourcesProviderFactory.getDataProvider().getLogoChaine(currentTVEmission.getIdChaine()));
 	    }
 	}
 }

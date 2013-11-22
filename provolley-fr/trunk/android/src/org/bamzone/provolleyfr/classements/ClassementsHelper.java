@@ -81,12 +81,12 @@ public class ClassementsHelper {
 		if(json==null) return null;
 
 		ClassementCompetition classement = getClassementFromJson(competition, json);
-		ProVolleyCacheManager.getInstance().getCacheDataSource().insertCachedItem(CACHE_KEY+competition, json);
+		ProVolleyCacheManager.getInstance().getChosenCache().insertCachedItem(CACHE_KEY+competition, json);
 		return classement;
     }
     
 	public static ClassementCompetition getClassementFromCache(String competition) {
-		String json = ProVolleyCacheManager.getInstance().getCacheDataSource().getCachedItem(CACHE_KEY+competition);
+		String json = ProVolleyCacheManager.getInstance().getChosenCache().getCachedItem(CACHE_KEY+competition);
 		if(json==null) return null;
 
 		return getClassementFromJson(competition, json);
