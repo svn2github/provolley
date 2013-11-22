@@ -65,9 +65,7 @@ public class ProgTVActivity extends ListActivity {
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		dataProvider = JSONProviderFactory.getDataProvider(prefs);
 
-		displayResults(ProgTVHelper.getProgrammeTVFromCache());
-		
-		DownloadProgTV task = new DownloadProgTV();
+		GetProgTV task = new GetProgTV();
 		task.execute();
 	}
 
@@ -100,11 +98,27 @@ public class ProgTVActivity extends ListActivity {
 		}
 	}
 
+	private class GetProgTV extends AsyncTask<Void, Void, TVProgramme> {
+
+		@Override
+		protected TVProgramme doInBackground(Void... args) {
+			//Log.d(this.getClass().getName(), "Downloading ProgrammeTV data");
+			return (ProgTVHelper.getProgrammeTVFromCache());
+		}
+
+		protected void onPostExecute(TVProgramme result) {
+			displayResults(result);
+
+			DownloadProgTV task = new DownloadProgTV();
+			task.execute();
+		}
+	}
+
 	private class DownloadProgTV extends AsyncTask<Void, Void, TVProgramme> {
 
 		@Override
 		protected TVProgramme doInBackground(Void... args) {
-			Log.d(this.getClass().getName(), "Downloading ProgrammeTV data");
+			//Log.d(this.getClass().getName(), "Downloading ProgrammeTV data");
 			return (ProgTVHelper.getProgrammeTVFromServer(dataProvider));
 		}
 

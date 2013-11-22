@@ -73,9 +73,7 @@ public class ClassementsActivity extends Activity {
         TableRow loading = (TableRow)inflater.inflate(R.layout.classements_load, tableLayout, false);
         tableLayout.addView(loading);
         
-        displayResults(ClassementsHelper.getClassementFromCache(competition));
-        
-        DownloadClassement task  = new DownloadClassement();
+        GetClassement task  = new GetClassement();
         task.execute(new String[] {competition});
     }
 
@@ -203,7 +201,26 @@ public class ClassementsActivity extends Activity {
 	        if (vainq) tableLayout.addView(addNB("Champion",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_VAINQUEUR)));
         }
 	}
-	
+
+	private class GetClassement extends AsyncTask<String, Void, ClassementCompetition> {
+		
+		String competition;
+		
+		@Override
+		protected ClassementCompetition doInBackground(String... competitions) {
+			competition=competitions[0];
+			return (ClassementsHelper.getClassementFromCache(competition));
+		}
+
+		protected void onPostExecute(ClassementCompetition result) {
+	        displayResults(result);
+	        
+	        DownloadClassement task  = new DownloadClassement();
+	        task.execute(new String[] {competition});
+
+		}
+	}
+
 	private class DownloadClassement extends AsyncTask<String, Void, ClassementCompetition> {
 
 		@Override

@@ -67,9 +67,7 @@ public class NewsActivity extends ListActivity {
 
 		dataProvider = JSONProviderFactory.getDataProvider(prefs);
 
-		displayResults(NewsHelper.getNewsProVolleyFromCache());
-		
-		DownloadNews task  = new DownloadNews();
+		GetNews task  = new GetNews();
         task.execute();
         
 	}
@@ -104,11 +102,27 @@ public class NewsActivity extends ListActivity {
         }
 	}
 	
+	private class GetNews extends AsyncTask<Void, Void, NewsProVolley> {
+
+		@Override
+		protected NewsProVolley doInBackground(Void... args) {
+  			 //Log.d(this.getClass().getName(),"Downloading News");
+			 return(NewsHelper.getNewsProVolleyFromCache());
+		}
+		
+		protected void onPostExecute(NewsProVolley result) {
+			displayResults(result);
+			
+			DownloadNews task  = new DownloadNews();
+	        task.execute();
+		}
+	}
+
 	private class DownloadNews extends AsyncTask<Void, Void, NewsProVolley> {
 
 		@Override
 		protected NewsProVolley doInBackground(Void... args) {
-  			 Log.d(this.getClass().getName(),"Downloading News");
+  			 //Log.d(this.getClass().getName(),"Downloading News");
 			 return(NewsHelper.getNewsProVolleyFromServer(dataProvider));
 		}
 		

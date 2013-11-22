@@ -60,7 +60,6 @@ public class CoupeActivity extends ListActivity {
 	int numJournee=0;
 	int minJournee=0;
 	int maxJournee=0;
-	String competition;
 	
 	ResultatsSaison resultatsSaison;
 	JSONProvider dataProvider;
@@ -70,14 +69,12 @@ public class CoupeActivity extends ListActivity {
         setContentView(R.layout.coupe_activity);
         ((TextView) findViewById(R.id.JourneeTextView)).setText("");
         
-        competition = getIntent().getExtras().getString(ProVolley.INTENT_EXTRA_COMPETITION);
+        String competition = getIntent().getExtras().getString(ProVolley.INTENT_EXTRA_COMPETITION);
         
         SharedPreferences prefs= PreferenceManager.getDefaultSharedPreferences(this);
         dataProvider = JSONProviderFactory.getDataProvider(prefs);
 
-        displayResultats(CoupeHelper.getResultatsSaisonFromCache(competition));
-
-        DownloadResultatsSaison task  = new DownloadResultatsSaison();
+        GetResultatsSaison task  = new GetResultatsSaison();
         task.execute(new String[] {competition});
 
         ListView listView=getListView();
@@ -148,6 +145,25 @@ public class CoupeActivity extends ListActivity {
 	        // Display 
 	        displayJourneeSelectionnee();
         }
+	}
+
+	private class GetResultatsSaison extends AsyncTask<String, Void, ResultatsSaison> {
+
+		String competition;
+		
+		@Override
+		protected ResultatsSaison doInBackground(String... competitions) {
+			competition=competitions[0];
+	        return CoupeHelper.getResultatsSaisonFromCache(competition);
+
+		}
+		
+		protected void onPostExecute(ResultatsSaison result) {
+			displayResultats(result);
+
+	        DownloadResultatsSaison task  = new DownloadResultatsSaison();
+	        task.execute(new String[] {competition});
+		}
 	}
 
 	private class DownloadResultatsSaison extends AsyncTask<String, Void, ResultatsSaison> {

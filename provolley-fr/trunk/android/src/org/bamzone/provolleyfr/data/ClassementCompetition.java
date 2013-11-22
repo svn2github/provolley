@@ -21,6 +21,7 @@ public class ClassementCompetition {
 
 	ArrayList<ClassementEquipe> equipes;
 	String saison;
+	String competition;
 
 	public ClassementCompetition(String saison) {
 		super();
@@ -34,5 +35,9 @@ public class ClassementCompetition {
 
 	public String getSaison() {
 		return saison;
+	}
+
+	public String getCompetition() {
+		return competition;
 	}
 }
