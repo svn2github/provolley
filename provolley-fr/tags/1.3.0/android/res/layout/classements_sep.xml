@@ -1,0 +1,70 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/equipe"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/mj"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/m30"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/m32"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/m23"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/m03"
+        android:layout_width="wrap_content"
+        android:layout_height="2dip"
+        android:text=""
+        android:background="#505050"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</TableRow>

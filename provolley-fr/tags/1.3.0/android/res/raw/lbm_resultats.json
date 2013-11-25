@@ -1,0 +1,427 @@
+{
+	"version": 2,
+	"resultats": 
+		{
+		"nomsaison": "2013-2014",		
+		"saison": "1314",		
+		"journees": 
+			[
+				{
+                                        "numero": 1,
+					"titre": "1<sup><small>ère</small></sup> Journée",
+					"date": "sam 5 oct",
+					"matchs": 
+						[
+{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "0-3", "score": "19-25 14-25 19-25", "victoire": "Exterieur", "code": "LBM001"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "3-2", "score": "25-21 14-25 25-21 23-25 15-7", "victoire": "Domicile", "code": "LBM002"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 18-25 25-19 25-20", "victoire": "Domicile", "code": "LBM003"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-15 25-21", "victoire": "Domicile", "code": "LBM004"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-16 25-16 25-17", "victoire": "Domicile", "code": "LBM005"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-21 25-18", "victoire": "Domicile", "code": "LBM006"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-2", "score": "21-25 25-16 25-22 27-29 15-11", "victoire": "Domicile", "code": "LBM007"}
+						]
+				}
+,
+				{
+                                        "numero": 2,
+					"titre": "2<sup><small>ème</small></sup> Journée",
+					"date": "sam 12 oct",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 22-25 25-18 25-18", "victoire": "Domicile", "code": "LBM009"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-22 25-20 25-16", "victoire": "Domicile", "code": "LBM012"}
+,{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-21 25-21 16-25 20-25 14-16", "victoire": "Exterieur", "code": "LBM013"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "2-3", "score": "22-25 25-21 27-25 15-25 11-15", "victoire": "Exterieur", "code": "LBM008"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-23 17-25 25-19 25-15", "victoire": "Domicile", "code": "LBM011"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-22 25-14", "victoire": "Domicile", "code": "LBM010"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "0-3", "score": "30-32 23-25 19-25", "victoire": "Exterieur", "code": "LBM014"}
+						]
+				}
+,
+				{
+                                        "numero": 3,
+					"titre": "3<sup><small>ème</small></sup> Journée",
+					"date": "sam 19 oct",
+					"matchs": 
+						[
+{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-19 25-20", "victoire": "Domicile", "code": "LBM019"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "1-3", "score": "25-19 19-25 23-25 20-25", "victoire": "Exterieur", "code": "LBM015"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "3-1", "score": "25-20 25-17 27-29 25-21", "victoire": "Domicile", "code": "LBM016"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-12 25-22 25-23", "victoire": "Domicile", "code": "LBM017"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-18 25-22 25-20", "victoire": "Domicile", "code": "LBM018"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-22 25-16 20-25 23-25 12-15", "victoire": "Exterieur", "code": "LBM020"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 26-24 25-19", "victoire": "Domicile", "code": "LBM021"}
+						]
+				}
+,
+				{
+                                        "numero": 4,
+					"titre": "4<sup><small>ème</small></sup> Journée",
+					"date": "sam 26 oct",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "2-3", "score": "25-19 17-25 24-26 25-22 16-18", "victoire": "Exterieur", "code": "LBM024"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-21 25-17 26-24", "victoire": "Domicile", "code": "LBM027"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "1-3", "score": "21-25 25-17 18-25 26-28", "victoire": "Exterieur", "code": "LBM023"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-20 25-23 25-15", "victoire": "Domicile", "code": "LBM022"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "3-2", "score": "19-25 26-24 24-26 25-22 15-8", "victoire": "Domicile", "code": "LBM025"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "3-0", "score": "25-23 25-12 25-18", "victoire": "Domicile", "code": "LBM026"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "1-3", "score": "25-13 22-25 22-25 18-25", "victoire": "Exterieur", "code": "LBM028"}
+						]
+				}
+,
+				{
+                                        "numero": 5,
+					"titre": "5<sup><small>ème</small></sup> Journée",
+					"date": "sam 2 nov",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 1 nov", "score": "20:00", "victoire": "", "code": "LBM034"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 2 nov", "score": "19:30", "victoire": "", "code": "LBM032"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LBM029"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LBM030"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LBM031"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LBM033"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 2 nov", "score": "20:00", "victoire": "", "code": "LBM035"}
+						]
+				}
+,
+				{
+                                        "numero": 6,
+					"titre": "6<sup><small>ème</small></sup> Journée",
+					"date": "sam 9 nov",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "ven 8 nov", "score": "20:00", "victoire": "", "code": "LBM036"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "18:00", "victoire": "", "code": "LBM037"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "18:00", "victoire": "", "code": "LBM041"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "20:00", "victoire": "", "code": "LBM038"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "20:00", "victoire": "", "code": "LBM039"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 9 nov", "score": "20:00", "victoire": "", "code": "LBM042"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "dim 10 nov", "score": "17:00", "victoire": "", "code": "LBM040"}
+						]
+				}
+,
+				{
+                                        "numero": 7,
+					"titre": "7<sup><small>ème</small></sup> Journée",
+					"date": "sam 16 nov",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 15 nov", "score": "20:00", "victoire": "", "code": "LBM047"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "19:30", "victoire": "", "code": "LBM046"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LBM043"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LBM044"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LBM045"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LBM048"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 16 nov", "score": "20:00", "victoire": "", "code": "LBM049"}
+						]
+				}
+,
+				{
+                                        "numero": 8,
+					"titre": "8<sup><small>ème</small></sup> Journée",
+					"date": "sam 23 nov",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "ven 22 nov", "score": "20:00", "victoire": "", "code": "LBM054"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "18:00", "victoire": "", "code": "LBM053"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "19:30", "victoire": "", "code": "LBM056"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LBM050"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LBM051"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LBM052"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 23 nov", "score": "20:00", "victoire": "", "code": "LBM055"}
+						]
+				}
+,
+				{
+                                        "numero": 9,
+					"titre": "9<sup><small>ème</small></sup> Journée",
+					"date": "sam 30 nov",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "ven 29 nov", "score": "20:00", "victoire": "", "code": "LBM060"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 29 nov", "score": "20:00", "victoire": "", "code": "LBM061"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "18:00", "victoire": "", "code": "LBM062"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LBM057"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LBM058"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LBM059"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 30 nov", "score": "20:00", "victoire": "", "code": "LBM063"}
+						]
+				}
+,
+				{
+                                        "numero": 10,
+					"titre": "10<sup><small>ème</small></sup> Journée",
+					"date": "sam 7 déc",
+					"matchs": 
+						[
+{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 6 déc", "score": "20:00", "victoire": "", "code": "LBM070"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "18:00", "victoire": "", "code": "LBM068"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "19:30", "victoire": "", "code": "LBM065"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "20:00", "victoire": "", "code": "LBM064"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "20:00", "victoire": "", "code": "LBM066"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 7 déc", "score": "20:00", "victoire": "", "code": "LBM067"}
+,{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "dim 8 déc", "score": "17:00", "victoire": "", "code": "LBM069"}
+						]
+				}
+,
+				{
+                                        "numero": 11,
+					"titre": "11<sup><small>ème</small></sup> Journée",
+					"date": "sam 14 déc",
+					"matchs": 
+						[
+{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "mer 11 déc", "score": "20:00", "victoire": "", "code": "LBM072"}
+,{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "ven 13 déc", "score": "20:00", "victoire": "", "code": "LBM073"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 14 déc", "score": "18:00", "victoire": "", "code": "LBM075"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LBM071"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LBM074"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LBM076"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 14 déc", "score": "20:00", "victoire": "", "code": "LBM077"}
+						]
+				}
+,
+				{
+                                        "numero": 12,
+					"titre": "12<sup><small>ème</small></sup> Journée",
+					"date": "sam 21 déc",
+					"matchs": 
+						[
+{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 21 déc", "score": "18:00", "victoire": "", "code": "LBM083"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 21 déc", "score": "19:30", "victoire": "", "code": "LBM079"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 21 déc", "score": "20:00", "victoire": "", "code": "LBM078"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 21 déc", "score": "20:00", "victoire": "", "code": "LBM080"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 21 déc", "score": "20:00", "victoire": "", "code": "LBM081"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 21 déc", "score": "20:00", "victoire": "", "code": "LBM082"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 21 déc", "score": "20:00", "victoire": "", "code": "LBM084"}
+						]
+				}
+,
+				{
+                                        "numero": 13,
+					"titre": "13<sup><small>ème</small></sup> Journée",
+					"date": "sam 4 jan",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "ven 3 jan", "score": "20:00", "victoire": "", "code": "LBM086"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "ven 3 jan", "score": "20:00", "victoire": "", "code": "LBM087"}
+,{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "ven 3 jan", "score": "20:00", "victoire": "", "code": "LBM090"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 4 jan", "score": "18:00", "victoire": "", "code": "LBM088"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 4 jan", "score": "20:00", "victoire": "", "code": "LBM085"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 4 jan", "score": "20:00", "victoire": "", "code": "LBM089"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 4 jan", "score": "20:00", "victoire": "", "code": "LBM091"}
+						]
+				}
+,
+				{
+                                        "numero": 14,
+					"titre": "14<sup><small>ème</small></sup> Journée",
+					"date": "sam 11 jan",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "ven 10 jan", "score": "20:00", "victoire": "", "code": "LBM093"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "ven 10 jan", "score": "20:00", "victoire": "", "code": "LBM094"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 11 jan", "score": "18:00", "victoire": "", "code": "LBM095"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 11 jan", "score": "18:00", "victoire": "", "code": "LBM098"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 11 jan", "score": "20:00", "victoire": "", "code": "LBM092"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 11 jan", "score": "20:00", "victoire": "", "code": "LBM096"}
+,{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "dim 12 jan", "score": "17:00", "victoire": "", "code": "LBM097"}
+						]
+				}
+,
+				{
+                                        "numero": 15,
+					"titre": "15<sup><small>ème</small></sup> Journée",
+					"date": "sam 18 jan",
+					"matchs": 
+						[
+{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "19:30", "victoire": "", "code": "LBM101"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LBM099"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LBM100"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LBM102"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LBM103"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LBM104"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 18 jan", "score": "20:00", "victoire": "", "code": "LBM105"}
+						]
+				}
+,
+				{
+                                        "numero": 16,
+					"titre": "16<sup><small>ème</small></sup> Journée",
+					"date": "sam 25 jan",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "ven 24 jan", "score": "20:00", "victoire": "", "code": "LBM110"}
+,{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 24 jan", "score": "20:00", "victoire": "", "code": "LBM112"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "18:00", "victoire": "", "code": "LBM108"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "18:00", "victoire": "", "code": "LBM111"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LBM106"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LBM107"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 25 jan", "score": "20:00", "victoire": "", "code": "LBM109"}
+						]
+				}
+,
+				{
+                                        "numero": 17,
+					"titre": "17<sup><small>ème</small></sup> Journée",
+					"date": "sam 1 fév",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "ven 31 jan", "score": "20:00", "victoire": "", "code": "LBM118"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "19:30", "victoire": "", "code": "LBM116"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LBM113"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LBM114"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LBM115"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LBM117"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 1 fév", "score": "20:00", "victoire": "", "code": "LBM119"}
+						]
+				}
+,
+				{
+                                        "numero": 18,
+					"titre": "18<sup><small>ème</small></sup> Journée",
+					"date": "sam 8 fév",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "ven 7 fév", "score": "20:00", "victoire": "", "code": "LBM121"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 7 fév", "score": "20:00", "victoire": "", "code": "LBM126"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "18:00", "victoire": "", "code": "LBM122"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "18:00", "victoire": "", "code": "LBM125"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "20:00", "victoire": "", "code": "LBM120"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "20:00", "victoire": "", "code": "LBM123"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 8 fév", "score": "20:00", "victoire": "", "code": "LBM124"}
+						]
+				}
+,
+				{
+                                        "numero": 19,
+					"titre": "19<sup><small>ème</small></sup> Journée",
+					"date": "sam 15 fév",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "ven 14 fév", "score": "20:00", "victoire": "", "code": "LBM131"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 14 fév", "score": "20:00", "victoire": "", "code": "LBM132"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "19:30", "victoire": "", "code": "LBM130"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LBM127"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LBM128"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LBM129"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 15 fév", "score": "20:00", "victoire": "", "code": "LBM133"}
+						]
+				}
+,
+				{
+                                        "numero": 20,
+					"titre": "20<sup><small>ème</small></sup> Journée",
+					"date": "sam 22 fév",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "ven 21 fév", "score": "20:00", "victoire": "", "code": "LBM138"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "18:00", "victoire": "", "code": "LBM134"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "18:00", "victoire": "", "code": "LBM140"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LBM135"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LBM136"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LBM137"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 22 fév", "score": "20:00", "victoire": "", "code": "LBM139"}
+						]
+				}
+,
+				{
+                                        "numero": 21,
+					"titre": "21<sup><small>ème</small></sup> Journée",
+					"date": "sam 1 mar",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "ven 28 fév", "score": "20:00", "victoire": "", "code": "LBM144"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "ven 28 fév", "score": "20:00", "victoire": "", "code": "LBM145"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "18:00", "victoire": "", "code": "LBM146"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LBM141"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LBM142"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LBM143"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 1 mar", "score": "20:00", "victoire": "", "code": "LBM147"}
+						]
+				}
+,
+				{
+                                        "numero": 22,
+					"titre": "22<sup><small>ème</small></sup> Journée",
+					"date": "sam 15 mar",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "ven 14 mar", "score": "20:00", "victoire": "", "code": "LBM153"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "18:00", "victoire": "", "code": "LBM152"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "19:30", "victoire": "", "code": "LBM150"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LBM148"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LBM149"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LBM151"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 15 mar", "score": "20:00", "victoire": "", "code": "LBM154"}
+						]
+				}
+,
+				{
+                                        "numero": 23,
+					"titre": "23<sup><small>ème</small></sup> Journée",
+					"date": "sam 22 mar",
+					"matchs": 
+						[
+{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "ven 21 mar", "score": "20:00", "victoire": "", "code": "LBM157"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "ven 21 mar", "score": "20:00", "victoire": "", "code": "LBM158"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "18:00", "victoire": "", "code": "LBM159"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LBM155"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LBM156"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LBM160"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 22 mar", "score": "20:00", "victoire": "", "code": "LBM161"}
+						]
+				}
+,
+				{
+                                        "numero": 24,
+					"titre": "24<sup><small>ème</small></sup> Journée",
+					"date": "sam 29 mar",
+					"matchs": 
+						[
+{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "ven 28 mar", "score": "20:00", "victoire": "", "code": "LBM168"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "18:00", "victoire": "", "code": "LBM167"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "19:30", "victoire": "", "code": "LBM162"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LBM163"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LBM164"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LBM165"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 29 mar", "score": "20:00", "victoire": "", "code": "LBM166"}
+						]
+				}
+,
+				{
+                                        "numero": 25,
+					"titre": "25<sup><small>ème</small></sup> Journée",
+					"date": "sam 5 avr",
+					"matchs": 
+						[
+{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(5<small><sup>e</sup></small>)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(4<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LBM169"}
+,{"codeDomicile": "GOELO", "equipeDomicile": "St-Brieuc", "rangDomicile": "(14<small><sup>e</sup></small>)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(12<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LBM170"}
+,{"codeDomicile": "NVB", "equipeDomicile": "Nice", "rangDomicile": "(6<small><sup>e</sup></small>)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(11<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LBM171"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(2<small><sup>e</sup></small>)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(10<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LBM172"}
+,{"codeDomicile": "HVB", "equipeDomicile": "Harnes", "rangDomicile": "(13<small><sup>e</sup></small>)", "codeExterieur": "CAC", "equipeExterieur": "Alès", "rangExterieur": "(1<small><sup>er</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LBM173"}
+,{"codeDomicile": "TLM", "equipeDomicile": "Tourcoing", "rangDomicile": "(9<small><sup>e</sup></small>)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(8<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LBM174"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(7<small><sup>e</sup></small>)", "codeExterieur": "ALCM", "equipeExterieur": "Canteleu", "rangExterieur": "(3<small><sup>e</sup></small>)", "resultat": "sam 5 avr", "score": "20:00", "victoire": "", "code": "LBM175"}
+						]
+				}
+,
+				{
+                                        "numero": 26,
+					"titre": "26<sup><small>ème</small></sup> Journée",
+					"date": "sam 12 avr",
+					"matchs": 
+						[
+{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(3<small><sup>e</sup></small>)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(5<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LBM176"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(4<small><sup>e</sup></small>)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(14<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LBM177"}
+,{"codeDomicile": "ASON", "equipeDomicile": "Orange", "rangDomicile": "(12<small><sup>e</sup></small>)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(6<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LBM178"}
+,{"codeDomicile": "MVB", "equipeDomicile": "Martigues", "rangDomicile": "(11<small><sup>e</sup></small>)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(2<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LBM179"}
+,{"codeDomicile": "CVEC", "equipeDomicile": "Cambrai", "rangDomicile": "(10<small><sup>e</sup></small>)", "codeExterieur": "HVB", "equipeExterieur": "Harnes", "rangExterieur": "(13<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LBM180"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(1<small><sup>er</sup></small>)", "codeExterieur": "TLM", "equipeExterieur": "Tourcoing", "rangExterieur": "(9<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LBM181"}
+,{"codeDomicile": "PRVB", "equipeDomicile": "Pl-Robinson", "rangDomicile": "(8<small><sup>e</sup></small>)", "codeExterieur": "LISSP", "equipeExterieur": "Calais", "rangExterieur": "(7<small><sup>e</sup></small>)", "resultat": "sam 12 avr", "score": "20:00", "victoire": "", "code": "LBM182"}
+						]
+				}
+			],
+		"minJournee": 1,"maxJournee": 26, "currentJournee": 4
+		}
+}

@@ -1,0 +1,137 @@
+<RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="right">
+
+   <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/LiveRowLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:layout_toLeftOf="@+id/space">
+	
+	   <TextView
+	        android:id="@+id/classement1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/equipe1"
+	        android:layout_centerVertical="false"
+	        android:gravity="bottom"
+	        android:layout_alignTop="@+id/score"
+	        android:layout_alignBottom="@+id/score"
+	        android:layout_marginBottom="1dp"
+	        android:text="1er"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textSize="10sp" />
+	    <ImageView
+	         android:id="@+id/maillot1"
+	         android:layout_width="16dip"
+	         android:layout_height="20dip"
+	         android:layout_toRightOf="@+id/classement1"
+	         android:layout_below="@+id/equipe1"
+	         android:layout_centerVertical="true"
+	         android:paddingBottom="1dip" />
+	 
+	    <ImageView
+	        android:id="@+id/service1"
+	        android:layout_width="14dip"
+	        android:layout_height="14dip"
+	        android:layout_below="@+id/equipe1"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@+id/maillot1"
+			android:layout_alignBottom="@+id/maillot1"
+			android:layout_alignTop="@+id/maillot1"
+	        android:src="@drawable/ic_service" />
+	    
+	    <TextView
+	        android:id="@+id/equipe1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:text="Equipe1"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	
+	    <TextView
+	        android:id="@+id/resultat"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:text="Large Text"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <TextView
+	        android:id="@+id/score"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/maillot1"
+	        android:layout_alignBottom="@+id/maillot1"
+	        android:layout_below="@+id/resultat"
+	        android:layout_centerHorizontal="true"
+	        android:gravity="center_vertical|center_vertical"
+	        android:text="Small Text"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	   <TextView
+	        android:id="@+id/classement2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/equipe2"
+	        android:layout_centerVertical="false"
+	        android:gravity="bottom"
+	        android:layout_alignTop="@+id/score"
+	        android:layout_alignBottom="@+id/score"
+	        android:layout_marginBottom="1dp"
+	        android:text="1er"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textSize="10sp" />
+	    
+	    <ImageView
+	         android:id="@+id/maillot2"
+	         android:layout_width="16dip"
+	         android:layout_height="20dip"
+	         android:layout_toLeftOf="@+id/classement2"
+	         android:layout_below="@+id/equipe2"
+	         android:layout_centerVertical="true"
+	         android:paddingBottom="1dip" />
+	
+	    <ImageView
+	        android:id="@+id/service2"
+	        android:layout_width="14dip"
+	        android:layout_height="14dip"
+	        android:layout_below="@+id/equipe2"
+	        android:layout_centerVertical="true"
+	        android:layout_toLeftOf="@+id/maillot2"
+			android:layout_alignBottom="@+id/maillot2"
+			android:layout_alignTop="@+id/maillot2"
+	        android:src="@drawable/ic_service" />
+	
+	    <TextView
+	        android:id="@+id/equipe2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:text="Equipe2"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    
+	</RelativeLayout >
+	        
+
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:id="@+id/space"
+	    	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:text=""
+	        android:minWidth="6dip"/>
+	    
+</RelativeLayout>

@@ -1,0 +1,44 @@
+{
+	"version": 2,
+	"resultats": 
+		{
+		"nomsaison": "2013-2014",		
+		"saison": "1314",		
+		"minJournee": 1,"maxJournee": 2, "currentJournee": 1,
+		"journees": 
+			[
+				{
+                                        "numero": 1,
+					"titre": "1<small><sup>er</sup></small> Tour",
+					"date": "mar 22 oct",
+					"matchs": 
+						[
+{"codeDomicile": "FLSQ", "equipeDomicile": "St-Quentin", "rangDomicile": "(DEM)", "codeExterieur": "NVB", "equipeExterieur": "Nice", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "27-25 16-25 27-25 25-22", "victoire": "Domicile", "code": "CNM001"}
+,{"codeDomicile": "ASM", "equipeDomicile": "Monaco", "rangDomicile": "(N2M)", "codeExterieur": "AV92", "equipeExterieur": "Asnières", "rangExterieur": "(LBM)", "resultat": "1-3", "score": "27-25 24-26 19-25 21-25", "victoire": "Exterieur", "code": "CNM002"}
+,{"codeDomicile": "VVBCH", "equipeDomicile": "Les Herbiers", "rangDomicile": "(DEM)", "codeExterieur": "ASON", "equipeExterieur": "Orange", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "22-25 25-17 25-21 25-21", "victoire": "Domicile", "code": "CNM003"}
+,{"codeDomicile": "MAC", "equipeDomicile": "Maizières", "rangDomicile": "(N2M)", "codeExterieur": "MNVJ", "equipeExterieur": "Maxéville", "rangExterieur": "(LBM)", "resultat": "0-3", "score": "21-25 19-25 18-25", "victoire": "Exterieur", "code": "CNM004"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(LBM)", "codeExterieur": "PRVB", "equipeExterieur": "Pl-Robinson", "rangExterieur": "(LBM)", "resultat": "3-2", "score": "23-25 29-27 25-19 23-25 17-15", "victoire": "Domicile", "code": "CNM005"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(LBM)", "codeExterieur": "GOELO", "equipeExterieur": "St-Brieuc", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "25-21 23-25 25-22 27-25", "victoire": "Domicile", "code": "CNM006"}
+,{"codeDomicile": "LISSP", "equipeDomicile": "Calais", "rangDomicile": "(LBM)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(LBM)", "resultat": "0-3", "score": "21-25 19-25 24-26", "victoire": "Exterieur", "code": "CNM007"}
+,{"codeDomicile": "AVB", "equipeDomicile": "Avignon", "rangDomicile": "(LBM)", "codeExterieur": "MVB", "equipeExterieur": "Martigues", "rangExterieur": "(LBM)", "resultat": "3-1", "score": "22-25 25-21 25-19 25-20", "victoire": "Domicile", "code": "CNM008"}
+						]
+				}
+,
+				{
+                                        "numero": 2,
+					"titre": "2<small><sup>ème</sup></small> Tour",
+					"date": "NULL",
+					"matchs": 
+						[
+{"codeDomicile": "FLSQ", "equipeDomicile": "St-Quentin", "rangDomicile": "(DEM)", "codeExterieur": "AVB", "equipeExterieur": "Avignon", "rangExterieur": "(LBM)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNM009"}
+,{"codeDomicile": "VVBCH", "equipeDomicile": "Les Herbiers", "rangDomicile": "(DEM)", "codeExterieur": "CVEC", "equipeExterieur": "Cambrai", "rangExterieur": "(LBM)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNM010"}
+,{"codeDomicile": "MNVJ", "equipeDomicile": "Maxéville", "rangDomicile": "(LBM)", "codeExterieur": "BOUC", "equipeExterieur": "Beauvais", "rangExterieur": "(LAM)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNM011"}
+,{"codeDomicile": "SNVBA", "equipeDomicile": "St-Nazaire", "rangDomicile": "(LAM)", "codeExterieur": "GFCA", "equipeExterieur": "Ajaccio", "rangExterieur": "(LAM)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNM012"}
+,{"codeDomicile": "ALCM", "equipeDomicile": "Canteleu", "rangDomicile": "(LBM)", "codeExterieur": "MAVUC", "equipeExterieur": "Montpellier", "rangExterieur": "(LAM)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNM014"}
+,{"codeDomicile": "CAC", "equipeDomicile": "Alès", "rangDomicile": "(LBM)", "codeExterieur": "SPACERS", "equipeExterieur": "Toulouse", "rangExterieur": "(LAM)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNM015"}
+,{"codeDomicile": "AV92", "equipeDomicile": "Asnières", "rangDomicile": "(LBM)", "codeExterieur": "ASUL", "equipeExterieur": "Lyon", "rangExterieur": "(LAM)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNM016"}
+						]
+				}
+			]
+		}
+}
