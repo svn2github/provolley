@@ -27,8 +27,8 @@ import android.util.Log;
 
 public class TestJSONProvider implements JSONProvider {
 	
-	private static int CONNECT_TIMEOUT=5000; 
-	private static int READ_TIMEOUT=20000; 
+	private static int CONNECT_TIMEOUT=5000; // 5sec to connect (should be more than enough) 
+	private static int READ_TIMEOUT=30000;    // 30sec to read whole file
 	
 	protected String server;
 	protected String json;

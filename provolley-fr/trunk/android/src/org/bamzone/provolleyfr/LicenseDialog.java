@@ -15,19 +15,29 @@
 */  	
 package org.bamzone.provolleyfr;
 
+import org.bamzone.provolleyfr.R;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Method;
+import java.nio.CharBuffer;
 
 import org.bamzone.provolleyfr.utils.ListTagHandler;
+import org.bamzone.provolleyfr.utils.ListTagHandlerNoBullets;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.database.CharArrayBuffer;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.util.Linkify;
+import android.util.Log;
+import android.view.View;
+import android.webkit.WebView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class LicenseDialog extends Dialog{
@@ -44,24 +54,50 @@ public class LicenseDialog extends Dialog{
 	 */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+		
+		/*
 		setContentView(R.layout.license);
+		WebView wv = (WebView)findViewById(R.id.licenseWebView);
+		wv.loadUrl("file:///android_asset/license.html");
+		*/
 
-		TextView tv = (TextView)findViewById(R.id.help_text);
-		tv.setText(Html.fromHtml(readRawTextFile(R.raw.license),null,new ListTagHandler()));
-		tv.setLinkTextColor(Color.WHITE);
-		Linkify.addLinks(tv, Linkify.ALL);
+		setContentView(R.layout.license);
+		TextView tv = (TextView)findViewById(R.id.licenseView);
+
+		tv.setText(Html.fromHtml(readRawTextFile(R.raw.license),null,new ListTagHandlerNoBullets()));
+		//tv.setLinkTextColor(Color.WHITE);
+		//Linkify.addLinks(tv, Linkify.ALL);
 		
 	}
 
 	public static String readRawTextFile(int id) {
 		InputStream inputStream = mContext.getResources().openRawResource(id);
+//		byte[] reader;
+//		try {
+//			reader = new byte[inputStream.available()];
+//			while (inputStream.read(reader) != -1) {}
+//			String result = new String(reader);
+//			inputStream.close();
+//			return result;
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			return null;
+//		}
+//		finally {
+//			if (inputStream!=null) try {
+//				inputStream.close();
+//			}
+//			catch (IOException  ioe) {
+//			}
+//		}
+		
 		InputStreamReader in = new InputStreamReader(inputStream);
-		BufferedReader buf = new BufferedReader(in);
-		String line;
+		BufferedReader buf = new BufferedReader(in,32*1024);
 		StringBuilder text = new StringBuilder();
+		String line;
 		try {
 
-			while (( line = buf.readLine()) != null) text.append(line);
+			while ((line = buf.readLine()) != null) {text.append(line);text.append("\n");}
 		} catch (IOException e) {
 			return null;
 		}

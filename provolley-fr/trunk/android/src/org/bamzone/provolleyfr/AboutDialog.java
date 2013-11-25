@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.text.Html;
 import android.text.util.Linkify;
 import android.widget.TextView;
+
 public class AboutDialog extends Dialog{
 	Context mContext;
 	
@@ -37,7 +38,7 @@ public class AboutDialog extends Dialog{
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		setContentView(R.layout.about);
-
+		
 		TextView tv;
 		tv = (TextView)findViewById(R.id.application_email_text);
 		tv.setLinkTextColor(Color.WHITE);
