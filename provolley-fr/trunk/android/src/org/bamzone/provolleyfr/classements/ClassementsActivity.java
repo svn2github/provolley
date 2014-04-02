@@ -89,17 +89,81 @@ public class ClassementsActivity extends Activity {
     	TableRow sep = (TableRow)inflater.inflate(R.layout.classements_sep, tableLayout, false);
 		return sep;
     }
-    
-	private TableRow populateNewRow(String rang, String nom, String points, String mj, 
-			String m30, String m32, String m23, String m03, int penalite, String etat) {
+	private TableRow populateHeader() {
+		//("#","","Pts","MJ","+3","+2","+1","+0",0,"")
+		TableRow row = (TableRow)inflater.inflate(R.layout.classements_row, tableLayout, false);
+
+		TextView positionTV = (TextView)(row.findViewById(R.id.position));
+		TextView mjTV = (TextView)(row.findViewById(R.id.mj));
+		TextView pointsTV = (TextView)(row.findViewById(R.id.points));
+		TextView m30TV = (TextView)(row.findViewById(R.id.m30));
+		TextView m31TV = (TextView)(row.findViewById(R.id.m31));
+		TextView m32TV = (TextView)(row.findViewById(R.id.m32));
+		TextView m23TV = (TextView)(row.findViewById(R.id.m23));
+		TextView m13TV = (TextView)(row.findViewById(R.id.m13));
+		TextView m03TV = (TextView)(row.findViewById(R.id.m03));
+		TextView m310TV = (TextView)(row.findViewById(R.id.m310));
+		TextView m013TV = (TextView)(row.findViewById(R.id.m013));
+		TextView rsTV = (TextView)(row.findViewById(R.id.rs));
+		TextView rpTV = (TextView)(row.findViewById(R.id.rp));
+		
+		if (positionTV!=null) positionTV.setText("#");
+		if (pointsTV!=null) pointsTV.setText("Pts");
+		if (mjTV!=null) mjTV.setText("MJ");
+
+		if (m30TV!=null) {
+			// Si m30TV est non nul, -> format paysage
+			if (m30TV!=null) m30TV.setText("3-0");
+			if (m31TV!=null) m31TV.setText("3-1");
+			if (m32TV!=null) m32TV.setText("3-2");
+			if (m23TV!=null) m23TV.setText("2-3");
+			if (m13TV!=null) m13TV.setText("1-3");
+			if (m03TV!=null) m03TV.setText("0-3");
+		}
+		else { 
+			// format portrait
+			if (m310TV!=null) m310TV.setText("+3");
+			if (m32TV!=null) m32TV.setText("+2");
+			if (m23TV!=null) m23TV.setText("+1");
+			if (m013TV!=null) m013TV.setText("+0");
+		}
+		if (rsTV!=null) rsTV.setText("RatioS");
+		if (rpTV!=null) rpTV.setText("RatioP");
+		return row;
+	}
+	
+	private String formatRatio(String in) {
+		Float inAsFloat = null;
+		try { inAsFloat = Float.valueOf(in); } catch (NumberFormatException nfe) {return in;};
+
+		String out = String.format("%.5f",inAsFloat.floatValue());
+		return out.substring(0, 5);
+	}
+	
+	private TableRow populateNewRow(int rang, String nom, int points, int mj, 
+			int m30, int m31, int m32, int m23, int m13, int m03, 
+			int penalite, String rs, String rp, String etat) {
 		TableRow row = (TableRow)inflater.inflate(R.layout.classements_row, tableLayout, false);
 		
 		TextView positionTV = (TextView)(row.findViewById(R.id.position));
-		if (positionTV!=null) positionTV.setText(rang);
+		TextView equipeTV = (TextView)(row.findViewById(R.id.equipe));
+		TextView mjTV = (TextView)(row.findViewById(R.id.mj));
+		TextView pointsTV = (TextView)(row.findViewById(R.id.points));
+		TextView m30TV = (TextView)(row.findViewById(R.id.m30));
+		TextView m31TV = (TextView)(row.findViewById(R.id.m31));
+		TextView m32TV = (TextView)(row.findViewById(R.id.m32));
+		TextView m23TV = (TextView)(row.findViewById(R.id.m23));
+		TextView m13TV = (TextView)(row.findViewById(R.id.m13));
+		TextView m03TV = (TextView)(row.findViewById(R.id.m03));
+		TextView m310TV = (TextView)(row.findViewById(R.id.m310));
+		TextView m013TV = (TextView)(row.findViewById(R.id.m013));
+		TextView rsTV = (TextView)(row.findViewById(R.id.rs));
+		TextView rpTV = (TextView)(row.findViewById(R.id.rp));
+
+		if (positionTV!=null) positionTV.setText(Integer.toString(rang)+".");
 		
 		if ("".equals(etat))etat=ProVolley.CLASSEMENT_AUTRES;
 		int couleur = ProVolley.COULEURS_CLASSEMENT.get(etat); 
-		TextView equipeTV = (TextView)(row.findViewById(R.id.equipe));
 		if (equipeTV!=null) {
 			if (penalite!=0) { // Ils font chier à la DNACG avec leur pénalités...
 				nom = nom+" <small>(-"+penalite+")</small>";
@@ -111,23 +175,21 @@ public class ClassementsActivity extends Activity {
 			equipeTV.setTextColor(couleur);
 		}
 		
-		TextView pointsTV = (TextView)(row.findViewById(R.id.points));
-		if (pointsTV!=null) pointsTV.setText(points);
-		
-		TextView mjTV = (TextView)(row.findViewById(R.id.mj));
-		if (mjTV!=null) mjTV.setText(mj);
-		
-		TextView m30TV = (TextView)(row.findViewById(R.id.m30));
-		if (m30TV!=null) m30TV.setText(m30);
-		
-		TextView m32TV = (TextView)(row.findViewById(R.id.m32));
-		if (m32TV!=null) m32TV.setText(m32);
-		
-		TextView m23TV = (TextView)(row.findViewById(R.id.m23));
-		if (m23TV!=null) m23TV.setText(m23);
-		
-		TextView m03TV = (TextView)(row.findViewById(R.id.m03));
-		if (m03TV!=null) m03TV.setText(m03);
+		if (pointsTV!=null) pointsTV.setText(Integer.toString(points));
+		if (mjTV!=null) mjTV.setText(Integer.toString(mj));
+		if (m30TV!=null) m30TV.setText(Integer.toString(m30));
+		if (m31TV!=null) m31TV.setText(Integer.toString(m31));
+		if (m310TV!=null) m310TV.setText(Integer.toString(m31+m30));
+		if (m32TV!=null) m32TV.setText(Integer.toString(m32));
+		if (m23TV!=null) m23TV.setText(Integer.toString(m23));
+		if (m13TV!=null) m13TV.setText(Integer.toString(m13));
+		if (m03TV!=null) m03TV.setText(Integer.toString(m03));
+		if (m013TV!=null) m013TV.setText(Integer.toString(m13+m03));
+		if (rsTV!=null) {
+			rsTV.setText(formatRatio(rs));		}
+		if (rpTV!=null) {
+			rpTV.setText(formatRatio(rp));
+		}
 		
 		return row;
 	}
@@ -139,7 +201,7 @@ public class ClassementsActivity extends Activity {
         	tableLayout.removeAllViews();
         	
 	        // FIXME : hardcoded header should be a specific row layout with string values 
-	        tableLayout.addView(populateNewRow("#","","Pts","MJ","+3","+2","+1","+0",0,""));
+	        tableLayout.addView(populateHeader());
 	
 	    	// Equipes
 	    	String etatPrec = "";
@@ -151,54 +213,49 @@ public class ClassementsActivity extends Activity {
 	        		etatPrec = equipe.getEtat();
 	        	}
 	
-	        	tableLayout.addView(populateNewRow(Integer.toString(equipe.getRang())+".",
-	        			equipe.getEquipe(),Integer.toString(equipe.getPoint()),
-	        			Integer.toString(equipe.getMj()),Integer.toString(equipe.getM30()+equipe.getM31()),
-	        			Integer.toString(equipe.getM32()),Integer.toString(equipe.getM23()),
-	        			Integer.toString(equipe.getM13()+equipe.getM03()),
-	        			equipe.getPen(),equipe.getEtat2()));
+	        	tableLayout.addView(populateNewRow((equipe.getRang()),
+	        			equipe.getEquipe(),(equipe.getPoint()),
+	        			(equipe.getMj()),(equipe.getM30()),(equipe.getM31()),
+	        			(equipe.getM32()),(equipe.getM23()),
+	        			(equipe.getM13()),(equipe.getM03()),
+	        			equipe.getPen(),equipe.getRs(), equipe.getRp(),
+	        			equipe.getEtat2()));
 	        }
 	        
 	        boolean penalite=false;
-	        boolean montee=false, po=false, po1=false, po2=false, po3=false, releg=false, vainq=false;
-	        boolean monteeass=false, poass=false, po1ass=false, po2ass=false, po3ass=false, relegass=false, maintass=false;
+	        boolean montee=false, po=false, releg=false, vainq=false, monteevq=false, monteepo=false;
+	        boolean monteeass=false, monteepoass=false, poass=false, relegass=false, maintass=false;
 	        for (ClassementEquipe equipe: classement.getEquipes()) {
 	        	if (equipe.getPen()!=0) penalite=true;
 	        	if (ProVolley.CLASSEMENT_MONTEE.equals(equipe.getEtat2())) montee=true;
 	        	if (ProVolley.CLASSEMENT_QUALPO.equals(equipe.getEtat2())) po=true;
-	        	if (ProVolley.CLASSEMENT_QUALPO1.equals(equipe.getEtat2())) po1=true;
-	        	if (ProVolley.CLASSEMENT_QUALPO2.equals(equipe.getEtat2())) po2=true;
-	        	if (ProVolley.CLASSEMENT_QUALPO3.equals(equipe.getEtat2())) po3=true;
+	        	if (ProVolley.CLASSEMENT_MONTEEPO.equals(equipe.getEtat2())) monteepo=true;
+	        	if (ProVolley.CLASSEMENT_MONTEEVQ.equals(equipe.getEtat2())) monteevq=true;
 	        	if (ProVolley.CLASSEMENT_RELEG.equals(equipe.getEtat2())) releg=true;
 	        	if (ProVolley.CLASSEMENT_VAINQUEUR.equals(equipe.getEtat2())) vainq=true;
 
 	        	if (ProVolley.CLASSEMENT_MONTEEASS.equals(equipe.getEtat2())) monteeass=true;
+	        	if (ProVolley.CLASSEMENT_MONTEEPOASS.equals(equipe.getEtat2())) monteepoass=true;
 	        	if (ProVolley.CLASSEMENT_QUALPOASS.equals(equipe.getEtat2())) poass=true;
-	        	if (ProVolley.CLASSEMENT_QUALPO1ASS.equals(equipe.getEtat2())) po1ass=true;
-	        	if (ProVolley.CLASSEMENT_QUALPO2ASS.equals(equipe.getEtat2())) po2ass=true;
-	        	if (ProVolley.CLASSEMENT_QUALPO3ASS.equals(equipe.getEtat2())) po3ass=true;
 	        	if (ProVolley.CLASSEMENT_RELEGASS.equals(equipe.getEtat2())) relegass=true;
 	        	if (ProVolley.CLASSEMENT_MAINTASS.equals(equipe.getEtat2())) maintass=true;
 	        }
-	        if (penalite || montee || po || po1 || po2 || po3 || releg || vainq || monteeass || poass || po1ass || po2ass || po3ass || relegass || maintass)
+	        if (penalite || montee || po || monteepo || monteevq || releg || vainq || monteeass || poass || relegass || maintass)
 	        	tableLayout.addView(newSeparator());
 	        if (penalite) tableLayout.addView(addNB("(-x) Pénalité sur décision DNACG",ProVolley.COULEUR_CLASSEMENT_NB));
 
-	        if (monteeass) tableLayout.addView(addNB("Promotion en LAM assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_VAINQUEUR)));
+	        if (monteeass) tableLayout.addView(addNB("Qualif play-offs & Promotion en LAM assurées",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MONTEEASS)));
+	        if (monteepoass) tableLayout.addView(addNB("Qualif play-offs & Promotion en LAM assurées",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MONTEEPOASS)));
 	        if (poass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPOASS)));
-	        if (po1ass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO1ASS)));
-	        if (po2ass) tableLayout.addView(addNB("Qualification play-offs de classement assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO2ASS)));
-	        if (po3ass) tableLayout.addView(addNB("Qualification play-offs assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO3ASS)));
 	        if (maintass) tableLayout.addView(addNB("Maintien assuré",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MAINTASS)));
 	        if (relegass) tableLayout.addView(addNB("Relégation assurée",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_RELEGASS)));
 
-	        if (montee) tableLayout.addView(addNB("Promu en LAM",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MONTEE)));
-	        if (po) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO)));
-	        if (po1) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO1)));
-	        if (po2) tableLayout.addView(addNB("Qualifié pour les play-offs de classement",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO2)));
-	        if (po3) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO3)));
-	        if (releg) tableLayout.addView(addNB("Relégué",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_RELEG)));
 	        if (vainq) tableLayout.addView(addNB("Champion",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_VAINQUEUR)));
+	        if (monteevq) tableLayout.addView(addNB("Champion",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MONTEEVQ)));
+	        if (montee) tableLayout.addView(addNB("Promu en LAM",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MONTEE)));
+	        if (monteepo) tableLayout.addView(addNB("Promu en LAM & Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_MONTEEPO)));
+	        if (po) tableLayout.addView(addNB("Qualifié pour les play-offs",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_QUALPO)));
+	        if (releg) tableLayout.addView(addNB("Relégué",ProVolley.COULEURS_CLASSEMENT.get(ProVolley.CLASSEMENT_RELEG)));
         }
 	}
 

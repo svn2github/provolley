@@ -8,9 +8,10 @@
         <string name="application_version_1_1_0">version 1.1.0</string>
         <string name="application_version_1_2_0">version 1.2.0</string>
         <string name="application_version_1_3_0">version 1.3.0</string>
+        <string name="application_version_1_3_1">version 1.3.1</string>
         
         <string name="application_website">www.provolley.fr</string>
-        <string name="application_copyright">Copyright 2013 Christophe Bothamy</string>
+        <string name="application_copyright">Copyright 2013-2014 Christophe Bothamy</string>
         <string name="application_email">info@provolley.fr</string>
        
          <string name="application_description"><![CDATA[<h3>Bienvenue dans ProVolley-fr !</h3>
@@ -27,6 +28,15 @@
 
          <string name="application_historique"><![CDATA[<h4>Historique des versions</h4>]]></string>
          <string name="application_maj"><![CDATA[<h4>Mises à jour depuis la dernière version</h4>]]></string>
+         
+         <string name="application_histo_v1_3_1"><![CDATA[
+             <b>v1.3.1</b> Corrections :<br/>
+             <ul>
+             <li>Mise a jour des libellés des promotions pour la saison 2013/2014</li>
+             <li>Correction du non-rafraichissement du live lors du retour sur l\'appli</li>
+             </ul>
+             <br/><br/>
+             ]]></string>
          
          <string name="application_histo_v1_3_0"><![CDATA[
              <b>v1.3.0</b> Nouvelles fonctionnalités :<br/>

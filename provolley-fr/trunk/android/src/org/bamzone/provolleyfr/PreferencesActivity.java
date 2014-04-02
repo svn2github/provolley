@@ -160,12 +160,12 @@ public class PreferencesActivity extends PreferenceActivity implements
 		 String serial = "";
 		 try {
 			 serial = android.os.Build.SERIAL;
-			 Log.d(ProVolley.class.getName(),"SERIAL="+serial);
+			 Log.d(PreferencesActivity.class.getName(),"SERIAL="+serial);
 			 //return(ProVolley.SERIAL_HTC_DESIRE_CHRIS.equals(serial) || ProVolley.SERIAL_ASUS_NEXUS7_CHRIS.equals(serial) || ProVolley.SERIAL_SAMSUNG_GALAXYTAB_FRED.equals(serial) || "unknown".equals(serial));
 		 }
 		 catch (NoSuchFieldError nsfe) {
 			 serial = Settings.System.getString(this.getContentResolver(),Settings.System.ANDROID_ID);
-			 Log.d(ProVolley.class.getName(),"DeviceId="+serial);
+			 Log.d(PreferencesActivity.class.getName(),"DeviceId="+serial);
 			 //return (ProVolley.DEVICEID_HTC_MAGIC_CHRIS.equals(deviceId)||ProVolley.DEVICEID_EMULATOR.equals(deviceId));
 		 }
 		 

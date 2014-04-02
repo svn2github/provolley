@@ -19,7 +19,6 @@ import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.cache.ProVolleyCacheManager;
 import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.data.LiveResultats;
-import org.bamzone.provolleyfr.data.NewsProVolley;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.resultats.ResultatsActivity;
 import org.json.JSONArray;

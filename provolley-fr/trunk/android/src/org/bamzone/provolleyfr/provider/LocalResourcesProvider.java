@@ -97,7 +97,10 @@ public class LocalResourcesProvider implements ResourcesProvider {
 		return resources.getDrawable(R.drawable.news_provolley);
 	}
 	
-	private static final Map<String , Integer> MAILLOTS = new HashMap<String , Integer>() {{
+	private static final Map<String , Integer> MAILLOTS = new HashMap<String , Integer>() {
+		private static final long serialVersionUID = 1L;
+
+	{
 		put("ALCM-dom", R.drawable.maillot_alcm_dom);
 		put("ALCM-ext", R.drawable.maillot_alcm_ext);
 		put("ANGELS-dom", R.drawable.maillot_angels_dom);
@@ -181,7 +184,10 @@ public class LocalResourcesProvider implements ResourcesProvider {
 		put("autre", R.drawable.maillot_autre);
 	}};
 
-	private static final Map<String , String> COULEUR_MAILLOTS = new HashMap<String , String>() {{
+	private static final Map<String , String> COULEUR_MAILLOTS = new HashMap<String , String>() {
+		private static final long serialVersionUID = -4637600001877925784L;
+
+	{
 		put("ALCM-dom", "rouge");
 		put("ALCM-ext", "blanc");
 		put("ANGELS-dom", "bleu");

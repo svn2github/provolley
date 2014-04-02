@@ -50,32 +50,42 @@ public class GreetingsDialog extends Dialog{
 
 		final String version_1_1_0 = mContext.getResources().getString(R.string.application_version_1_1_0);
 		final String version_1_2_0 = mContext.getResources().getString(R.string.application_version_1_2_0);
+		final String version_1_3_0 = mContext.getResources().getString(R.string.application_version_1_3_0);
 		
 		// Application Never Launched
-		// TODO use reflection to dynamiccaly create text
+		// TODO use reflection to dynamically create text
 		if ("0".equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
 			s = mContext.getResources().getString(R.string.application_description) +
 					mContext.getResources().getString(R.string.application_historique) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_1)+
 					mContext.getResources().getString(R.string.application_histo_v1_3_0)+
 					mContext.getResources().getString(R.string.application_histo_v1_2_0)+
 					mContext.getResources().getString(R.string.application_histo_v1_1_0)+
 					mContext.getResources().getString(R.string.application_histo_v1_0_0);
 			
 		}
+		else if (version_1_3_0.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
+			// Upgrade from version 1.2.0
+			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_1);
+		}
 		else if (version_1_2_0.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
 			// Upgrade from version 1.2.0
 			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_1) +
 					mContext.getResources().getString(R.string.application_histo_v1_3_0);
 		}
 		else if (version_1_1_0.equals(prefs.getString(ProVolley.PREF_KEY_LAST_LAUNCHED_VERSION, "0"))) {
 			// Upgrade from version 1.1.0
 			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_1) +
 					mContext.getResources().getString(R.string.application_histo_v1_3_0) +
 					mContext.getResources().getString(R.string.application_histo_v1_2_0);
 		}
 		else {
 			// Upgrade from version 1.0.1 / 1.0.0
 			s = mContext.getResources().getString(R.string.application_maj) +
+					mContext.getResources().getString(R.string.application_histo_v1_3_1) +
 					mContext.getResources().getString(R.string.application_histo_v1_3_0) +
 					mContext.getResources().getString(R.string.application_histo_v1_2_0) +
 					mContext.getResources().getString(R.string.application_histo_v1_1_0);

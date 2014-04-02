@@ -42,7 +42,7 @@
         />
 
     <TextView
-        android:id="@+id/m30"
+        android:id="@+id/m310"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="20"
@@ -72,7 +72,7 @@
         />
 
     <TextView
-        android:id="@+id/m03"
+        android:id="@+id/m013"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="10"

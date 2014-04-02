@@ -15,29 +15,17 @@
 */  	
 package org.bamzone.provolleyfr;
 
-import org.bamzone.provolleyfr.R;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.lang.reflect.Method;
-import java.nio.CharBuffer;
 
-import org.bamzone.provolleyfr.utils.ListTagHandler;
 import org.bamzone.provolleyfr.utils.ListTagHandlerNoBullets;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.database.CharArrayBuffer;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
-import android.text.util.Linkify;
-import android.util.Log;
-import android.view.View;
-import android.webkit.WebView;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class LicenseDialog extends Dialog{

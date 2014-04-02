@@ -1,9 +1,6 @@
 package org.bamzone.provolleyfr.cache;
 
-import android.content.ContentValues;
-import android.database.Cursor;
 import android.database.SQLException;
-import android.database.sqlite.SQLiteDatabase;
 
 public class NoopCacheDataSource implements CacheDataSource {
 	

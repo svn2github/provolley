@@ -21,11 +21,8 @@ import org.bamzone.provolleyfr.ProVolley;
 import org.bamzone.provolleyfr.R;
 import org.bamzone.provolleyfr.data.LiveMatch;
 import org.bamzone.provolleyfr.data.LiveResultats;
-import org.bamzone.provolleyfr.news.NewsHelper;
 import org.bamzone.provolleyfr.provider.JSONProvider;
 import org.bamzone.provolleyfr.provider.JSONProviderFactory;
-
-import com.google.analytics.tracking.android.EasyTracker;
 
 import android.app.ListActivity;
 import android.content.SharedPreferences;
@@ -33,13 +30,20 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.analytics.tracking.android.EasyTracker;
+
 public class LiveActivity extends ListActivity {
+
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.live_activity);
+
+	}
 
 	private boolean isCancelled = false;
 
@@ -48,6 +52,27 @@ public class LiveActivity extends ListActivity {
 		super.onStart();
 
 		EasyTracker.getInstance().activityStart(this);
+
+		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+
+		if (prefs.getBoolean(ProVolley.PREF_KEY_DISABLE_SLEEP_IN_LIVE, true)) {
+			this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+		}
+
+		isCancelled = false;
+				
+		try {
+			reloadIntervalWhenLive = Integer.parseInt(prefs.getString(ProVolley.PREF_KEY_LIVEINTERVAL, Integer.toString(defaultIntervalInSec))) * 1000;
+		} catch (NumberFormatException nfe) {
+			reloadIntervalWhenLive = defaultIntervalInSec * 1000;
+		}
+
+		dataProvider = JSONProviderFactory.getDataProvider(prefs);
+		
+		displayResults(LiveHelper.getResultatsLiveFromCache());
+
+		reloadHandler = new Handler();
+		startRepeatingTask();
 	}
 
 	@Override
@@ -64,30 +89,6 @@ public class LiveActivity extends ListActivity {
 	private int reloadIntervalWhenLive = defaultIntervalInSec * 1000;
 	private int reloadIntervalWhenNoLive = 10 * 60 * 1000; // 10 minutes
 	private Handler reloadHandler;
-
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.live_activity);
-
-		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-
-		if (prefs.getBoolean(ProVolley.PREF_KEY_DISABLE_SLEEP_IN_LIVE, true)) {
-			this.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-		}
-
-		try {
-			reloadIntervalWhenLive = Integer.parseInt(prefs.getString(ProVolley.PREF_KEY_LIVEINTERVAL, Integer.toString(defaultIntervalInSec))) * 1000;
-		} catch (NumberFormatException nfe) {
-			reloadIntervalWhenLive = defaultIntervalInSec * 1000;
-		}
-
-		dataProvider = JSONProviderFactory.getDataProvider(prefs);
-		
-		displayResults(LiveHelper.getResultatsLiveFromCache());
-
-		reloadHandler = new Handler();
-		startRepeatingTask();
-	}
 
 	Runnable reloadTask = new Runnable() {
 		@Override

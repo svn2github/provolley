@@ -110,22 +110,18 @@ public class ProVolley {
 	 public static final String CLASSEMENT_VAINQUEUR = "VAINQUEUR";
 	 public static final String CLASSEMENT_QUALPO = "QUALPO";
 	 public static final String CLASSEMENT_MAINT = "MAINT";
-	 public static final String CLASSEMENT_QUALPO1 = "QUALPO1";
-	 public static final String CLASSEMENT_QUALPO2 = "QUALPO2";
-	 public static final String CLASSEMENT_QUALPO3 = "QUALPO3";
 	 public static final String CLASSEMENT_RELEG = "RELEG";
 	 public static final String CLASSEMENT_MONTEE = "MONTEE";
-	 public static final String CLASSEMENT_MONTEE2 = "MONTEE2";
+	 public static final String CLASSEMENT_MONTEEPO = "MONTEEPO";
+	 public static final String CLASSEMENT_MONTEEVQ = "MONTEEVQ";
 	 public static final String CLASSEMENT_DISQ = "DISQ";
 	 public static final String CLASSEMENT_AUTRES = "AUTRES";
 	 
 	 public static final String CLASSEMENT_QUALPOASS = "QUALPOASS";
 	 public static final String CLASSEMENT_MAINTASS = "MAINTASS";
-	 public static final String CLASSEMENT_QUALPO1ASS = "QUALPO1ASS";
-	 public static final String CLASSEMENT_QUALPO2ASS = "QUALPO2ASS";
-	 public static final String CLASSEMENT_QUALPO3ASS = "QUALPO3ASS";
 	 public static final String CLASSEMENT_RELEGASS = "RELEGASS";
 	 public static final String CLASSEMENT_MONTEEASS = "MONTEEASS";
+	 public static final String CLASSEMENT_MONTEEPOASS = "MONTEEPOASS";
 	 public static final String CLASSEMENT_DISQASS = "DISQASS";
 
 	 public static final int COULEUR_CLASSEMENT_BLANC = Color.parseColor("#ffffff");
@@ -133,32 +129,36 @@ public class ProVolley {
 	 public static final int COULEUR_CLASSEMENT_BLEU =  Color.parseColor("#00bfff");
 	 public static final int COULEUR_CLASSEMENT_ROUGE =  Color.parseColor("#ff0000");
 	 public static final int COULEUR_CLASSEMENT_JAUNE =  Color.parseColor("#ffe400");
-	 public static final int COULEUR_CLASSEMENT_ORANGE =  Color.parseColor("#ffe400");
+	 public static final int COULEUR_CLASSEMENT_ORANGE =  Color.parseColor("#ff9900");
 	 public static final int COULEUR_CLASSEMENT_NB =  Color.parseColor("#c6c6c6");
 	 
-	 public static final Map<String , Integer> COULEURS_CLASSEMENT = new HashMap<String , Integer>() {{
-			put(CLASSEMENT_QUALPO, COULEUR_CLASSEMENT_VERT);
-			put(CLASSEMENT_MAINT, COULEUR_CLASSEMENT_BLANC); // Couleur standard
-			put(CLASSEMENT_QUALPO1, COULEUR_CLASSEMENT_VERT);
-			put(CLASSEMENT_QUALPO2, COULEUR_CLASSEMENT_BLEU);
-			put(CLASSEMENT_QUALPO3, COULEUR_CLASSEMENT_BLEU);
-			put(CLASSEMENT_RELEG, COULEUR_CLASSEMENT_ROUGE);
-			put(CLASSEMENT_MONTEE, COULEUR_CLASSEMENT_VERT);
-			put(CLASSEMENT_AUTRES, COULEUR_CLASSEMENT_BLANC);
+	 public static final Map<String , Integer> COULEURS_CLASSEMENT = new HashMap<String , Integer>() {
+		private static final long serialVersionUID = 3075558738090439868L;
+
+	{
 			put(CLASSEMENT_QUALPOASS, COULEUR_CLASSEMENT_VERT);
 			put(CLASSEMENT_MAINTASS, COULEUR_CLASSEMENT_JAUNE);
-			put(CLASSEMENT_QUALPO1ASS, COULEUR_CLASSEMENT_VERT);
-			put(CLASSEMENT_QUALPO2ASS, COULEUR_CLASSEMENT_BLEU);
-			put(CLASSEMENT_QUALPO3ASS, COULEUR_CLASSEMENT_BLEU);
 			put(CLASSEMENT_RELEGASS, COULEUR_CLASSEMENT_ROUGE);
-			put(CLASSEMENT_MONTEEASS, COULEUR_CLASSEMENT_VERT);
+			put(CLASSEMENT_MONTEEASS, COULEUR_CLASSEMENT_BLEU);
+			put(CLASSEMENT_MONTEEPOASS, COULEUR_CLASSEMENT_BLEU);
 			put(CLASSEMENT_VAINQUEUR, COULEUR_CLASSEMENT_VERT);
 			put(CLASSEMENT_DISQASS, COULEUR_CLASSEMENT_ORANGE);
+			
+			put(CLASSEMENT_QUALPO, COULEUR_CLASSEMENT_VERT);
+			put(CLASSEMENT_MAINT, COULEUR_CLASSEMENT_BLANC); // Couleur standard
+			put(CLASSEMENT_RELEG, COULEUR_CLASSEMENT_ROUGE);
+			put(CLASSEMENT_MONTEE, COULEUR_CLASSEMENT_BLEU);
+			put(CLASSEMENT_AUTRES, COULEUR_CLASSEMENT_BLANC);
 			put(CLASSEMENT_DISQ, COULEUR_CLASSEMENT_ORANGE);
+			put(CLASSEMENT_MONTEEPO, COULEUR_CLASSEMENT_BLEU);
+			put(CLASSEMENT_MONTEEVQ, COULEUR_CLASSEMENT_VERT);
 	 }};
 
 
-	 public static final Set<String> TEST_DEVICEID_SHA1S = new HashSet<String>() {{
+	 public static final Set<String> TEST_DEVICEID_SHA1S = new HashSet<String>() {
+		private static final long serialVersionUID = -436398598848965449L;
+
+	{
 			add("16c9ce74e72d9a0e90ce6a1b941257682851bab4"); // SERIAL_HTC_DESIRE_CHRIS
 			add("41e29575c7361b2924f701502ca6d932b45b9e51"); // DEVICEID_EMULATOR
 			add("981f9bad50e42440999382f0e6e6543b51a00a36"); // SERIAL_ASUS_NEXUS7_CHRIS

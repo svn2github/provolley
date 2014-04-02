@@ -6,9 +6,9 @@
 		"saison": "1314",		
 		"equipes": 
 			[
-{"rang":1,"code":"RCC","equipe":"Cannes","points":15,"mj":5,"mg":5,"mp":0,"m30":5,"m31":0,"m32":0,"m23":0,"m13":0,"m03":0,"pen":0,"sp":15,"sc":0,"rs":"Inf","pp":375,"pc":250,"rp":"1.5","etat":"QUALPO","etat2":""}
-,{"rang":2,"code":"ASPTT","equipe":"Mulhouse","points":13,"mj":5,"mg":4,"mp":1,"m30":2,"m31":2,"m32":0,"m23":1,"m13":0,"m03":0,"pen":0,"sp":14,"sc":5,"rs":"2.8","pp":435,"pc":344,"rp":"1.264534883","etat":"QUALPO","etat2":""}
-,{"rang":3,"code":"ANGELS","equipe":"Béziers","points":12,"mj":5,"mg":4,"mp":1,"m30":4,"m31":0,"m32":0,"m23":0,"m13":1,"m03":0,"pen":0,"sp":13,"sc":3,"rs":"4.333333333","pp":376,"pc":314,"rp":"1.197452229","etat":"QUALPO","etat2":""}
+{"rang":1,"code":"RCC","equipe":"Cannes","points":15,"mj":5,"mg":5,"mp":0,"m30":5,"m31":0,"m32":0,"m23":0,"m13":0,"m03":0,"pen":0,"sp":15,"sc":0,"rs":"Inf","pp":375,"pc":250,"rp":"1.5","etat":"QUALPO","etat2":"VAINQU"}
+,{"rang":2,"code":"ASPTT","equipe":"Mulhouse","points":13,"mj":5,"mg":4,"mp":1,"m30":2,"m31":2,"m32":0,"m23":1,"m13":0,"m03":0,"pen":0,"sp":14,"sc":5,"rs":"2.8","pp":435,"pc":344,"rp":"1.264534883","etat":"QUALPO","etat2":"QUALPO"}
+,{"rang":3,"code":"ANGELS","equipe":"Béziers","points":12,"mj":5,"mg":4,"mp":1,"m30":4,"m31":0,"m32":0,"m23":0,"m13":1,"m03":0,"pen":0,"sp":13,"sc":3,"rs":"4.333333333","pp":376,"pc":314,"rp":"1.197452229","etat":"QUALPO","etat2":"QUALPO"}
 ,{"rang":4,"code":"ESCR","equipe":"Le Cannet","points":12,"mj":5,"mg":4,"mp":1,"m30":1,"m31":2,"m32":1,"m23":1,"m13":0,"m03":0,"pen":0,"sp":14,"sc":7,"rs":"2","pp":475,"pc":438,"rp":"1.084474885","etat":"QUALPO","etat2":""}
 ,{"rang":5,"code":"VBN","equipe":"Nantes","points":9,"mj":5,"mg":3,"mp":2,"m30":0,"m31":3,"m32":0,"m23":0,"m13":0,"m03":2,"pen":0,"sp":9,"sc":9,"rs":"1","pp":385,"pc":393,"rp":"0.979643765","etat":"QUALPO","etat2":""}
 ,{"rang":6,"code":"SCPSF","equipe":"St-Cloud","points":7,"mj":5,"mg":2,"mp":3,"m30":1,"m31":1,"m32":0,"m23":1,"m13":0,"m03":2,"pen":0,"sp":8,"sc":10,"rs":"0.8","pp":383,"pc":397,"rp":"0.964735516","etat":"QUALPO","etat2":""}
