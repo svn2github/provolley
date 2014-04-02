@@ -34,7 +34,7 @@ public class ClassementsHelper {
 			JSONObject classement = new JSONObject(json).getJSONObject("classement");
 			String saison = classement.getString("saison");
 			
-			Log.d(ClassementsActivity.class.getName(), saison );
+			//Log.d(ClassementsActivity.class.getName(), saison );
 			ClassementCompetition classementCompetition  = new ClassementCompetition(saison);
 			
 			JSONArray equipes = classement.getJSONArray("equipes");
