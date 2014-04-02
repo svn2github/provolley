@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"classement": 
+		{
+		"nomsaison": "2013-2014",		
+		"saison": "1314",		
+		"equipes": 
+			[
+{"rang":1,"code":"RCC","equipe":"Cannes","points":15,"mj":5,"mg":5,"mp":0,"m30":5,"m31":0,"m32":0,"m23":0,"m13":0,"m03":0,"pen":0,"sp":15,"sc":0,"rs":"Inf","pp":375,"pc":250,"rp":"1.5","etat":"QUALPO","etat2":"VAINQU"}
+,{"rang":2,"code":"ASPTT","equipe":"Mulhouse","points":13,"mj":5,"mg":4,"mp":1,"m30":2,"m31":2,"m32":0,"m23":1,"m13":0,"m03":0,"pen":0,"sp":14,"sc":5,"rs":"2.8","pp":435,"pc":344,"rp":"1.264534883","etat":"QUALPO","etat2":"QUALPO"}
+,{"rang":3,"code":"ANGELS","equipe":"Béziers","points":12,"mj":5,"mg":4,"mp":1,"m30":4,"m31":0,"m32":0,"m23":0,"m13":1,"m03":0,"pen":0,"sp":13,"sc":3,"rs":"4.333333333","pp":376,"pc":314,"rp":"1.197452229","etat":"QUALPO","etat2":"QUALPO"}
+,{"rang":4,"code":"ESCR","equipe":"Le Cannet","points":12,"mj":5,"mg":4,"mp":1,"m30":1,"m31":2,"m32":1,"m23":1,"m13":0,"m03":0,"pen":0,"sp":14,"sc":7,"rs":"2","pp":475,"pc":438,"rp":"1.084474885","etat":"QUALPO","etat2":""}
+,{"rang":5,"code":"VBN","equipe":"Nantes","points":9,"mj":5,"mg":3,"mp":2,"m30":0,"m31":3,"m32":0,"m23":0,"m13":0,"m03":2,"pen":0,"sp":9,"sc":9,"rs":"1","pp":385,"pc":393,"rp":"0.979643765","etat":"QUALPO","etat2":""}
+,{"rang":6,"code":"SCPSF","equipe":"St-Cloud","points":7,"mj":5,"mg":2,"mp":3,"m30":1,"m31":1,"m32":0,"m23":1,"m13":0,"m03":2,"pen":0,"sp":8,"sc":10,"rs":"0.8","pp":383,"pc":397,"rp":"0.964735516","etat":"QUALPO","etat2":""}
+,{"rang":7,"code":"PAVVB","equipe":"Venelles","points":6,"mj":5,"mg":2,"mp":3,"m30":1,"m31":0,"m32":1,"m23":1,"m13":0,"m03":2,"pen":0,"sp":8,"sc":11,"rs":"0.727272727","pp":403,"pc":424,"rp":"0.950471698","etat":"QUALPO","etat2":""}
+,{"rang":8,"code":"TFOC","equipe":"Terville","points":5,"mj":5,"mg":2,"mp":3,"m30":0,"m31":1,"m32":1,"m23":0,"m13":2,"m03":1,"pen":0,"sp":8,"sc":12,"rs":"0.666666666","pp":409,"pc":440,"rp":"0.929545454","etat":"QUALPO","etat2":""}
+,{"rang":9,"code":"IOPV","equipe":"Istres","points":5,"mj":5,"mg":2,"mp":3,"m30":1,"m31":0,"m32":1,"m23":0,"m13":1,"m03":2,"pen":0,"sp":7,"sc":11,"rs":"0.636363636","pp":372,"pc":399,"rp":"0.932330827","etat":"MAINT","etat2":""}
+,{"rang":10,"code":"QV29","equipe":"Quimper","points":3,"mj":5,"mg":1,"mp":4,"m30":0,"m31":1,"m32":0,"m23":0,"m13":2,"m03":2,"pen":0,"sp":5,"sc":13,"rs":"0.384615384","pp":370,"pc":417,"rp":"0.887290167","etat":"MAINT","etat2":""}
+,{"rang":11,"code":"HV","equipe":"Hainaut","points":2,"mj":5,"mg":1,"mp":4,"m30":0,"m31":0,"m32":1,"m23":0,"m13":1,"m03":3,"pen":0,"sp":4,"sc":14,"rs":"0.285714285","pp":325,"pc":416,"rp":"0.78125","etat":"RELEG","etat2":""}
+,{"rang":12,"code":"EVB","equipe":"Evreux","points":1,"mj":5,"mg":0,"mp":5,"m30":0,"m31":0,"m32":0,"m23":1,"m13":3,"m03":1,"pen":0,"sp":5,"sc":15,"rs":"0.333333333","pp":390,"pc":466,"rp":"0.836909871","etat":"RELEG","etat2":""}
+			]
+		}
+}

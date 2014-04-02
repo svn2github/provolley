@@ -1,0 +1,28 @@
+{
+	"version": 2,
+	"resultats": 
+		{
+		"nomsaison": "2013-2014",		
+		"saison": "1314",		
+		"minJournee": 1,"maxJournee": 1, "currentJournee": 1,
+		"journees": 
+			[
+				{
+                                        "numero": 1,
+					"titre": "1/8 de Finale",
+					"date": "mar 5 nov",
+					"matchs": 
+						[
+{"codeDomicile": "ASSR", "equipeDomicile": "St-Raphaël", "rangDomicile": "(DEF)", "codeExterieur": "EVB", "equipeExterieur": "Evreux", "rangExterieur": "(LAF)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNF001"}
+,{"codeDomicile": "VNVB", "equipeDomicile": "Vand.-Nancy", "rangDomicile": "(DEF)", "codeExterieur": "ESCR", "equipeExterieur": "Le Cannet", "rangExterieur": "(LAF)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNF002"}
+,{"codeDomicile": "USPPA", "equipeDomicile": "Albi", "rangDomicile": "(DEF)", "codeExterieur": "PAVVB", "equipeExterieur": "Venelles", "rangExterieur": "(LAF)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNF003"}
+,{"codeDomicile": "VVB", "equipeDomicile": "Vannes", "rangDomicile": "(DEF)", "codeExterieur": "IOPV", "equipeExterieur": "Istres", "rangExterieur": "(LAF)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNF004"}
+,{"codeDomicile": "VBN", "equipeDomicile": "Nantes", "rangDomicile": "(LAF)", "codeExterieur": "SCPSF", "equipeExterieur": "St-Cloud", "rangExterieur": "(LAF)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNF005"}
+,{"codeDomicile": "TFOC", "equipeDomicile": "Terville", "rangDomicile": "(LAF)", "codeExterieur": "ANGELS", "equipeExterieur": "Béziers", "rangExterieur": "(LAF)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNF006"}
+,{"codeDomicile": "HV", "equipeDomicile": "Hainaut", "rangDomicile": "(LAF)", "codeExterieur": "RCC", "equipeExterieur": "Cannes", "rangExterieur": "(LAF)", "resultat": "mar 5 nov", "score": "20:00", "victoire": "", "code": "CNF008"}
+,{"codeDomicile": "QV29", "equipeDomicile": "Quimper", "rangDomicile": "(LAF)", "codeExterieur": "ASPTT", "equipeExterieur": "Mulhouse", "rangExterieur": "(LAF)", "resultat": "mer 6 nov", "score": "19:30", "victoire": "", "code": "CNF007"}
+						]
+				}
+			]
+		}
+}

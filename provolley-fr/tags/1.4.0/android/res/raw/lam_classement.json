@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"classement": 
+		{
+		"nomsaison": "2013-2014",		
+		"saison": "1314",		
+		"equipes": 
+			[
+{"rang":1,"code":"PV","equipe":"Paris","points":12,"mj":5,"mg":4,"mp":1,"m30":1,"m31":2,"m32":1,"m23":1,"m13":0,"m03":0,"pen":0,"sp":14,"sc":7,"rs":"2","pp":484,"pc":467,"rp":"1.036402569","etat":"QUALPO","etat2":""}
+,{"rang":2,"code":"CVB52","equipe":"Chaumont","points":11,"mj":5,"mg":3,"mp":2,"m30":1,"m31":2,"m32":0,"m23":2,"m13":0,"m03":0,"pen":0,"sp":13,"sc":8,"rs":"1.625","pp":483,"pc":449,"rp":"1.07572383","etat":"QUALPO","etat2":""}
+,{"rang":3,"code":"TVB","equipe":"Tours","points":9,"mj":5,"mg":3,"mp":2,"m30":1,"m31":1,"m32":1,"m23":1,"m13":1,"m03":0,"pen":0,"sp":12,"sc":9,"rs":"1.333333333","pp":474,"pc":463,"rp":"1.023758099","etat":"QUALPO","etat2":""}
+,{"rang":4,"code":"MAVUC","equipe":"Montpellier","points":9,"mj":5,"mg":3,"mp":2,"m30":0,"m31":2,"m32":1,"m23":1,"m13":1,"m03":0,"pen":0,"sp":12,"sc":10,"rs":"1.2","pp":491,"pc":488,"rp":"1.00614754","etat":"QUALPO","etat2":""}
+,{"rang":5,"code":"BOUC","equipe":"Beauvais","points":8,"mj":5,"mg":3,"mp":2,"m30":1,"m31":0,"m32":2,"m23":1,"m13":1,"m03":0,"pen":0,"sp":12,"sc":10,"rs":"1.2","pp":495,"pc":475,"rp":"1.042105263","etat":"QUALPO","etat2":""}
+,{"rang":6,"code":"GFCA","equipe":"Ajaccio","points":8,"mj":5,"mg":3,"mp":2,"m30":1,"m31":1,"m32":1,"m23":0,"m13":1,"m03":1,"pen":0,"sp":10,"sc":9,"rs":"1.111111111","pp":436,"pc":432,"rp":"1.009259259","etat":"QUALPO","etat2":""}
+,{"rang":7,"code":"RV35","equipe":"Rennes","points":8,"mj":5,"mg":2,"mp":3,"m30":2,"m31":0,"m32":0,"m23":2,"m13":1,"m03":0,"pen":0,"sp":11,"sc":9,"rs":"1.222222222","pp":443,"pc":450,"rp":"0.984444444","etat":"QUALPO","etat2":""}
+,{"rang":8,"code":"ASC","equipe":"Cannes","points":7,"mj":5,"mg":3,"mp":2,"m30":1,"m31":0,"m32":2,"m23":0,"m13":1,"m03":1,"pen":0,"sp":10,"sc":10,"rs":"1","pp":437,"pc":424,"rp":"1.030660377","etat":"QUALPO","etat2":""}
+,{"rang":9,"code":"SNVBA","equipe":"St-Nazaire","points":7,"mj":5,"mg":3,"mp":2,"m30":0,"m31":1,"m32":2,"m23":0,"m13":0,"m03":2,"pen":0,"sp":9,"sc":11,"rs":"0.818181818","pp":459,"pc":450,"rp":"1.02","etat":"MAINT","etat2":""}
+,{"rang":10,"code":"ASUL","equipe":"Lyon","points":7,"mj":5,"mg":2,"mp":3,"m30":0,"m31":1,"m32":1,"m23":2,"m13":1,"m03":0,"pen":0,"sp":11,"sc":12,"rs":"0.916666666","pp":484,"pc":480,"rp":"1.008333333","etat":"MAINT","etat2":""}
+,{"rang":11,"code":"NRMV","equipe":"Nantes Rezé","points":7,"mj":5,"mg":2,"mp":3,"m30":0,"m31":2,"m32":0,"m23":1,"m13":0,"m03":2,"pen":0,"sp":8,"sc":11,"rs":"0.727272727","pp":410,"pc":435,"rp":"0.942528735","etat":"MAINT","etat2":""}
+,{"rang":12,"code":"SPACERS","equipe":"Toulouse","points":5,"mj":5,"mg":2,"mp":3,"m30":0,"m31":0,"m32":2,"m23":1,"m13":1,"m03":1,"pen":0,"sp":9,"sc":13,"rs":"0.692307692","pp":477,"pc":472,"rp":"1.01059322","etat":"MAINT","etat2":""}
+,{"rang":13,"code":"ARAGO","equipe":"Sète","points":5,"mj":5,"mg":1,"mp":4,"m30":1,"m31":0,"m32":0,"m23":2,"m13":2,"m03":0,"pen":0,"sp":9,"sc":12,"rs":"0.75","pp":451,"pc":469,"rp":"0.961620469","etat":"RELEG","etat2":""}
+,{"rang":14,"code":"CENT","equipe":"Narbonne","points":2,"mj":5,"mg":1,"mp":4,"m30":0,"m31":0,"m32":1,"m23":0,"m13":2,"m03":2,"pen":0,"sp":5,"sc":14,"rs":"0.357142857","pp":391,"pc":461,"rp":"0.848156182","etat":"RELEG","etat2":""}
+			]
+		}
+}
